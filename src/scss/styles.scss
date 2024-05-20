@@ -5,16 +5,25 @@
 
 :root{
     --leters--white:rgb(255, 255, 255);
+    --ligh--gray:#DBDBDB;
     --blue--principal:#126B9D;
     --blue-second:#C3DAEE;
+}
+
+// header
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 5;
 }
 
 // style for toggle
 .toggle {
     position: relative;
     box-sizing: border-box;
-  }
-  .toggle input[type="checkbox"] {
+}
+
+.toggle input[type="checkbox"] {
     position: absolute;
     left: 0;
     top: 0;
@@ -23,15 +32,16 @@
     height: 100%;
     cursor: pointer;
     opacity: 0;
-  }
-  .toggle label {
+}
+
+.toggle label {
     position: relative;
     display: flex;
     align-items: center;
     box-sizing: border-box;
-  }
+}
   
-  .toggle label:before {
+.toggle label:before {
     content: "";
     width: 70px;
     height: 40px;
@@ -43,9 +53,9 @@
     border-radius: 20px;
     box-sizing: border-box;
     transition: 0.25s ease-in;
-  }
+}
   
-  .toggle label:after {
+.toggle label:after {
     content: "";
     width: 20px;
     height: 20px;
@@ -56,16 +66,29 @@
     background: #fffdfd;
     box-shadow: inset -8px -5px #333;
     transition: 0.2s ease-in-out;
-  }
+}
   
-  .toggle input[type="checkbox"]:checked + label:before {
+.toggle input[type="checkbox"]:checked + label:before {
     box-shadow: inset 30px 0 0 #ffeb00;
-  }
-  .toggle input[type="checkbox"]:checked + label:after {
+}
+.toggle input[type="checkbox"]:checked + label:after {
     box-shadow: inset 0 0 0 2px #fff;
     background: #ffbc00;
     left: 39px;
     top: 8px;
     border: 2px dashed #fff;
-  }
+}
+
+//section main-------------------------------
+#section__main{
+    background-image: url('../../public/img/sectionMain.webp');
+    background-size: cover;
+    background-position: center; /* Center image */
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
   
