@@ -23,8 +23,56 @@
 </head>
 
 <body>
-    <header></header>
-    <main></main>
+    <header>
+        <!-- nav -->
+        <nav class="navbar bg-body-secondary bg-opacity-75 rounded-4 my-3 mx-3 p-2" id="navbar">
+            <div class="container-fluid d-flex">
+              <a class="navbar-brand" href="#">
+                <img src="./public/img/pruebaIcon.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                FAIR TOUR
+              </a>
+              <div>
+                  <ul class="nav justify-content-end">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Tours</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Encuentranos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Administradores</a>
+                      </li>
+                      <li class="nav-item">
+                        <!-- language -->
+                      </li>
+                      <li>
+                        <div class="toggle">
+                            <input type="checkbox" id="toggle-checkbox"/>
+                            <label for="toggle-checkbox"></label>
+                        </div>                       
+                      </li>
+                    </ul>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+    <main>
+        <!-- section main img -->
+        <section id="section__main" >
+          <video src="./public/video/principal.mp4" autoplay muted loop id="background-video"></video>
+          <div class="container">
+              <div class="col-md-6 offset-md-3 col align-self-center bg-white bg-opacity-50 border border-white border-1 p-3 rounded-4">
+                  <h3 class="text-light">FAIR TOUR</h3>
+                  <h1 class="fs-1 fw-bolder text-light">COMO DEBERIA SER</h1>
+              </div>
+          </div>
+        </section>
+      
+    </main>
     <footer></footer>
 
     <!-- linking JS -->
