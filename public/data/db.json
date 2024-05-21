@@ -1,0 +1,64 @@
+{
+    "tours": [
+        {
+            "id": 1,
+            "tour": "tour por boyacá",
+            "main img": "https://avalturistica.com/wp-content/uploads/2021/01/boyaca-980x734.jpg",
+            "duration": 6,
+            "route": [
+                "villa de leyva: (monumento nacional)",
+                "ráquira: (tejidos, trabajos en arcilla)",
+                "monguí: (elaboración de balones)",
+                "aquitaine: (ciudad de las aguas)",
+                "paipa: (aguas termanles y lago Sochagota)",
+                "tópaga: (artesanías de carbón)",
+                "tibasosa: (productos a base de feijoa)",
+                "nobsa: (artículos de lana y postres)",
+                "chiquinquirá: (capital religiosa)"
+            ],
+            "price": 500,
+            "highlights": [{
+                "place": "pueblito boyacense",
+                "description": "Aldea que evoca la arquitectura Boyacense."
+            },
+            {
+                "place": "lago tota",
+                "description": "lago más grande de Colombia."
+            },
+            {
+                "place": "pantano de Vargas",
+                "description": "complejo cultural e histórico."
+            },
+            {
+                "place": "puente de Boyacá",
+                "description": "homenaje a la libertal."
+            },
+            {
+                "place": "termales de Paipa",
+                "description": "aguas minerales para la relajación yd escanso."
+            },
+            {
+                "place": "centro histórico de Tunja",
+                "description": "ciudad de tesoros escondidos."
+            },
+            {
+                "place": "catedral de sal",
+                "description": "primera maravilla de Colombia."
+            }
+            ]
+        },
+        "capurganá",
+        "cartagena",
+        "desierto de la tatacoa",
+        "eje cafetero",
+        "huila",
+        "la guajira",
+        "llanos",
+        "nápoles y rio claro",
+        "san andres",
+        "santa marta",
+        "santander",
+        "sur de colombia",
+        "tolú y coveñas"
+    ]
+}
