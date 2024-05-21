@@ -4,21 +4,54 @@
             "id": "1",
             "tour": "Tour por Boyacá",
             "landing img": "",
-            "main img": "https://avalturistica.com/wp-content/uploads/2021/01/boyaca-980x734.jpg",
+            "main video": "",
             "duration": "6",
             "route": [
-                "Villa de Leyva: (monumento nacional)",
-                "Ráquira: (tejidos, trabajos en arcilla)",
-                "Monguí: (elaboración de balones)",
-                "Aquitaine: (ciudad de las aguas)",
-                "Paipa: (aguas termanles y lago Sochagota)",
-                "Tópaga: (artesanías de carbón)",
-                "Tibasosa: (productos a base de feijoa)",
-                "Nobsa: (artículos de lana y postres)",
-                "Chiquinquirá: (capital religiosa)"
-            ],
-            "price": "500",
-            "highlights": [
+                {
+                    "place": "Villa de Leyva",
+                    "description": "Monumento nacional.",
+                    "img": ""
+                },
+                {
+                    "place": "Ráquira",
+                    "description": "Tejidos, trabajos en arcilla.",
+                    "img": ""
+                },
+                {
+                    "place": "Monguí",
+                    "description": "Elaboración de balones.",
+                    "img": ""
+                },
+                {
+                    "place": "Aquitania",
+                    "description": "Ciudad de las aguas.",
+                    "img": ""
+                },
+                {
+                    "place": "Paipa",
+                    "description": "Aguas termales y lago Sochagota.",
+                    "img": ""
+                },
+                {
+                    "place": "Tópaga",
+                    "description": "Artesanías de carbón.",
+                    "img": ""
+                },
+                {
+                    "place": "Tibasosa",
+                    "description": "Productos a base de feijoa.",
+                    "img": ""
+                },
+                {
+                    "place": "Nobsa",
+                    "description": "Artículos de lana y postres.",
+                    "img": ""
+                },
+                {
+                    "place": "Chiquinquirá",
+                    "description": "Capital religiosa.",
+                    "img": ""
+                },
                 {
                     "place": "Pueblito Boyacense",
                     "description": "Aldea que evoca la arquitectura Boyacense.",
@@ -55,23 +88,26 @@
                     "img": ""
                 }
             ],
+            "price": "500",
+            
             "plan": [
                 "Familiar",
-                "Parejas"
+                "Parejas",
+                "Solitario"
             ]
         },
         {
             "id": "2",
             "tour": "Tour por Capurganá",
             "landing img": "",
-            "main img": "",
+            "main video": "",
             "duration": "5",
             "route": [
-                "Sapzurro y La Miel: (paraíso fronterizo entre Colombia y Panamá)",
-                "Playa Soledad y el Aguacate: (aventura de aguas cristalinas y color esmeralda)"
-            ],
-            "price": "420",
-            "highlights": [
+                {
+                    "place": "Sapzurro y La Miel",
+                    "description": "Paraíso fronterizo entre Colombia y Panamá",
+                    "img": ""
+                },
                 {
                     "place": "Conjunto natural el Cielo",
                     "description": "",
@@ -83,6 +119,7 @@
                     "img": ""
                 }
             ],
+            "price": "420",
             "plan": [
                 "familiar",
                 "parejas",
@@ -93,15 +130,24 @@
             "id": "3",
             "tour": "Tour por Cartagena",
             "landing img": "",
-            "main img": "",
+            "main video": "",
             "duration": "4",
             "route": [
-                    "Isla Barú: (playas de arenas blancas y aguas transparentes)",
-                    "Tierra Bomba: (isla relajante de aguas cálidas)",
-                    "Playas de Bocagrande: (playa tradicional de la ciudad)"
-            ],
-            "price": "1000",
-            "highlights": [
+                {
+                    "place": "Isla Barú",
+                    "description": "Playas de arenas blancas y aguas transparentes.",
+                    "img": ""
+                },
+                {
+                    "place": "Tierra bomba",
+                    "description": "Isla relajante de aguas cálidas.",
+                    "img": ""
+                },
+                {
+                    "place": "Playas de Bocagrande",
+                    "description": "Playa tradicional de la ciudad.",
+                    "img": ""
+                },
                 {
                     "place": "Castillo de San Felipe",
                     "description": "Una de las 7 maravillas de Colombia.",
@@ -122,7 +168,9 @@
                     "description": "Destino paradisiaco.",
                     "img": ""
                 }
+                
             ],
+            "price": "1000",
             "plan": [
                 "familiar",
                 "parejas",
@@ -133,26 +181,52 @@
             "id": "4",
             "tour": "Tour por desierto de la Tatacoa",
             "landing img": "",
-            "main img": "",
+            "main video": "",
             "duration": "3",
             "route": [
-                    "Mirador y sendero el Cusco: (paisajes de formas laberínticas)",
-                    "Sendero los Hoyos: (congreso de los fantasmas)",
-                    "Observatorio astronómico: (turismo de estrellas)",
-                    "Tienda artesanías del desierto: (productos locales y a base de cactus)",
-                    "Montaña La Mano del Gigante: (cargada de naturaleza, color y magia)",
-                    "Termales de Rivera: (magnifico recurso natural y medicinal)",
-                    "Neiva: (capital Bambuquera)",
-                    "La planta Tatacoa: (cervecería artesanal más bella de Colombia)"
-            ],
-            "price": "850",
-            "highlights": [
                 {
-                    "place": "",
-                    "description": "",
+                    "place": "Mirador y sendero el Cusco",
+                    "description": "Paisajes de formas laberínticas.",
+                    "img": ""
+                },
+                {
+                    "place": "Sendero los Hoyos",
+                    "description": "Congreso de los fantasmas.",
+                    "img": ""
+                },
+                {
+                    "place": "Observatorio astronómico",
+                    "description": "Turismo de estrellas.",
+                    "img": ""
+                },
+                {
+                    "place": "Tienda artesanías del desierto",
+                    "description": "Productos locales y a base de cactus.",
+                    "img": ""
+                },
+                {
+                    "place": "Montaña la mano del gigante",
+                    "description": "Cargada de naturaleza, color y magia.",
+                    "img": ""
+                },
+                {
+                    "place": "Termales de Rivera",
+                    "description": "Magnifico recurso natural y medicinal.",
+                    "img": ""
+                },
+                {
+                    "place": "Neiva",
+                    "description": "Capital Bambuquera.",
+                    "img": ""
+                },
+                {
+                    "place": "La planta Tatacoa",
+                    "description": "Cervecería artesanal más bella de Colombia.",
                     "img": ""
                 }
+        
             ],
+            "price": "850",
             "plan": [
                 "familiar",
                 "parejas",
@@ -163,7 +237,7 @@
             "id": "5",
             "tour": "Tour por el eje cafetero",
             "landing img": "",
-            "main img": "",
+            "main video": "",
             "duration": "4",
             "route": [
                 {
@@ -233,7 +307,7 @@
             "id": "6",
             "tour": "Tour por el Huila",
             "landing img": "",
-            "main img": "",
+            "main video": "",
             "duration": "5",
             "route": [
                 {
@@ -278,7 +352,7 @@
             "id": "7",
             "tour": "Tour por la Guajira",
             "landing img": "",
-            "main img": "",
+            "main video": "",
             "duration": "7",
             "route": [
                 {
@@ -325,22 +399,64 @@
             ]
         },
         {
-            "id": 8,
-            "tour": "Tour por los llanos",
+            "id": "8",
+            "tour": "Tour por los llanos orientales",
             "landing img": "",
-            "main img": "",
-            "duration": "",
+            "main video": "",
+            "duration": "5",
             "route": [
-
-            ],
-            "price": "",
-            "highlights": [
                 {
-                    "place": "",
-                    "description": "",
+                    "place": "Cañón del río Güejar",
+                    "description": "Un lugar que invita a la aventura.",
+                    "img": ""
+                },
+                {
+                    "place": "Tiuma park",
+                    "description": "Parque temático de aventura, cultura y naturaleza.",
+                    "img": ""
+                },
+                {
+                    "place": "Río Meta",
+                    "description": "Icono de los llanos orientales.",
+                    "img": ""
+                },
+                {
+                    "place": "Alto de Menegua",
+                    "description": "Párate en el ombligo de Colombia.",
+                    "img": ""
+                },
+                {
+                    "place": "Bioparque Los Ocarros",
+                    "description": "Fauna silvestre de la Orinoquía Colombiana.",
+                    "img": ""
+                },
+                {
+                    "place": "Fábrica de quesos llaneros",
+                    "description": "Parque temático de aventura, cultura y naturaleza.",
+                    "img": ""
+                },
+                {
+                    "place": "Villavicencio",
+                    "description": "La puerta del llano.",
+                    "img": ""
+                },
+                {
+                    "place": "Acacías",
+                    "description": "La perla llanera.",
+                    "img": ""
+                },
+                {
+                    "place": "Restrepo",
+                    "description": "Capital salinera.",
+                    "img": ""
+                },
+                {
+                    "place": "Cumaral",
+                    "description": "Ciudad cordial.",
                     "img": ""
                 }
             ],
+            "price": "725",
             "plan": [
                 "familiar",
                 "parejas",
@@ -351,11 +467,9 @@
             "id": 9,
             "tour": "Tour por la hacienda Nápoles y Rio Claro",
             "landing img": "",
-            "main img": "",
+            "main video": "",
             "duration": "",
-            "route": [
-
-            ],
+            "route": [],
             "price": "",
             "highlights": [
                 {
@@ -374,11 +488,9 @@
             "id": 10,
             "tour": "Tour por San Andres",
             "landing img": "",
-            "main img": "",
+            "main video": "",
             "duration": "",
-            "route": [
-
-            ],
+            "route": [],
             "price": "",
             "highlights": [
                 {
@@ -397,11 +509,9 @@
             "id": 11,
             "tour": "Tour por Santa Marta",
             "landing img": "",
-            "main img": "",
+            "main video": "",
             "duration": "",
-            "route": [
-
-            ],
+            "route": [],
             "price": "",
             "highlights": [
                 {
@@ -420,11 +530,9 @@
             "id": 12,
             "tour": "Tour por Santander",
             "landing img": "",
-            "main img": "",
+            "main video": "",
             "duration": "",
-            "route": [
-
-            ],
+            "route": [],
             "price": "",
             "highlights": [
                 {
@@ -443,11 +551,9 @@
             "id": 13,
             "tour": "Tour por el sur de Colombia",
             "landing img": "",
-            "main img": "",
+            "main video": "",
             "duration": "",
-            "route": [
-
-            ],
+            "route": [],
             "price": "",
             "highlights": [
                 {
@@ -466,11 +572,9 @@
             "id": 2,
             "tour": "Tour por Tolú y Coveñas",
             "landing img": "",
-            "main img": "",
+            "main video": "",
             "duration": "",
-            "route": [
-
-            ],
+            "route": [],
             "price": "",
             "highlights": [
                 {
