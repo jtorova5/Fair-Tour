@@ -1,82 +1,138 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 
-    <!-- meta data -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Web application created to encourage Colombian tourism. Come and travel with us in a safe and fun way, as it should be" />
-    <meta name="keywords" content="Traveling, travel, tourism, Colombia, essence, tour, fair, safety, Luisa, Ramirez, Porras, Kevin, Alvarez, Juan, Garcés, Jhonatan, Toro, Vásquez, luisaferRP, KevinAlvarezD, juanpga872, jtorova5">
-    <meta name="sitedomain" content="https://fairtour.com/" />
-    <meta name="organization" content="Riwi_Gates" />
-    <meta name="author" content="Luisa Ramirez Porras, Kevin Alvarez, Juan Garcés, Jhonatan Toro Vásquez" />
-    <meta name="designer" content="Luisa Ramirez Porras, Kevin Alvarez, Juan Garcés, Jhonatan Toro Vásquez" />
-    <meta name="copyright" content="© Riwi_Gates. Todos los derechos reservados">
-    <meta name="robots" content="index,follow" />
-    <meta name="googlebot" content="index,follow" />
-    <meta name="revisit-after" content="15days" />
+  <!-- meta data -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Web application created to encourage Colombian tourism. Come and travel with us in a safe and fun way, as it should be" />
+  <meta name="keywords"
+    content="Traveling, travel, tourism, Colombia, essence, tour, fair, safety, Luisa, Ramirez, Porras, Kevin, Alvarez, Juan, Garcés, Jhonatan, Toro, Vásquez, luisaferRP, KevinAlvarezD, juanpga872, jtorova5">
+  <meta name="sitedomain" content="https://fairtour.com/" />
+  <meta name="organization" content="Riwi_Gates" />
+  <meta name="author" content="Luisa Ramirez Porras, Kevin Alvarez, Juan Garcés, Jhonatan Toro Vásquez" />
+  <meta name="designer" content="Luisa Ramirez Porras, Kevin Alvarez, Juan Garcés, Jhonatan Toro Vásquez" />
+  <meta name="copyright" content="© Riwi_Gates. Todos los derechos reservados">
+  <meta name="robots" content="index,follow" />
+  <meta name="googlebot" content="index,follow" />
+  <meta name="revisit-after" content="15days" />
 
-    <!-- tab content -->
-    <title>Fair Tour</title>
+  <!-- tab content -->
+  <title>Fair Tour</title>
 </head>
 
 <body>
-    <header>
-        <!-- nav -->
-        <nav class="navbar bg-body-secondary bg-opacity-75 rounded-4 my-3 mx-3 p-2" id="navbar">
-            <div class="container-fluid d-flex">
-              <a class="navbar-brand" href="#">
-                <img src="./public/img/pruebaIcon.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                FAIR TOUR
-              </a>
-              <div>
-                  <ul class="nav justify-content-end">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Tours</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre nosotros</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Encuentranos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Administradores</a>
-                      </li>
-                      <li class="nav-item">
-                        <!-- languaje -->
-                      </li>
-                      <li>
-                        <div class="toggle">
-                            <input type="checkbox" id="toggle-checkbox"/>
-                            <label for="toggle-checkbox"></label>
-                        </div>                       
-                      </li>
-                    </ul>
+  <header>
+    <!-- nav -->
+    <nav class="navbar bg-body-secondary bg-opacity-75 rounded-4 my-3 mx-3 p-2" id="navbar">
+      <div class="container-fluid d-flex">
+        <a class="navbar-brand" href="#">
+          <img src="./public/img/pruebaIcon.png" alt="Logo" width="30" height="24"
+            class="d-inline-block align-text-top">
+          FAIR TOUR
+        </a>
+        <div>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Tours</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Encuentranos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Administradores</a>
+            </li>
+            <li class="nav-item">
+              <!-- language -->
+            </li>
+            <li>
+              <div class="toggle">
+                <input type="checkbox" id="toggle-checkbox" />
+                <label for="toggle-checkbox"></label>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <main>
+    <!-- section main img -->
+    <section id="section__main">
+      <video src="./public/video/principal.mp4" autoplay muted loop id="background-video"></video>
+      <div class="container">
+        <div
+          class="col-md-6 offset-md-3 col align-self-center bg-white bg-opacity-50 border border-white border-1 p-3 rounded-4">
+          <h3 class="text-light">FAIR TOUR</h3>
+          <h1 class="fs-1 fw-bolder text-light">COMO DEBERIA SER</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials section -->
+    <section class="contenedor mt-5">
+      <h1 class="title">TESTIMONIOS</h1>
+      <article class="contenedor-testimonios">
+        <div class="contenedor-testimonios__card bg-green">
+          <div class="contenedor-testimonios__card-overlay bg-green-transparent">
+            <p class="contenedor-testimonios_card-overlay_title fw-bolder">
+              "¡Increíble experiencia con fair tour! Desde la reserva hasta las actividades planificadas, todo fue impecable!."
+            </p>
+            <div class="contenedor-testimonios_card-overlay_avatar">
+              <img src="https://www.svgrepo.com/show/61986/avatar.svg" alt="avatar"
+                class="contenedor-testimonios_card-overlay_avatar-img">
+              <div class="contenedor-testimonios_card-overlay_avatar-text">
+                <p class="contenedor-testimonios_card-overlayavatar-text_name fw-bolder">John Smith</p>
+                <p class="contenedor-testimonios_card-overlayavatar-text_country">Estados Unidos</p>
               </div>
             </div>
-          </nav>
-
-    </header>
-    <main>
-        <!-- section main img -->
-        <section id="section__main" >
-          <video src="./public/video/principal.mp4" autoplay muted loop id="background-video"></video>
-          <div class="container">
-              <div class="col-md-6 offset-md-3 col align-self-center bg-white bg-opacity-50 border border-white border-1 p-3 rounded-4">
-                  <h3 class="text-light">FAIR TOUR</h3>
-                  <h1 class="fs-1 fw-bolder text-light">COMO DEBERIA SER</h1>
-              </div>
           </div>
-        </section>
-      
-    </main>
-    <footer></footer>
+        </div>
+        <div class="contenedor-testimonios__card bg-blue">
+          <div class="contenedor-testimonios__card-overlay bg-blue-transparent">
+            <p class="contenedor-testimonios_card-overlay_title fw-bolder">
+              "Una aventura segura y emocionante con esta agencia colombiana. ¡Cinco estrellas! ⭐️"
+            </p>
+            <div class="contenedor-testimonios_card-overlay_avatar">
+              <img src="https://www.svgrepo.com/show/61986/avatar.svg" alt="avatar"
+                class="contenedor-testimonios_card-overlay_avatar-img">
+              <div class="contenedor-testimonios_card-overlay_avatar-text">
+                <p class="contenedor-testimonios_card-overlayavatar-text_name fw-bolder">Emily Jones</p>
+                <p class="contenedor-testimonios_card-overlayavatar-text_country">Reino Unido</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contenedor-testimonios__card bg-blue">
+          <div class="contenedor-testimonios__card-overlay bg-blue-transparent">
+            <p class="contenedor-testimonios_card-overlay_title fw-bolder">
+              "Descubrí Colombia de manera segura y divertida gracias a esta agencia. ¡Altamente recomendada!"
+            </p>
+            <div class="contenedor-testimonios_card-overlay_avatar">
+              <img src="https://www.svgrepo.com/show/61986/avatar.svg" alt="avatar"
+                class="contenedor-testimonios_card-overlay_avatar-img">
+              <div class="contenedor-testimonios_card-overlay_avatar-text">
+                <p class="contenedor-testimonios_card-overlayavatar-text_name fw-bolder">Jack Wilson</p>
+                <p class="contenedor-testimonios_card-overlayavatar-text_country">Australia</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-    <!-- linking JS -->
-    <script type="module" src="./src/js/main.js"></script>
+      </article>
+    </section>
+
+  </main>
+  <footer></footer>
+
+  <!-- linking JS -->
+  <script type="module" src="./src/js/main.js"></script>
 </body>
 
 </html>

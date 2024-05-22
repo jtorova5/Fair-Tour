@@ -1,17 +1,19 @@
-
 @import url(./normalize.scss);
 @import "bootstrap/scss/bootstrap";
 
+*{
+    box-sizing: border-box;
+}
 
-:root{
-    --leters--white:rgb(255, 255, 255);
-    --ligh--gray:#DBDBDB;
-    --blue--principal:#126B9D;
-    --blue-second:#C3DAEE;
+:root {
+    --leters--white: rgb(255, 255, 255);
+    --ligh--gray: #DBDBDB;
+    --blue--principal: #126B9D;
+    --blue-second: #C3DAEE;
 }
 
 // header
-header{
+header {
     width: 100%;
     position: fixed;
     z-index: 5;
@@ -40,7 +42,7 @@ header{
     align-items: center;
     box-sizing: border-box;
 }
-  
+
 .toggle label:before {
     content: "";
     width: 70px;
@@ -54,7 +56,7 @@ header{
     box-sizing: border-box;
     transition: 0.25s ease-in;
 }
-  
+
 .toggle label:after {
     content: "";
     width: 20px;
@@ -67,11 +69,12 @@ header{
     box-shadow: inset -8px -5px #333;
     transition: 0.2s ease-in-out;
 }
-  
-.toggle input[type="checkbox"]:checked + label:before {
+
+.toggle input[type="checkbox"]:checked+label:before {
     box-shadow: inset 30px 0 0 #ffeb00;
 }
-.toggle input[type="checkbox"]:checked + label:after {
+
+.toggle input[type="checkbox"]:checked+label:after {
     box-shadow: inset 0 0 0 2px #fff;
     background: #ffbc00;
     left: 39px;
@@ -84,7 +87,8 @@ header{
     position: relative;
     width: 100%;
     height: 100vh;
-    overflow: hidden; /* Hide any overflowing content */
+    overflow: hidden;
+    /* Hide any overflowing content */
 }
 
 #background-video {
@@ -94,18 +98,129 @@ header{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transform: translate(-50%, -50%); /* Center the video */
+    transform: translate(-50%, -50%);
+    /* Center the video */
     z-index: -1;
 }
 
 .container {
     position: relative;
-    z-index: 2; 
+    z-index: 2;
     display: flex;
-    height: 100%; /* Center the container vertically */
+    height: 100%;
+    /* Center the container vertically */
 
-    & h3, h1{
+    & h3,
+    h1 {
         text-shadow: 7px 3px 4px var(--blue--principal);
     }
 }
-  
+
+// testimonials section
+
+.contenedor {
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap: 3.5rem;
+    
+}
+
+.title {
+    padding: 1rem;
+    font-size: 48px;
+    color: #126b9d;
+    text-align: center;
+    border: dashed 2px #126b9d;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.contenedor-testimonios{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.contenedor-testimonios__card{
+    flex: 1 0 30%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    height: 150px;
+    border-radius: 10px;
+    border: solid 1px black;
+    position: relative;
+}
+
+.contenedor-testimonios__card-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: solid 1px black;
+    top: 20px; 
+    left: 20px;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+
+}
+
+.contenedor-testimonios_card-overlay_avatar {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-bottom: 1.4rem;
+}
+
+.contenedor-testimonios_card-overlay_title{
+    padding-top: 0.8rem;
+    padding-right: 1.3rem;
+    font-size: smaller;
+}
+
+.contenedor-testimonios_card-overlay_avatar-text{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+
+.contenedor-testimonios_card-overlay_avatar-img{
+    width: 30px;
+}
+
+.contenedor-testimonios_card-overlayavatar-text_name{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-testimonios_card-overlayavatar-text_country{
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+.bg-green{
+    background-color: #82D1A2;
+}
+
+.bg-blue{
+    background-color:#97d3f9;
+}
+
+.bg-green-transparent{
+    background-color: #82d1a280;
+}
+
+.bg-blue-transparent{
+    background-color: #c3daee80;
+}
