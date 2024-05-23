@@ -108,4 +108,21 @@ header{
         text-shadow: 7px 3px 4px var(--blue--principal);
     }
 }
+
+//section two
+.div__title{
+    width: 50%;
+    border: 2px dashed var(--blue--principal);
+}
+
+.boton-circular {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background-image: url('../../public/img/boyaca/boyaca-landing.webp');
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
   
