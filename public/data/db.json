@@ -464,20 +464,24 @@
             ]
         },
         {
-            "id": 9,
+            "id": "9",
             "tour": "Tour por la hacienda Nápoles y Rio Claro",
             "landing img": "",
             "main video": "",
-            "duration": "",
-            "route": [],
-            "price": "",
-            "highlights": [
+            "duration": "2",
+            "route": [
                 {
-                    "place": "",
-                    "description": "",
+                    "place": "Hacienda nápoles",
+                    "description": "Descubre la verdadera aventura salvaje.",
+                    "img": ""
+                },
+                {
+                    "place": "Río claro",
+                    "description": "Patrimonio natural.",
                     "img": ""
                 }
             ],
+            "price": "250",
             "plan": [
                 "familiar",
                 "parejas",
@@ -485,20 +489,29 @@
             ]
         },
         {
-            "id": 10,
-            "tour": "Tour por San Andres",
+            "id": "10",
+            "tour": "Tour por San Andrés",
             "landing img": "",
             "main video": "",
-            "duration": "",
-            "route": [],
-            "price": "",
-            "highlights": [
+            "duration": "5",
+            "route": [
                 {
-                    "place": "",
-                    "description": "",
+                    "place": "Johnny Cay",
+                    "description": "Hermosas playas, palmas y gastronomía típica.",
+                    "img": ""
+                },
+                {
+                    "place": "Acuario y Hanness Cay",
+                    "description": "Interacción con la fauna del Caribe.",
+                    "img": ""
+                },
+                {
+                    "place": "Vuelta a la isla",
+                    "description": "Visita sitios emblemáticos de San Andrés",
                     "img": ""
                 }
             ],
+            "price": "1000",
             "plan": [
                 "familiar",
                 "parejas",
@@ -506,20 +519,34 @@
             ]
         },
         {
-            "id": 11,
+            "id": "11",
             "tour": "Tour por Santa Marta",
             "landing img": "",
             "main video": "",
-            "duration": "",
-            "route": [],
-            "price": "",
-            "highlights": [
+            "duration": "4",
+            "route": [
                 {
-                    "place": "",
-                    "description": "",
+                    "place": "Playas de Buritaca",
+                    "description": "Un paraíso de río y mar.",
+                    "img": ""
+                },
+                {
+                    "place": "Quebrada Valencia",
+                    "description": "Un salto al descanso.",
+                    "img": ""
+                },
+                {
+                    "place": "Playa Blanca",
+                    "description": "Relájate con agua cristalina y arena blanca.",
+                    "img": ""
+                },
+                {
+                    "place": "El Rodadero",
+                    "description": "Sol, mar y arena al mejor estilo caribeño.",
                     "img": ""
                 }
             ],
+            "price": "900",
             "plan": [
                 "familiar",
                 "parejas",
@@ -527,20 +554,49 @@
             ]
         },
         {
-            "id": 12,
+            "id": "12",
             "tour": "Tour por Santander",
             "landing img": "",
             "main video": "",
-            "duration": "",
-            "route": [],
-            "price": "",
-            "highlights": [
+            "duration": "5",
+            "route": [
                 {
-                    "place": "",
-                    "description": "",
+                    "place": "Parque Nacional del Chicamocha",
+                    "description": "Paisaje, cultura y diversión.",
+                    "img": ""
+                },
+                {
+                    "place": "Plazuela mesa de los Santos",
+                    "description": "Dulces, artesanías y café.",
+                    "img": ""
+                },
+                {
+                    "place": "Mirador salto del mico",
+                    "description": "Hermosa panorámica del cañon del río Suárez.",
+                    "img": ""
+                },
+                {
+                    "place": "Parque natural el gallineral",
+                    "description": "Bella isla.",
+                    "img": ""
+                },
+                {
+                    "place": "Barichara",
+                    "description": "Pueblo más lindo de Colombia.",
+                    "img": ""
+                },
+                {
+                    "place": "Floridablanca",
+                    "description": "Capital dulce.",
+                    "img": ""
+                },
+                {
+                    "place": "Bucaramanga",
+                    "description": "La ciudad bonita.",
                     "img": ""
                 }
             ],
+            "price": "700",
             "plan": [
                 "familiar",
                 "parejas",
@@ -548,20 +604,34 @@
             ]
         },
         {
-            "id": 13,
+            "id": "13",
             "tour": "Tour por el sur de Colombia",
             "landing img": "",
             "main video": "",
-            "duration": "",
-            "route": [],
-            "price": "",
-            "highlights": [
+            "duration": "6",
+            "route": [
                 {
-                    "place": "",
-                    "description": "",
+                    "place": "Santiago de Cali",
+                    "description": "La sucursal del cielo.",
+                    "img": ""
+                },
+                {
+                    "place": "Popayán",
+                    "description": "La ciudad blanca",
+                    "img": ""
+                },
+                {
+                    "place": "Nariño",
+                    "description": "Te va a encantar, descúbrelo.",
+                    "img": ""
+                },
+                {
+                    "place": "Tulcán",
+                    "description": "La centinela norteña de Ecuador",
                     "img": ""
                 }
             ],
+            "price": "550",
             "plan": [
                 "familiar",
                 "parejas",
@@ -569,20 +639,34 @@
             ]
         },
         {
-            "id": 2,
+            "id": "14",
             "tour": "Tour por Tolú y Coveñas",
             "landing img": "",
             "main video": "",
-            "duration": "",
-            "route": [],
-            "price": "",
-            "highlights": [
+            "duration": "4",
+            "route": [
                 {
-                    "place": "",
-                    "description": "",
+                    "place": "Coveñas",
+                    "description": "Aguas cálidas y tranquilas.",
+                    "img": ""
+                },
+                {
+                    "place": "Santiago de Tolú",
+                    "description": "Artesanías y dulces.",
+                    "img": ""
+                },
+                {
+                    "place": "Museo del calabazo",
+                    "description": "Tienda artesanal.",
+                    "img": ""
+                },
+                {
+                    "place": "Playa blanca en San Antero",
+                    "description": "Paraiso Colombiano.",
                     "img": ""
                 }
             ],
+            "price": "450",
             "plan": [
                 "familiar",
                 "parejas",
