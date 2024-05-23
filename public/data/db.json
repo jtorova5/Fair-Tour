@@ -3,7 +3,7 @@
         {
             "id": "1",
             "tour": "Tour por Boyacá",
-            "landing img": "",
+            "landing img": "./img/boyaca/boyaca-landing.webp",
             "main video": "",
             "duration": "6",
             "route": [
