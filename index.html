@@ -76,50 +76,89 @@
     </section>
 
     <!-- testimonials section -->
-    <section class="contenedor mt-5">
-      <h1 class="title">TESTIMONIOS</h1>
-      <article class="contenedor-testimonios">
-        <div class="contenedor-testimonios__card bg-green">
-          <div class="contenedor-testimonios__card-overlay bg-green-transparent">
+    <section class="contenedor mt-5 d-flex flex-column align-items-center m-auto">
+      <h1 class="title text-center w-50">TESTIMONIOS</h1>
+      <article class="contenedor-testimonios d-flex flex-row w-75 justify-content-center flex-wrap">
+        
+        <div class="container contenedor-testimonios__card flex-grow-1 flex-shrink-0 position-relative bg-green">
+          <div class="container contenedor-testimonios__card-overlay position-absolute w-100 h-100 d-flex flex-column justify-content-between bg-green-transparent">
             <p class="contenedor-testimonios_card-overlay_title fw-bolder">
               "¡Increíble experiencia con fair tour! Desde la reserva hasta las actividades planificadas, todo fue impecable!."
             </p>
-            <div class="contenedor-testimonios_card-overlay_avatar">
+            <div class="contenedor-testimonios_card-overlay_avatar d-flex flex-row text-align-center">
               <img src="https://www.svgrepo.com/show/61986/avatar.svg" alt="avatar"
                 class="contenedor-testimonios_card-overlay_avatar-img">
-              <div class="contenedor-testimonios_card-overlay_avatar-text">
-                <p class="contenedor-testimonios_card-overlayavatar-text_name fw-bolder">John Smith</p>
-                <p class="contenedor-testimonios_card-overlayavatar-text_country">Estados Unidos</p>
+              <div class="contenedor-testimonios_card-overlay_avatar-text d-flex flex-column">
+                <p class="d-flex m-0 p-0 fw-bolder">John Smith</p>
+                <p class="d-flex m-0 p-0">Estados Unidos</p>
+              </div>
+              <div class="rating">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text"></label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text"></label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text"></label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text"></label>
+                <input checked="" type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text"></label>
               </div>
             </div>
           </div>
         </div>
-        <div class="contenedor-testimonios__card bg-blue">
-          <div class="contenedor-testimonios__card-overlay bg-blue-transparent">
+
+        <div class="contenedor-testimonios__card flex-grow-1 flex-shrink-0 position-relative bg-blue">
+          <div class="contenedor-testimonios__card-overlay position-absolute w-100 h-100 d-flex flex-column justify-content-between bg-blue-transparent">
             <p class="contenedor-testimonios_card-overlay_title fw-bolder">
               "Una aventura segura y emocionante con esta agencia colombiana. ¡Cinco estrellas! ⭐️"
             </p>
-            <div class="contenedor-testimonios_card-overlay_avatar">
+            <div class="contenedor-testimonios_card-overlay_avatar d-flex flex-row">
               <img src="https://www.svgrepo.com/show/61986/avatar.svg" alt="avatar"
                 class="contenedor-testimonios_card-overlay_avatar-img">
-              <div class="contenedor-testimonios_card-overlay_avatar-text">
-                <p class="contenedor-testimonios_card-overlayavatar-text_name fw-bolder">Emily Jones</p>
-                <p class="contenedor-testimonios_card-overlayavatar-text_country">Reino Unido</p>
+              <div class="contenedor-testimonios_card-overlay_avatar-text d-flex flex-column">
+                <p class="d-flex m-0 p-0 fw-bolder">Emily Jones</p>
+                <p class="d-flex m-0 p-0">Reino Unido</p>
+              </div>
+              <div class="rating">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text"></label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text"></label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text"></label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text"></label>
+                <input checked="" type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text"></label>
               </div>
             </div>
           </div>
         </div>
-        <div class="contenedor-testimonios__card bg-blue">
-          <div class="contenedor-testimonios__card-overlay bg-blue-transparent">
+
+        <div class="contenedor-testimonios__card flex-grow-1 flex-shrink-0 position-relative bg-blue">
+          <div class="contenedor-testimonios__card-overlay position-absolute w-100 h-100 d-flex flex-column justify-content-between bg-blue-transparent">
             <p class="contenedor-testimonios_card-overlay_title fw-bolder">
               "Descubrí Colombia de manera segura y divertida gracias a esta agencia. ¡Altamente recomendada!"
             </p>
-            <div class="contenedor-testimonios_card-overlay_avatar">
+            <div class="contenedor-testimonios_card-overlay_avatar d-flex flex-row">
               <img src="https://www.svgrepo.com/show/61986/avatar.svg" alt="avatar"
                 class="contenedor-testimonios_card-overlay_avatar-img">
-              <div class="contenedor-testimonios_card-overlay_avatar-text">
-                <p class="contenedor-testimonios_card-overlayavatar-text_name fw-bolder">Jack Wilson</p>
-                <p class="contenedor-testimonios_card-overlayavatar-text_country">Australia</p>
+              <div class="contenedor-testimonios_card-overlay_avatar-text d-flex flex-column">
+                <p class="d-flex m-0 p-0 fw-bolder">Jack Wilson</p>
+                <p class="d-flex m-0 p-0">Australia</p>
+              </div>
+              <div class="rating">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text"></label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text"></label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text"></label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text"></label>
+                <input checked="" type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text"></label>
               </div>
             </div>
           </div>

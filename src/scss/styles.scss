@@ -1,10 +1,6 @@
 @import url(./normalize.scss);
 @import "bootstrap/scss/bootstrap";
 
-*{
-    box-sizing: border-box;
-}
-
 :root {
     --leters--white: rgb(255, 255, 255);
     --ligh--gray: #DBDBDB;
@@ -120,107 +116,101 @@ header {
 
 .contenedor {
     max-width: 1600px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
     gap: 3.5rem;
-    
 }
 
 .title {
     padding: 1rem;
     font-size: 48px;
     color: #126b9d;
-    text-align: center;
     border: dashed 2px #126b9d;
     border-radius: 10px;
-    width: 50%;
 }
 
-.contenedor-testimonios{
-    display: flex;
-    flex-direction: row;
-    width: 70%;
-    justify-content: center;
+.contenedor-testimonios {
     gap: 2rem;
-    flex-wrap: wrap;
 }
 
-.contenedor-testimonios__card{
+.contenedor-testimonios__card {
     flex: 1 0 30%;
-    flex-grow: 1;
-    flex-shrink: 0;
     height: 150px;
     border-radius: 10px;
     border: solid 1px black;
-    position: relative;
 }
 
-.contenedor-testimonios__card-overlay{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    border: solid 1px black;
-    top: 20px; 
+.contenedor-testimonios__card-overlay {
+    top: 20px;
     left: 20px;
     z-index: 999;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    border-radius: 10px;
+    border: solid 1px black;
     padding-left: 20px;
-
 }
 
-.contenedor-testimonios_card-overlay_avatar {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    padding-bottom: 1.4rem;
-}
-
-.contenedor-testimonios_card-overlay_title{
+.contenedor-testimonios_card-overlay_title {
     padding-top: 0.8rem;
     padding-right: 1.3rem;
     font-size: smaller;
 }
 
-.contenedor-testimonios_card-overlay_avatar-text{
-    display: flex;
-    flex-direction: column;
-    font-size: small;
+.contenedor-testimonios_card-overlay_avatar {
+    gap: 1rem;
+    padding-bottom: 1.4rem;
 }
 
-.contenedor-testimonios_card-overlay_avatar-img{
+.contenedor-testimonios_card-overlay_avatar-img {
     width: 30px;
 }
 
-.contenedor-testimonios_card-overlayavatar-text_name{
-    display: flex;
-    margin: 0;
-    padding: 0;
+.contenedor-testimonios_card-overlay_avatar-text {
+    font-size: small;
 }
 
-.contenedor-testimonios_card-overlayavatar-text_country{
-    display: flex;
-    margin: 0;
-    padding: 0;
-
+.rating:not(:checked)>input {
+    position: absolute;
+    appearance: none;
 }
 
-.bg-green{
+.rating:not(:checked)>label {
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    color: #666;
+}
+
+.rating:not(:checked)>label:before {
+    content: "★";
+}
+
+.rating>input:checked+label:hover,
+.rating>input:checked+label:hover~label,
+.rating>input:checked~label:hover,
+.rating>input:checked~label:hover~label,
+.rating>label:hover~input:checked~label {
+    color: #e58e09;
+}
+
+.rating:not(:checked)>label:hover,
+.rating:not(:checked)>label:hover~label {
+    color: #ff9e0b;
+}
+
+.rating>input:checked~label {
+    color: #ffa723;
+}
+
+.bg-green {
     background-color: #82D1A2;
 }
 
-.bg-blue{
-    background-color:#97d3f9;
+.bg-blue {
+    background-color: #97d3f9;
 }
 
-.bg-green-transparent{
+.bg-green-transparent {
     background-color: #82d1a280;
 }
 
-.bg-blue-transparent{
+.bg-blue-transparent {
     background-color: #c3daee80;
 }
