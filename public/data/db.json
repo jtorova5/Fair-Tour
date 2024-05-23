@@ -3,7 +3,7 @@
         {
             "id": "1",
             "tour": "Tour por Boyacá",
-            "landing img": "./img/boyaca/boyaca-landing.webp",
+            "landingImg": "./img/boyaca/boyaca-landing.webp",
             "main video": "",
             "duration": "6",
             "route": [
@@ -99,7 +99,7 @@
         {
             "id": "2",
             "tour": "Tour por Capurganá",
-            "landing img": "",
+            "landingImg": "",
             "main video": "",
             "duration": "5",
             "route": [
@@ -129,7 +129,7 @@
         {
             "id": "3",
             "tour": "Tour por Cartagena",
-            "landing img": "",
+            "landingImg": "./img/cartagena/cartagena-landing.webp",
             "main video": "",
             "duration": "4",
             "route": [
@@ -180,7 +180,7 @@
         {
             "id": "4",
             "tour": "Tour por desierto de la Tatacoa",
-            "landing img": "",
+            "landingImg": "",
             "main video": "",
             "duration": "3",
             "route": [
@@ -236,7 +236,7 @@
         {
             "id": "5",
             "tour": "Tour por el eje cafetero",
-            "landing img": "",
+            "landingImg": "./img/cafetero/carfetero-landing.webp",
             "main video": "",
             "duration": "4",
             "route": [
@@ -306,7 +306,7 @@
         {
             "id": "6",
             "tour": "Tour por el Huila",
-            "landing img": "",
+            "landingImg": "",
             "main video": "",
             "duration": "5",
             "route": [
@@ -351,7 +351,7 @@
         {
             "id": "7",
             "tour": "Tour por la Guajira",
-            "landing img": "",
+            "landingImg": "./img/guajira/guajira-landing.webp",
             "main video": "",
             "duration": "7",
             "route": [
@@ -401,7 +401,7 @@
         {
             "id": "8",
             "tour": "Tour por los llanos orientales",
-            "landing img": "",
+            "landingImg": "",
             "main video": "",
             "duration": "5",
             "route": [
@@ -466,7 +466,7 @@
         {
             "id": "9",
             "tour": "Tour por la hacienda Nápoles y Rio Claro",
-            "landing img": "",
+            "landingImg": "",
             "main video": "",
             "duration": "2",
             "route": [
@@ -491,7 +491,7 @@
         {
             "id": "10",
             "tour": "Tour por San Andrés",
-            "landing img": "",
+            "landingImg": "",
             "main video": "",
             "duration": "5",
             "route": [
@@ -521,7 +521,7 @@
         {
             "id": "11",
             "tour": "Tour por Santa Marta",
-            "landing img": "",
+            "landingImg": "",
             "main video": "",
             "duration": "4",
             "route": [
@@ -556,7 +556,7 @@
         {
             "id": "12",
             "tour": "Tour por Santander",
-            "landing img": "",
+            "landingImg": "",
             "main video": "",
             "duration": "5",
             "route": [
@@ -606,7 +606,7 @@
         {
             "id": "13",
             "tour": "Tour por el sur de Colombia",
-            "landing img": "",
+            "landingImg": "",
             "main video": "",
             "duration": "6",
             "route": [
@@ -641,7 +641,7 @@
         {
             "id": "14",
             "tour": "Tour por Tolú y Coveñas",
-            "landing img": "",
+            "landingImg": "",
             "main video": "",
             "duration": "4",
             "route": [

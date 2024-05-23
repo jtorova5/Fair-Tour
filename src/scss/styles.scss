@@ -161,5 +161,24 @@ header{
     width: 60%;
 }
 
+.masonry {
+    display: grid;
+ /*    esto hace que se contenga y organice la imagen por cada columna */
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.item {
+    background-color: #126B9D;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.item:nth-child(odd) {
+    grid-row: span 2;
+}
+
 
   
