@@ -3,6 +3,8 @@
 import '../scss/styles.scss'
 import * as bootstrap from 'bootstrap'
 
+let URL = 'http://localhost:3000/tours'
+
 
 // mode dark------------------------------------------------------------
 document.getElementById("toggle-checkbox").addEventListener("change", function () {
