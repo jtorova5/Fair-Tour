@@ -99,15 +99,16 @@ header{
 }
 
 .container {
-    position: relative;
-    z-index: 2; 
-    display: flex;
-    height: 100%; /* Center the container vertically */
+    z-index: 2;
+    height: 100vh;
+    /* Center the container vertically */
 
-    & h3, h1{
+    & h3,
+    h1 {
         text-shadow: 7px 3px 4px var(--blue--principal);
     }
 }
+
 
 .blue-back{
     padding: 4rem;
@@ -143,6 +144,130 @@ header{
     max-width: 100%;
     height: auto;
 }
+
+// testimonials section
+
+.contenedor {
+    position: relative;
+        z-index: 2;
+        height: 100%;
+        /* Center the container vertically */
+}
+
+.title {
+    padding: 1rem;
+    min-width: 220px;
+    color: #126b9d;
+    border: dashed 2px #126b9d;
+    border-radius: 10px;
+}
+
+.contenedor-testimonios {
+    gap: 2rem;
+}
+
+.contenedor-testimonios__card {
+    max-height: 200px;
+    min-height: 150px;
+    min-width: 340px;
+    max-width:350px;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+.contenedor-testimonios__card-overlay {
+    top: 20px;
+    left: 20px;
+    z-index: 999;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding-left: 20px;
+}
+
+
+.contenedor-testimonios_card-overlay_title {
+    padding-top: 0.8rem;
+    padding-right: 1.3rem;
+    font-size: smaller;
+}
+
+.contenedor-testimonios_card-overlay_avatar {
+    bottom: 0;
+    left: 20px;
+    z-index: 999;
+    gap: 1rem;
+    padding-bottom: 1.4rem;
+}
+
+.contenedor-testimonios_card-overlay_avatar-img {
+    width: 30px;
+    height: 30px;
+}
+
+.contenedor-testimonios_card-overlay_avatar-text {
+    font-size: small;
+}
+
+// estrellas
+.rating:not(:checked)>input {
+    position: absolute;
+    appearance: none;
+}
+
+.rating:not(:checked)>label {
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    color: #666;
+}
+
+.rating:not(:checked)>label:before {
+    content: "★";
+}
+
+/* .rating>input:checked+label:hover,
+.rating>input:checked+label:hover~label,
+.rating>input:checked~label:hover,
+.rating>input:checked~label:hover~label,
+.rating>label:hover~input:checked~label {
+    color: #e58e09;
+}
+
+.rating:not(:checked)>label:hover,
+.rating:not(:checked)>label:hover~label {
+    color: #ff9e0b;
+} */
+
+/* .rating>input:checked~label {
+    color: #ffa723;
+} */
+
+.bg-green {
+    background-color: #82D1A2;
+}
+
+.bg-blue {
+    background-color: #97d3f9;
+}
+
+.bg-green-transparent {
+    background-color: #82d1a280;
+}
+
+.bg-blue-transparent {
+    background-color: #c3daee80;
+}
+
+
+    .contenedor-testimonios{
+        width: 100%;
+    }
+    .contenedor-testimonios__card-overlay {
+        width: 80%;
+    }
+    .contenedor-testimonios__card{
+        width: 100%;
+    }
 
 @media (max-width: 767px) {
     /* Cambiar el orden de las cajas en pantallas pequeñas */
