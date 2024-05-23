@@ -108,4 +108,49 @@ header{
         text-shadow: 7px 3px 4px var(--blue--principal);
     }
 }
+
+// seccion encuentranos ---------------------------
+h2 {
+  padding: 1rem;
+  font-size: 48px;
+  color: #126b92;
+  text-align: center;
+  border: dashed 2px #126b92;
+  border-radius: 10px;
+  width: 50%;
+}
+
+#section-find-us {
+    background-color: #C3DAEE; /* Color de fondo gris claro */
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  
+  #section-find-us h2 {
+    color: #126b92;
+    border: 2px dashed #ccc; /* Borde punteado alrededor del título */
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 40px; /* Margen inferior para separar el título del contenido */
+  }
+  
+  .find-us-info p {
+    font-size: 1.1em;
+    color: #126b92; /* Texto de color azul */
+    text-align: left; /* Alineación del texto a la izquierda */
+  }
+  
+  .find-us-info {
+    justify-content: center;
+    text-align: center; /* Alineación del contenido a la izquierda */
+  }
+
+
+  #caja-mapa {
+    width: 800px;
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  } 
   
