@@ -200,7 +200,7 @@ header{
     top: 0px;
     transition: all 500ms ease-out;
     opacity: 0; 
-/*     background-color: var(--opacity-img); */
+    background-color: var(--opacity-img); 
     padding: 20px;
     color: var(--blanco);
     letter-spacing: 2px;
@@ -209,9 +209,9 @@ header{
         filter: drop-shadow(0 0 10px var(--gray--second));
     }
 }
-#div__image:hover img{
+/* #div__image:hover img{
     filter: blur(2px);
-}
+} */
 
 #divimage__hover:hover{
     opacity: 1;
