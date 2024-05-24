@@ -304,7 +304,7 @@
                 },
                 {
                     "place": "Salto del Mortiño",
-                    "description": "Una cascada de enseuño.",
+                    "description": "Una cascada de ensueño.",
                     "img": ""
                 },
                 {
@@ -326,8 +326,7 @@
             "price": "800",
             "plan": [
                 "familiar",
-                "parejas",
-                "solo"
+                "parejas"
             ]
         },
         {
@@ -446,25 +445,24 @@
         {
             "id": "9",
             "tour": "Tour por la hacienda Nápoles y Rio Claro",
-            "landing img": "",
+            "landing img": "./../../public/img/napoles/hacienda-napoles-landing.webp",
             "main video": "",
             "duration": "2",
             "route": [
                 {
                     "place": "Hacienda nápoles",
                     "description": "Descubre la verdadera aventura salvaje.",
-                    "img": ""
+                    "img": "./../../public/img/napoles/hacienda-carrousel.webp"
                 },
                 {
                     "place": "Río claro",
                     "description": "Patrimonio natural.",
-                    "img": ""
+                    "img": "./../../public/img/napoles/rio-claro-carrousel.webp"
                 }
             ],
             "price": "250",
             "plan": [
                 "familiar",
-                "parejas",
                 "solo"
             ]
         },
@@ -501,19 +499,19 @@
         {
             "id": "11",
             "tour": "Tour por Santa Marta",
-            "landing img": "",
+            "landing img": "./../../public/img/santaMarta/santa-marta-landing-webp",
             "main video": "",
             "duration": "4",
             "route": [
                 {
                     "place": "Playas de Buritaca",
                     "description": "Un paraíso de río y mar.",
-                    "img": ""
+                    "img": "./../../public/img/santaMarta/buritaca-carrousel.webp"
                 },
                 {
                     "place": "Quebrada Valencia",
                     "description": "Un salto al descanso.",
-                    "img": ""
+                    "img": "./../../public/img/santaMarta/quebrada-valencia-carrousel.webp"
                 },
                 {
                     "place": "Playa Blanca",
@@ -523,14 +521,13 @@
                 {
                     "place": "El Rodadero",
                     "description": "Sol, mar y arena al mejor estilo caribeño.",
-                    "img": ""
+                    "img": "./../../public/img/santaMarta/rodadero-carrousel.webp"
                 }
             ],
             "price": "900",
             "plan": [
                 "familiar",
-                "parejas",
-                "solo"
+                "parejas"
             ]
         },
         {
@@ -586,36 +583,34 @@
         {
             "id": "13",
             "tour": "Tour por el sur de Colombia",
-            "landing img": "",
+            "landing img": "./../../public/img/surColombia/sur-colombia-landing.webp",
             "main video": "",
             "duration": "6",
             "route": [
                 {
                     "place": "Santiago de Cali",
                     "description": "La sucursal del cielo.",
-                    "img": ""
+                    "img": "./../../public/img/surColombia/santiago-cali-carrousel.webp"
                 },
                 {
                     "place": "Popayán",
                     "description": "La ciudad blanca",
-                    "img": ""
+                    "img": "./../../public/img/surColombia/popayan-carrousel.webp"
                 },
                 {
                     "place": "Nariño",
                     "description": "Te va a encantar, descúbrelo.",
-                    "img": ""
+                    "img": "./../../public/img/surColombia/nariño.webp"
                 },
                 {
                     "place": "Tulcán",
                     "description": "La centinela norteña de Ecuador",
-                    "img": ""
+                    "img": "./../../public/img/surColombia/tulcan-carrousel.webp"
                 }
             ],
-            "price": "550",
+            "price": "400",
             "plan": [
-                "familiar",
-                "parejas",
-                "solo"
+                "familiar"
             ]
         },
         {
