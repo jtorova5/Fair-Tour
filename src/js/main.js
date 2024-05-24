@@ -15,7 +15,6 @@ let botonCouple= document.querySelector('#btn-pareja')
 let botonFamily= document.querySelector('#btn-familiar')
 
 
-
 /* funtion find tours --------------------------*/
 async function findTours() {
     let response = await fetch(URL)
@@ -63,23 +62,39 @@ function filterFamily(datosGeneral) {
 }
 
 
+
+
 /* paint tours -----------------------------*/
 function paintTours(datos) {
-   /*  clear datos */
-    bodyCard.innerHTML = ""
-    console.log(datos);
+    bodyCard.innerHTML = "";
+    
     for (let i = 0; i < datos.length; i++) {
-        bodyCard.innerHTML +=`
-        <div class="col-11 w-100 mt-2 item" id="div__image">
+        const divImage = document.createElement("div");
+        divImage.classList.add("col-11", "w-100", "mt-2", "item");
+        divImage.id = "div__image";
+     /*    asigno de forma dinámica el evento onclick a los elementos generados. */
+        divImage.onclick = function() {
+            seeMore(datos[i]);
+        };
+        
+        divImage.innerHTML = `
             <img src="${datos[i].landingImg}" alt="${datos[i].tour}" class="imagen-contenedor rounded-4">
-            <div id="divimage__hover" data-id="${datos[i].id}" class="rounded-4"> 
-                <h4>${datos[i].tour}<br></h4>
-                <h3>VER MAS</h3>
-            </div>  
-        </div>
-        `
+            <div id="divimage__hover" data-id="${datos[i].id}" class="rounded-4">
+            <h4>${datos[i].tour}<br></h4>
+            <h3>VER MÁS</h3>
+            </div>`;
+            
+        bodyCard.appendChild(divImage);
     }
-} 
+}
+
+/* click see more------------------------- */
+function seeMore(objeto) {
+    console.log("Oprimiste");
+    console.log("Datos recibidos:", objeto);
+
+}
+
 
 
 // mode dark------------------------------------------------------------
