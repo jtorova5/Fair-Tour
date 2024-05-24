@@ -91,9 +91,7 @@
             "price": "500",
             
             "plan": [
-                "Familiar",
-                "Parejas",
-                "Solitario"
+                "solo"
             ]
         },
         {
@@ -123,7 +121,7 @@
             "plan": [
                 "familiar",
                 "parejas",
-                "solitario"
+               "solo"
             ]
         },
         {
@@ -172,9 +170,7 @@
             ],
             "price": "1000",
             "plan": [
-                "familiar",
-                "parejas",
-                "solitario"
+               "solo"
             ]
         },
         {
@@ -230,7 +226,7 @@
             "plan": [
                 "familiar",
                 "parejas",
-                "solitario"
+               "solo"
             ]
         },
         {
@@ -300,7 +296,7 @@
             "plan": [
                 "familiar",
                 "parejas",
-                "solitario"
+               "solo"
             ]
         },
         {
@@ -345,7 +341,7 @@
             "plan": [
                 "familiar",
                 "parejas",
-                "solitario"
+               "solo"
             ]
         },
         {
@@ -395,7 +391,7 @@
             "plan": [
                 "familiar",
                 "parejas",
-                "solitario"
+               "solo"
             ]
         },
         {
@@ -460,7 +456,7 @@
             "plan": [
                 "familiar",
                 "parejas",
-                "solitario"
+               "solo"
             ]
         },
         {
@@ -485,7 +481,7 @@
             "plan": [
                 "familiar",
                 "parejas",
-                "solitario"
+               "solo"
             ]
         },
         {
@@ -515,7 +511,7 @@
             "plan": [
                 "familiar",
                 "parejas",
-                "solitario"
+               "solo"
             ]
         },
         {
@@ -550,7 +546,7 @@
             "plan": [
                 "familiar",
                 "parejas",
-                "solitario"
+               "solo"
             ]
         },
         {
@@ -600,7 +596,7 @@
             "plan": [
                 "familiar",
                 "parejas",
-                "solitario"
+               "solo"
             ]
         },
         {
@@ -635,7 +631,7 @@
             "plan": [
                 "familiar",
                 "parejas",
-                "solitario"
+               "solo"
             ]
         },
         {
@@ -670,7 +666,7 @@
             "plan": [
                 "familiar",
                 "parejas",
-                "solitario"
+               "solo"
             ]
         }
     ]
