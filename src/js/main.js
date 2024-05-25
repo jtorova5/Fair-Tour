@@ -12,3 +12,4 @@ document.getElementById("toggle-checkbox").addEventListener("change", function (
     // color change to the body
     document.body.classList.toggle("bg-dark");
 });
+
