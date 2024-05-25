@@ -109,7 +109,7 @@ header{
     }
 }
 
-// seccion encuentranos ---------------------------
+// seccion encuentranos -----------------------------------------------------------------------------------
 h2 {
   padding: 1rem;
   font-size: 48px;
@@ -303,6 +303,96 @@ h2 {
 }
 
 
+    
+
+    //ESTILOS PARA EL LOGIN -----------------------------------------------------------------------------------------------
+
+    .container-fluid {
+        position: relative;
+    }
+    
+    .back-button {
+        position: absolute;
+        top: 10px;
+        left: 50%
+    }
+    
+    .image-container { 
+        background-size: cover;
+        object-fit: cover;
+    }
+    
+    .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+
+    .back-button a {
+        text-decoration: none;
+    }
+    
+    .back-button img {
+        width: 30px;
+        height: auto;
+    }
+    
+    .login-content {
+        width: 100%;
+        max-width: 500px;
+    }
+    
+    .logo {
+        width: 170px;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+    
+    .btn-primary {
+        background-color: #126B9D;
+        border: none;
+    }
+    
+    #title-login {
+        font-size: 50px;
+        font-weight: 700;
+        color: #126B9D
+    }
+    
+    #atras-login {
+        align-items: center;
+        color: #126B9D;
+        font-weight: 600;
+        width: 50%;
+    }
+    
+    @media (max-width: 800px) {
+        .back-button {
+            left: 10px;
+            transform: none;
+        }
+    
+        .image-container {
+            display: none;
+        }
+    
+        .form-container {
+            width: 100%;
+        }
+    }
+
+
+@media (max-width: 767px) {
+    /* Cambiar el orden de las cajas en pantallas pequeñas */
+    #cj .flex-md-row {
+        flex-direction: column-reverse;
+    }
     .contenedor-testimonios{
         width: 100%;
     }
@@ -311,12 +401,6 @@ h2 {
     }
     .contenedor-testimonios__card{
         width: 100%;
-    }
-
-@media (max-width: 767px) {
-    /* Cambiar el orden de las cajas en pantallas pequeñas */
-    #cj .flex-md-row {
-        flex-direction: column-reverse;
     }
 
 }
