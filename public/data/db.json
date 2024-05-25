@@ -299,34 +299,34 @@
                 },
                 {
                     "place": "Estrecho del Magdalena",
-                    "description": "EL punto más angosto del río grande de Colombia.",
-                    "img": ""
+                    "description": "El punto más angosto del río grande de Colombia.",
+                    "img": "./../../public/img/huila/estrecho-magdalena.webp"
                 },
                 {
                     "place": "Salto del Mortiño",
                     "description": "Una cascada de ensueño.",
-                    "img": ""
+                    "img": "./../../public/img/huila/salto-mortiño.webp"
                 },
                 {
                     "place": "Altamira",
                     "description": "Capital bizcochera.",
-                    "img": ""
+                    "img": "./../../public/img/huila/altamira.webp"
                 },
                 {
                     "place": "Timaná",
                     "description": "Villa de la Gaitana.",
-                    "img": ""
+                    "img": "./../../public/img/huila/timana.webp"
                 },
                 {
                     "place": "La Jagua",
-                    "description": "EL pueblo de las brujas.",
-                    "img": ""
+                    "description": "El pueblo de las brujas.",
+                    "img": "./../../public/img/huila/jagua.webp"
                 }
             ],
             "price": "800",
             "plan": [
-                "familiar",
-                "parejas"
+                "parejas",
+                "solo"
             ]
         },
         {
@@ -380,62 +380,47 @@
         {
             "id": "8",
             "tour": "Tour por los llanos orientales",
-            "landing img": "",
+            "landing img": "./../../public/img/llanos/landing-llanos.webp",
             "main video": "",
             "duration": "5",
             "route": [
                 {
                     "place": "Cañón del río Güejar",
                     "description": "Un lugar que invita a la aventura.",
-                    "img": ""
+                    "img": "./../../public/img/llanos/rio-guejar.webp"
                 },
                 {
                     "place": "Tiuma park",
                     "description": "Parque temático de aventura, cultura y naturaleza.",
-                    "img": ""
+                    "img": "./../../public/img/llanos/tiuma.webp"
                 },
                 {
                     "place": "Río Meta",
                     "description": "Icono de los llanos orientales.",
-                    "img": ""
+                    "img": "./../../public/img/llanos/rio-meta.webp"
                 },
                 {
                     "place": "Alto de Menegua",
                     "description": "Párate en el ombligo de Colombia.",
-                    "img": ""
+                    "img": "./../../public/img/llanos/menegua.webp"
                 },
                 {
                     "place": "Bioparque Los Ocarros",
                     "description": "Fauna silvestre de la Orinoquía Colombiana.",
-                    "img": ""
-                },
-                {
-                    "place": "Fábrica de quesos llaneros",
-                    "description": "Parque temático de aventura, cultura y naturaleza.",
-                    "img": ""
+                    "img": "./../../public/img/llanos/bioparque.webp"
                 },
                 {
                     "place": "Villavicencio",
                     "description": "La puerta del llano.",
-                    "img": ""
+                    "img": "./../../public/img/llanos/villavicencio.webp"
                 },
                 {
                     "place": "Acacías",
                     "description": "La perla llanera.",
-                    "img": ""
-                },
-                {
-                    "place": "Restrepo",
-                    "description": "Capital salinera.",
-                    "img": ""
-                },
-                {
-                    "place": "Cumaral",
-                    "description": "Ciudad cordial.",
-                    "img": ""
+                    "img": "./../../public/img/llanos/acacias.webp"
                 }
             ],
-            "price": "725",
+            "price": "625",
             "plan": [
                 "familiar",
                 "parejas",
@@ -469,31 +454,30 @@
         {
             "id": "10",
             "tour": "Tour por San Andrés",
-            "landing img": "",
+            "landing img": "./../../public/img/sanAndres/landing-san-andres.webp",
             "main video": "",
             "duration": "5",
             "route": [
                 {
                     "place": "Johnny Cay",
                     "description": "Hermosas playas, palmas y gastronomía típica.",
-                    "img": ""
+                    "img": "./../../public/img/sanAndres/johnny-cay.webp"
                 },
                 {
                     "place": "Acuario y Hanness Cay",
                     "description": "Interacción con la fauna del Caribe.",
-                    "img": ""
+                    "img": "./../../public/img/sanAndres/acuario.webp"
                 },
                 {
                     "place": "Vuelta a la isla",
                     "description": "Visita sitios emblemáticos de San Andrés",
-                    "img": ""
+                    "img": "./../../public/img/sanAndres/vuelta.webp"
                 }
             ],
-            "price": "1000",
+            "price": "850",
             "plan": [
                 "familiar",
-                "parejas",
-                "solo"
+                "parejas"
             ]
         },
         {
@@ -533,49 +517,48 @@
         {
             "id": "12",
             "tour": "Tour por Santander",
-            "landing img": "",
+            "landing img": "./../../public/img/santander/landing-santander.webp",
             "main video": "",
             "duration": "5",
             "route": [
                 {
                     "place": "Parque Nacional del Chicamocha",
                     "description": "Paisaje, cultura y diversión.",
-                    "img": ""
+                    "img": "./../../public/img/santander/parque-chicamocha.webp"
                 },
                 {
                     "place": "Plazuela mesa de los Santos",
                     "description": "Dulces, artesanías y café.",
-                    "img": ""
+                    "img": "./../../public/img/santander/mesa-santos.webp"
                 },
                 {
                     "place": "Mirador salto del mico",
                     "description": "Hermosa panorámica del cañon del río Suárez.",
-                    "img": ""
+                    "img": "./../../public/img/santander/salto-mico.webp"
                 },
                 {
                     "place": "Parque natural el gallineral",
                     "description": "Bella isla.",
-                    "img": ""
+                    "img": "./../../public/img/santander/gallineral.webp"
                 },
                 {
                     "place": "Barichara",
                     "description": "Pueblo más lindo de Colombia.",
-                    "img": ""
+                    "img": "./../../public/img/santander/barichara.webp"
                 },
                 {
                     "place": "Floridablanca",
                     "description": "Capital dulce.",
-                    "img": ""
+                    "img": "./../../public/img/santander/floridablanca.webp"
                 },
                 {
                     "place": "Bucaramanga",
                     "description": "La ciudad bonita.",
-                    "img": ""
+                    "img": "./../../public/img/santander/bucaramanga.webp"
                 }
             ],
             "price": "700",
             "plan": [
-                "familiar",
                 "parejas",
                 "solo"
             ]
@@ -616,37 +599,43 @@
         {
             "id": "14",
             "tour": "Tour por Tolú y Coveñas",
-            "landing img": "",
+            "landing img": "./../../public/img/tolu/tolu-landing.webp",
             "main video": "",
             "duration": "4",
             "route": [
                 {
                     "place": "Coveñas",
                     "description": "Aguas cálidas y tranquilas.",
-                    "img": ""
+                    "img": "./../../public/img/tolu/coveñas.webp"
                 },
                 {
                     "place": "Santiago de Tolú",
                     "description": "Artesanías y dulces.",
-                    "img": ""
+                    "img": "./../../public/img/tolu/santiago-de-tolu.webp"
                 },
                 {
                     "place": "Museo del calabazo",
                     "description": "Tienda artesanal.",
-                    "img": ""
+                    "img": "./../../public/img/tolu/museo-del-calabazo.webp"
                 },
                 {
                     "place": "Playa blanca en San Antero",
                     "description": "Paraiso Colombiano.",
-                    "img": ""
+                    "img": "./../../public/img/tolu/playa-blanca.webp"
                 }
             ],
             "price": "450",
             "plan": [
-                "familiar",
                 "parejas",
                 "solo"
             ]
         }
+    ],
+    "datos":[
+
+    ],
+    "admin":[
+        
     ]
 }
+
