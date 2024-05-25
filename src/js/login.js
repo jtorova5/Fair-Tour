@@ -1,4 +1,6 @@
-const url = `http://localhost:3000/admin`; // URL ajustada según la estructura del JSON server
+import {alertError, showSmallAlertSuccess} from './alerts.js'
+
+const url = `http://localhost:3000/admin`; // URL  del JSON server
 const form = document.querySelector("form");
 const username = document.querySelector("#username");
 const password = document.querySelector("#password");
@@ -10,7 +12,7 @@ form.addEventListener("submit", async (event) => {
         window.location.href = "/index.html";
 
     } else {
-        alert("Usuario o contraseña incorrectos. No puedes ingresar.");
+        alertError("Usuario o contraseña incorrectos. No puedes ingresar.");
     }
 });
 
@@ -20,8 +22,6 @@ async function checkUsernameAndPassword(username, password) {
     
     // Verifica si las credenciales coinciden con las almacenadas en el JSON server
     const admin = adminData.find(user => user.usuario === username && user.contraseña === password);
-    
-    // Devuelve true si el usuario fue encontrado, de lo contrario false
     return !!admin;
 }
 
