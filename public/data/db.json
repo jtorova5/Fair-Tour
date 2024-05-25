@@ -3,537 +3,499 @@
         {
             "id": "1",
             "tour": "Tour por Boyacá",
-            "landing img": "",
+            "landing img": "./../../public/img/boyaca-landing.webp",
             "main video": "",
             "duration": "6",
             "route": [
                 {
                     "place": "Villa de Leyva",
                     "description": "Monumento nacional.",
-                    "img": ""
+                    "img": "./../../public/img/boyaca/villa-de-leyva-carrousel.webp"
                 },
                 {
                     "place": "Ráquira",
                     "description": "Tejidos, trabajos en arcilla.",
-                    "img": ""
+                    "img": "./../../public/img/boyaca/raquira-carrousel.webp"
                 },
                 {
                     "place": "Monguí",
                     "description": "Elaboración de balones.",
-                    "img": ""
+                    "img": "./../../public/img/boyaca/mongui-carrousel.webp"
                 },
                 {
                     "place": "Aquitania",
                     "description": "Ciudad de las aguas.",
-                    "img": ""
+                    "img": "./../../public/img/boyaca/aquitania-carrousel.webp"
                 },
                 {
                     "place": "Paipa",
                     "description": "Aguas termales y lago Sochagota.",
-                    "img": ""
+                    "img": "./../../public/img/boyaca/paipa-carrousel.webp"
                 },
                 {
                     "place": "Tópaga",
                     "description": "Artesanías de carbón.",
-                    "img": ""
+                    "img": "./../../public/img/boyaca/topaga-carrousel.webp"
                 },
                 {
                     "place": "Tibasosa",
                     "description": "Productos a base de feijoa.",
-                    "img": ""
-                },
-                {
-                    "place": "Nobsa",
-                    "description": "Artículos de lana y postres.",
-                    "img": ""
+                    "img": "./../../public/img/boyaca/tibasosa-carrousel.webp"
                 },
                 {
                     "place": "Chiquinquirá",
                     "description": "Capital religiosa.",
-                    "img": ""
+                    "img": "./../../public/img/boyaca/chiquinquira-carrousel.webp"
                 },
                 {
                     "place": "Pueblito Boyacense",
                     "description": "Aldea que evoca la arquitectura Boyacense.",
-                    "img": ""
+                    "img": "./../../public/img/boyaca/pueblito-boyacense-carrousel.webp"
                 },
                 {
                     "place": "Lago Tota",
                     "description": "Lago más grande de Colombia.",
-                    "img": ""
-                },
-                {
-                    "place": "Pantano de Vargas",
-                    "description": "Complejo cultural e histórico.",
-                    "img": ""
+                    "img": "./../../public/img/boyaca/lago-tota-carrousel.webp"
                 },
                 {
                     "place": "Puente de Boyacá",
                     "description": "Homenaje a la libertad.",
-                    "img": ""
+                    "img": "./../../public/img/boyaca/puente-boyaca-carrousel.webp"
                 },
                 {
                     "place": "Termales de Paipa",
                     "description": "Aguas minerales para la relajación y descanso.",
-                    "img": ""
-                },
-                {
-                    "place": "Centro histórico de Tunja",
-                    "description": "Ciudad de tesoros escondidos.",
-                    "img": ""
+                    "img": "./../../public/img/boyaca/termales-paipa-carrousel.webp"
                 },
                 {
                     "place": "Catedral de sal",
                     "description": "Primera maravilla de Colombia.",
-                    "img": ""
+                    "img": "./../../public/img/boyaca/catedral-de-sal-carrousel.webp"
                 }
             ],
             "price": "500",
             
             "plan": [
-                "Familiar",
-                "Parejas",
-                "Solitario"
+                "familiar",
+                "parejas",
+                "solo"
             ]
         },
         {
             "id": "2",
             "tour": "Tour por Capurganá",
-            "landing img": "",
+            "landing img": "./../../public/img/capurgana/capurgana-landing.webp",
             "main video": "",
             "duration": "5",
             "route": [
                 {
                     "place": "Sapzurro y La Miel",
                     "description": "Paraíso fronterizo entre Colombia y Panamá",
-                    "img": ""
+                    "img": "./../../public/img/capurgana/sapzurro-y-la-miel.webp"
                 },
                 {
                     "place": "Conjunto natural el Cielo",
-                    "description": "",
-                    "img": ""
+                    "description": "Caminos de rios extensos, piscinas naturales y cascadas.",
+                    "img": "./../../public/img/capurgana/conjunto-natural-el-cielo.webp"
                 },
                 {
                     "place": "Playa Soledad y el Aguacate",
-                    "description": "",
-                    "img": ""
+                    "description": "Playa de arena blanca con manglares alrededor.",
+                    "img": "./../../public/img/capurgana/playa-soledad.webp"
                 }
             ],
             "price": "420",
             "plan": [
-                "familiar",
                 "parejas",
-                "solitario"
+                "solo"
             ]
         },
         {
             "id": "3",
             "tour": "Tour por Cartagena",
-            "landing img": "",
+            "landing img": "./../../public/img/cartagena/cartagena-landing.webp",
             "main video": "",
             "duration": "4",
             "route": [
                 {
                     "place": "Isla Barú",
                     "description": "Playas de arenas blancas y aguas transparentes.",
-                    "img": ""
+                    "img": "./../../public/img/cartagena/isla-baru-carrousel.webp"
                 },
                 {
                     "place": "Tierra bomba",
                     "description": "Isla relajante de aguas cálidas.",
-                    "img": ""
+                    "img": "./../../public/img/cartagena/isla-bomba-carrousel.webp"
                 },
                 {
                     "place": "Playas de Bocagrande",
                     "description": "Playa tradicional de la ciudad.",
-                    "img": ""
+                    "img": "./../../public/img/cartagena/bocagrande-carrousel.webp"
                 },
                 {
                     "place": "Castillo de San Felipe",
                     "description": "Una de las 7 maravillas de Colombia.",
-                    "img": ""
+                    "img": "./../../public/img/cartagena/castillo-san-felipe-carrousel.webp"
                 },
                 {
                     "place": "Monumento a los zapatos viejos",
                     "description": "Símbolo de resistencia y orgullo.",
-                    "img": ""
+                    "img": "./../../public/img/cartagena/monumentos-zapatos-carrousel.webp"
                 },
                 {
                     "place": "Ciudad Amurallada",
                     "description": "Patrimonio de la humanidad.",
-                    "img": ""
+                    "img": "./../../public/img/cartagena/ciudad-amurallada-carrousel.webp"
                 },
                 {
                     "place": "Islas del Rosario",
                     "description": "Destino paradisiaco.",
-                    "img": ""
+                    "img": "./../../public/img/cartagena/isla-rosario-carrousel.webp"
                 }
                 
             ],
-            "price": "1000",
+            "price": "900",
             "plan": [
                 "familiar",
                 "parejas",
-                "solitario"
+                "solo"
             ]
         },
         {
             "id": "4",
             "tour": "Tour por desierto de la Tatacoa",
-            "landing img": "",
+            "landing img": "./../../public/img/tatacoa/landing-tatacoa.webp",
             "main video": "",
             "duration": "3",
             "route": [
                 {
                     "place": "Mirador y sendero el Cusco",
                     "description": "Paisajes de formas laberínticas.",
-                    "img": ""
+                    "img": "./../../public/img/tatacoa/sendero-cusco.webp"
                 },
                 {
                     "place": "Sendero los Hoyos",
                     "description": "Congreso de los fantasmas.",
-                    "img": ""
+                    "img": "./../../public/img/tatacoa/sendero-los-hoyos.webp"
                 },
                 {
                     "place": "Observatorio astronómico",
                     "description": "Turismo de estrellas.",
-                    "img": ""
+                    "img": "./../../public/img/tatacoa/observatorio.webp"
                 },
                 {
                     "place": "Tienda artesanías del desierto",
                     "description": "Productos locales y a base de cactus.",
-                    "img": ""
+                    "img": "./../../public/img/tatacoa/tienda-de-artesanias.webp"
                 },
                 {
                     "place": "Montaña la mano del gigante",
                     "description": "Cargada de naturaleza, color y magia.",
-                    "img": ""
+                    "img": "./../../public/img/tatacoa/la-mano-del-gigante.webp"
                 },
                 {
                     "place": "Termales de Rivera",
                     "description": "Magnifico recurso natural y medicinal.",
-                    "img": ""
+                    "img": "./../../public/img/tatacoa/termales.webp"
                 },
                 {
                     "place": "Neiva",
                     "description": "Capital Bambuquera.",
-                    "img": ""
+                    "img": "./../../public/img/tatacoa/neiva.webp"
                 },
                 {
                     "place": "La planta Tatacoa",
                     "description": "Cervecería artesanal más bella de Colombia.",
-                    "img": ""
+                    "img": "./../../public/img/tatacoa/cerveceria-planta.webp"
                 }
         
             ],
             "price": "850",
             "plan": [
-                "familiar",
                 "parejas",
-                "solitario"
+                "solo"
             ]
         },
         {
             "id": "5",
             "tour": "Tour por el eje cafetero",
-            "landing img": "",
+            "landing img": "./../../public/img/cafetero/cafetero-landing.webp",
             "main video": "",
             "duration": "4",
             "route": [
                 {
                     "place": "Parque del café",
                     "description": "Diversión con sabor a café.",
-                    "img": ""
+                    "img": "./../../public/img/cafetero/parque-cafe-carrousel.webp"
                 },
                 {
                     "place": "Termales de Santa Rosa de Cabal",
                     "description": "¡Devuélvele la vida a tu cuerpo!.",
-                    "img": ""
+                    "img": "./../../public/img/cafetero/termales-Santa-Rosa-carrousel.webp"
                 },
                 {
                     "place": "Valle del Cocora",
                     "description": "Cuna del árbol nacional.",
-                    "img": ""
+                    "img": "./../../public/img/cafetero/calle-cocora-carrousel.webp"
                 },
                 {
                     "place": "Mirador encanto",
                     "description": "Déjate encantar por el paisaje cultural cafetero.",
-                    "img": ""
+                    "img": "./../../public/img/cafetero/mirador-encanto-carrousel.webp"
                 },
                 {
                     "place": "Filandia",
                     "description": "Descubre la calle del tiempo detenido.",
-                    "img": ""
+                    "img": "./../../public/img/cafetero/filandia-carrousel.webp"
                 },
                 {
                     "place": "Salento",
                     "description": "Municipio padre del Quindio.",
-                    "img": ""
+                    "img": "./../../public/img/cafetero/salento-carrousel.webp"
                 },
                 {
                     "place": "Parque recuca",
                     "description": "El lugar donde nos volvemos cafeteros.",
-                    "img": ""
+                    "img": "./../../public/img/cafetero/parque-recuca-carrousel.webp"
                 },
                 {
                     "place": "Parque los arrieros",
                     "description": "Magica experiencia montañera.",
-                    "img": ""
+                    "img": "./../../public/img/cafetero/parque-arrieros-carrousel.webp"
                 },
                 {
                     "place": "Parque panaca",
                     "description": "La finca grande de los colombianos.",
-                    "img": ""
+                    "img": "./../../public/img/cafetero/parque-panaca-carrousel.webp"
                 },
                 {
                     "place": "Bioparque Ukumarí",
                     "description": "Una aventura salvajemente divertida.",
-                    "img": ""
+                    "img": "./../../public/img/cafetero/parque-ukumari-carrousel.webp"
                 },
                 {
                     "place": "Guadalajara de Buga",
                     "description": "Destino espiritual de América.",
-                    "img": ""
+                    "img": "./../../public/img/cafetero/guadalajara-buga.webp"
                 }
             ],
             "price": "930",
             "plan": [
                 "familiar",
-                "parejas",
-                "solitario"
+                "parejas"
             ]
         },
         {
             "id": "6",
             "tour": "Tour por el Huila",
-            "landing img": "",
+            "landing img": "./../../public/img/huila/landing-huila.webp",
             "main video": "",
             "duration": "5",
             "route": [
                 {
                     "place": "Parque arqueológico de San Agustín",
                     "description": "Patrimonio cultural de la humanidad.",
-                    "img": ""
+                    "img": "./../../public/img/huila/san-agustin.webp"
                 },
                 {
                     "place": "Estrecho del Magdalena",
-                    "description": "EL punto más angosto del río grande de Colombia.",
-                    "img": ""
+                    "description": "El punto más angosto del río grande de Colombia.",
+                    "img": "./../../public/img/huila/estrecho-magdalena.webp"
                 },
                 {
                     "place": "Salto del Mortiño",
-                    "description": "Una cascada de enseuño.",
-                    "img": ""
+                    "description": "Una cascada de ensueño.",
+                    "img": "./../../public/img/huila/salto-mortiño.webp"
                 },
                 {
                     "place": "Altamira",
                     "description": "Capital bizcochera.",
-                    "img": ""
+                    "img": "./../../public/img/huila/altamira.webp"
                 },
                 {
                     "place": "Timaná",
                     "description": "Villa de la Gaitana.",
-                    "img": ""
+                    "img": "./../../public/img/huila/timana.webp"
                 },
                 {
                     "place": "La Jagua",
-                    "description": "EL pueblo de las brujas.",
-                    "img": ""
+                    "description": "El pueblo de las brujas.",
+                    "img": "./../../public/img/huila/jagua.webp"
                 }
             ],
             "price": "800",
             "plan": [
-                "familiar",
                 "parejas",
-                "solitario"
+                "solo"
             ]
         },
         {
             "id": "7",
             "tour": "Tour por la Guajira",
-            "landing img": "",
+            "landing img": "./../../public/img/guajira/guajira-landing.webp",
             "main video": "",
             "duration": "7",
             "route": [
                 {
                     "place": "Cabo de la Vela",
                     "description": "Paraíso colombiano.",
-                    "img": ""
+                    "img": "./../../public/img/guajira/cabo-vela-carrousel.webp"
                 },
                 {
                     "place": "Minas de Manaure",
                     "description": "Salinas marítimas más importantes de Colombia.",
-                    "img": ""
+                    "img": "./../../public/img/guajira/minas-manaure-carrousel.webp"
                 },
                 {
                     "place": "Uribia",
                     "description": "Capital indígena de Colombia.",
-                    "img": ""
+                    "img": "./../../public/img/guajira/uribia-carrousel.webp"
                 },
                 {
                     "place": "Ranchería Wayúu",
                     "description": "Sumérgete en el impresionante mundo Wayúu.",
-                    "img": ""
+                    "img": "./../../public/img/guajira/rancheria-wayu-carrousel.webp"
                 },
                 {
                     "place": "Riohacha",
-                    "description": "La Féniz del Caribe colombiano.",
-                    "img": ""
+                    "description": "La Fénix del Caribe colombiano.",
+                    "img": "./../../public/img/guajira/rioacha-carrousel.webp"
                 },
                 {
                     "place": "Parque de la Provincia",
                     "description": "Homenaje al Magdalena Grande.",
-                    "img": ""
+                    "img": "./../../public/img/guajira/parque-provincia-carrousel.webp"
                 },
                 {
                     "place": "Plaza Francisco El Hombre",
                     "description": "Escenario del festival mundial del vallenato.",
-                    "img": ""
+                    "img": "./../../public/img/guajira/francisco-hombre-carrousel.webp"
                 }
             ],
             "price": "980",
             "plan": [
-                "familiar",
-                "parejas",
-                "solitario"
+                "familiar"
             ]
         },
         {
             "id": "8",
             "tour": "Tour por los llanos orientales",
-            "landing img": "",
+            "landing img": "./../../public/img/llanos/landing-llanos.webp",
             "main video": "",
             "duration": "5",
             "route": [
                 {
                     "place": "Cañón del río Güejar",
                     "description": "Un lugar que invita a la aventura.",
-                    "img": ""
+                    "img": "./../../public/img/llanos/rio-guejar.webp"
                 },
                 {
                     "place": "Tiuma park",
                     "description": "Parque temático de aventura, cultura y naturaleza.",
-                    "img": ""
+                    "img": "./../../public/img/llanos/tiuma.webp"
                 },
                 {
                     "place": "Río Meta",
                     "description": "Icono de los llanos orientales.",
-                    "img": ""
+                    "img": "./../../public/img/llanos/rio-meta.webp"
                 },
                 {
                     "place": "Alto de Menegua",
                     "description": "Párate en el ombligo de Colombia.",
-                    "img": ""
+                    "img": "./../../public/img/llanos/menegua.webp"
                 },
                 {
                     "place": "Bioparque Los Ocarros",
                     "description": "Fauna silvestre de la Orinoquía Colombiana.",
-                    "img": ""
-                },
-                {
-                    "place": "Fábrica de quesos llaneros",
-                    "description": "Parque temático de aventura, cultura y naturaleza.",
-                    "img": ""
+                    "img": "./../../public/img/llanos/bioparque.webp"
                 },
                 {
                     "place": "Villavicencio",
                     "description": "La puerta del llano.",
-                    "img": ""
+                    "img": "./../../public/img/llanos/villavicencio.webp"
                 },
                 {
                     "place": "Acacías",
                     "description": "La perla llanera.",
-                    "img": ""
-                },
-                {
-                    "place": "Restrepo",
-                    "description": "Capital salinera.",
-                    "img": ""
-                },
-                {
-                    "place": "Cumaral",
-                    "description": "Ciudad cordial.",
-                    "img": ""
+                    "img": "./../../public/img/llanos/acacias.webp"
                 }
             ],
-            "price": "725",
+            "price": "625",
             "plan": [
                 "familiar",
                 "parejas",
-                "solitario"
+                "solo"
             ]
         },
         {
             "id": "9",
             "tour": "Tour por la hacienda Nápoles y Rio Claro",
-            "landing img": "",
+            "landing img": "./../../public/img/napoles/hacienda-napoles-landing.webp",
             "main video": "",
             "duration": "2",
             "route": [
                 {
                     "place": "Hacienda nápoles",
                     "description": "Descubre la verdadera aventura salvaje.",
-                    "img": ""
+                    "img": "./../../public/img/napoles/hacienda-carrousel.webp"
                 },
                 {
                     "place": "Río claro",
                     "description": "Patrimonio natural.",
-                    "img": ""
+                    "img": "./../../public/img/napoles/rio-claro-carrousel.webp"
                 }
             ],
             "price": "250",
             "plan": [
                 "familiar",
-                "parejas",
-                "solitario"
+                "solo"
             ]
         },
         {
             "id": "10",
             "tour": "Tour por San Andrés",
-            "landing img": "",
+            "landing img": "./../../public/img/sanAndres/landing-san-andres.webp",
             "main video": "",
             "duration": "5",
             "route": [
                 {
                     "place": "Johnny Cay",
                     "description": "Hermosas playas, palmas y gastronomía típica.",
-                    "img": ""
+                    "img": "./../../public/img/sanAndres/johnny-cay.webp"
                 },
                 {
                     "place": "Acuario y Hanness Cay",
                     "description": "Interacción con la fauna del Caribe.",
-                    "img": ""
+                    "img": "./../../public/img/sanAndres/acuario.webp"
                 },
                 {
                     "place": "Vuelta a la isla",
                     "description": "Visita sitios emblemáticos de San Andrés",
-                    "img": ""
+                    "img": "./../../public/img/sanAndres/vuelta.webp"
                 }
             ],
-            "price": "1000",
+            "price": "850",
             "plan": [
                 "familiar",
-                "parejas",
-                "solitario"
+                "parejas"
             ]
         },
         {
             "id": "11",
             "tour": "Tour por Santa Marta",
-            "landing img": "",
+            "landing img": "./../../public/img/santaMarta/santa-marta-landing-webp",
             "main video": "",
             "duration": "4",
             "route": [
                 {
                     "place": "Playas de Buritaca",
                     "description": "Un paraíso de río y mar.",
-                    "img": ""
+                    "img": "./../../public/img/santaMarta/buritaca-carrousel.webp"
                 },
                 {
                     "place": "Quebrada Valencia",
                     "description": "Un salto al descanso.",
-                    "img": ""
+                    "img": "./../../public/img/santaMarta/quebrada-valencia-carrousel.webp"
                 },
                 {
                     "place": "Playa Blanca",
@@ -543,136 +505,133 @@
                 {
                     "place": "El Rodadero",
                     "description": "Sol, mar y arena al mejor estilo caribeño.",
-                    "img": ""
+                    "img": "./../../public/img/santaMarta/rodadero-carrousel.webp"
                 }
             ],
             "price": "900",
             "plan": [
                 "familiar",
-                "parejas",
-                "solitario"
+                "parejas"
             ]
         },
         {
             "id": "12",
             "tour": "Tour por Santander",
-            "landing img": "",
+            "landing img": "./../../public/img/santander/landing-santander.webp",
             "main video": "",
             "duration": "5",
             "route": [
                 {
                     "place": "Parque Nacional del Chicamocha",
                     "description": "Paisaje, cultura y diversión.",
-                    "img": ""
+                    "img": "./../../public/img/santander/parque-chicamocha.webp"
                 },
                 {
                     "place": "Plazuela mesa de los Santos",
                     "description": "Dulces, artesanías y café.",
-                    "img": ""
+                    "img": "./../../public/img/santander/mesa-santos.webp"
                 },
                 {
                     "place": "Mirador salto del mico",
                     "description": "Hermosa panorámica del cañon del río Suárez.",
-                    "img": ""
+                    "img": "./../../public/img/santander/salto-mico.webp"
                 },
                 {
                     "place": "Parque natural el gallineral",
                     "description": "Bella isla.",
-                    "img": ""
+                    "img": "./../../public/img/santander/gallineral.webp"
                 },
                 {
                     "place": "Barichara",
                     "description": "Pueblo más lindo de Colombia.",
-                    "img": ""
+                    "img": "./../../public/img/santander/barichara.webp"
                 },
                 {
                     "place": "Floridablanca",
                     "description": "Capital dulce.",
-                    "img": ""
+                    "img": "./../../public/img/santander/floridablanca.webp"
                 },
                 {
                     "place": "Bucaramanga",
                     "description": "La ciudad bonita.",
-                    "img": ""
+                    "img": "./../../public/img/santander/bucaramanga.webp"
                 }
             ],
             "price": "700",
             "plan": [
-                "familiar",
                 "parejas",
-                "solitario"
+                "solo"
             ]
         },
         {
             "id": "13",
             "tour": "Tour por el sur de Colombia",
-            "landing img": "",
+            "landing img": "./../../public/img/surColombia/sur-colombia-landing.webp",
             "main video": "",
             "duration": "6",
             "route": [
                 {
                     "place": "Santiago de Cali",
                     "description": "La sucursal del cielo.",
-                    "img": ""
+                    "img": "./../../public/img/surColombia/santiago-cali-carrousel.webp"
                 },
                 {
                     "place": "Popayán",
                     "description": "La ciudad blanca",
-                    "img": ""
+                    "img": "./../../public/img/surColombia/popayan-carrousel.webp"
                 },
                 {
                     "place": "Nariño",
                     "description": "Te va a encantar, descúbrelo.",
-                    "img": ""
+                    "img": "./../../public/img/surColombia/nariño.webp"
                 },
                 {
                     "place": "Tulcán",
                     "description": "La centinela norteña de Ecuador",
-                    "img": ""
+                    "img": "./../../public/img/surColombia/tulcan-carrousel.webp"
                 }
             ],
-            "price": "550",
+            "price": "400",
             "plan": [
-                "familiar",
-                "parejas",
-                "solitario"
+                "familiar"
             ]
         },
         {
             "id": "14",
             "tour": "Tour por Tolú y Coveñas",
-            "landing img": "",
+            "landing img": "./../../public/img/tolu/tolu-landing.webp",
             "main video": "",
             "duration": "4",
             "route": [
                 {
                     "place": "Coveñas",
                     "description": "Aguas cálidas y tranquilas.",
-                    "img": ""
+                    "img": "./../../public/img/tolu/coveñas.webp"
                 },
                 {
                     "place": "Santiago de Tolú",
                     "description": "Artesanías y dulces.",
-                    "img": ""
+                    "img": "./../../public/img/tolu/santiago-de-tolu.webp"
                 },
                 {
                     "place": "Museo del calabazo",
                     "description": "Tienda artesanal.",
-                    "img": ""
+                    "img": "./../../public/img/tolu/museo-del-calabazo.webp"
                 },
                 {
                     "place": "Playa blanca en San Antero",
                     "description": "Paraiso Colombiano.",
-                    "img": ""
+                    "img": "./../../public/img/tolu/playa-blanca.webp"
                 }
             ],
             "price": "450",
             "plan": [
-                "familiar",
                 "parejas",
-                "solitario"
+                "solo"
             ]
         }
+    ],
+    "datos":[
     ],
     "admin":[
         {
@@ -681,3 +640,4 @@
         }
     ]
 }
+
