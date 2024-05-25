@@ -20,6 +20,27 @@ header{
     z-index: 5;
 }
 
+// traduccion
+.traduc{
+    cursor: pointer;
+}
+
+/* CSS para la barra de navegación */
+.navbar .nav-link {
+    color: #000;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .navbar .nav-icon {
+    width: 28px;
+    height: 29px;
+  }
+
+
 // style for toggle
 .toggle {
     position: relative;
