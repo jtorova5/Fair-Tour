@@ -30,8 +30,10 @@
     <!-- nav -->
     <nav class="navbar navbar-expand-lg bg-body-secondary bg-opacity-75 rounded-4 my-3 mx-3 p-2" id="navbar">
       <div class="container-fluid d-flex">
-        <a class="navbar-brand" href="#section__main">
-          <img src="./public/img/pruebaIcon.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">FAIR TOUR
+        <a class="navbar-brand" href="/">
+          <img src="./img/pruebaIcon.png" alt="Logo" width="30" height="24"
+            class="d-inline-block align-text-top">
+          FAIR TOUR
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -42,13 +44,13 @@
               <a class="nav-link active" aria-current="page" href="#tours">Tours</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#nosotros">Sobre nosotros</a>
+              <a class="nav-link" href="#about-us">Sobre nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#testimonios">Testimonios</a>
+              <a class="nav-link" href="#location">Encuentranos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Encuentranos</a>
+              <a class="nav-link" href="./src/pages/login.html">Administradores</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
@@ -60,7 +62,7 @@
             </li>
             <li>
               <div class="toggle">
-                <input type="checkbox" id="toggle-checkbox" />
+                <input type="checkbox" id="toggle-checkbox"/>
                 <label for="toggle-checkbox"></label>
               </div>
             </li>
@@ -74,8 +76,8 @@
   <main>
     <!-- section main img -->
     <section id="section__main">
-      <video src="./public/video/principal.mp4" autoplay muted loop id="background-video"></video>
-      <div class="container contenedor-como d-flex align-items-center justify-content-center">
+      <video src="./video/principal.mp4" autoplay muted loop id="background-video"></video>
+      <div class="container d-flex align-items-center justify-content-center">
         <div class="bg-white bg-opacity-50 border-white border p-3 rounded-4">
           <h3 class="text-light">FAIR TOUR</h3>
           <h1 class="fs-1 fw-bolder text-light">COMO DEBERIA SER</h1>
@@ -103,9 +105,8 @@
 
     </section>
 
-
     <!-- seccion sobre nosotros -->
-    <section class="d-flex flex-column align-items-center text-center blue-back py-5">
+    <section id="about-us" class="d-flex flex-column align-items-center text-center blue-back py-5">
       <h2 class="fw-bold text-white  titlesn">SOBRE <br> NOSOTROS</h2>
       <div class="gray-back">
         <!-- Primer caja: Texto - Imagen -->
@@ -117,10 +118,11 @@
                 Somos una empresa colombiana enfocada <br> en la <strong>seguridad</strong> y en la
                 <strong>tranquilidad</strong> <br> de todos nuestros clientes.<br>
                 garantizando asi una experiencia de viaje fantastico e inolvidable <br>
-                y asi que nuestro visitantes vivan <br> la verdadera experiencia de conocer colombia<br></p>
+                y asi que nuestro visitantes vivan <br> la verdadera experiencia de conocer colombia<br>
+              </p>
             </div>
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center p-0">
-              <img id="imgprs" src="/public/img/sobreNosotros/persona2.webp" alt="">
+              <img id="imgprs" src="./img/sobreNosotros/persona2.webp" alt="">
             </div>
           </div>
         </div>
@@ -128,7 +130,7 @@
         <div id="cj" class="row no-gutters">
           <div class="col-12 d-flex flex-column-reverse flex-md-row align-items-center">
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center p-0">
-              <img id="imgprs" src="/public/img/sobreNosotros/persona3.webp" alt="">
+              <img id="imgprs" src="./img/sobreNosotros/persona3.webp" alt="">
             </div>
             <div
               class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start text-start p-4 p-md-5">
@@ -148,7 +150,7 @@
     <!-- testimonials section -->
     <section class="contenedor mt-5 mb-5 d-flex flex-column align-items-center m-auto">
       <!-- testimonials title -->
-      <h1 class="title text-center w-50 text-wrap">TESTIMONIOS</h1>
+      <h2 class="title text-center w-50 text-wrap">TESTIMONIOS</h2>
       <article class="contenedor-testimonios d-flex px-5 justify-content-center flex-wrap my-5">
         <!-- testimonial #1 -->
         <div class="contenedor contenedor-testimonios__card bg-green">
@@ -183,40 +185,7 @@
             </div>
           </div>
         </div>
-
-        <!-- testimonial #2 -->
-        <div class="contenedor contenedor-testimonios__card bg-blue">
-          <div
-            class="contenedor contenedor-testimonios__card-overlay position-absolute w-100 h-100 d-flex flex-column justify-content-between bg-blue-transparent">
-            <p class="contenedor-testimonios_card-overlay_title fw-bolder">
-              "Una aventura segura y emocionante con esta agencia colombiana.
-              ¡Cinco estrellas! ⭐️"
-            </p>
-            <!-- user info -->
-            <div
-              class="contenedor-testimonios_card-overlay_avatar d-flex flex-row position-absolute align-items-center">
-              <img src="https://cdn-icons-png.flaticon.com/256/3135/3135823.png" alt="avatar"
-                class="contenedor-testimonios_card-overlay_avatar-img" />
-              <div class="contenedor-testimonios_card-overlay_avatar-text d-flex flex-column">
-                <p class="d-flex m-0 p-0 fw-bolder">Emily Jones</p>
-                <p class="d-flex m-0 p-0">Reino Unido</p>
-              </div>
-              <!-- stars system -->
-              <div class="rating">
-                <input type="radio" id="star5_2" name="rate2" value="5" />
-                <label for="star5_2" title="text"></label>
-                <input type="radio" id="star4_2" name="rate2" value="4" />
-                <label for="star4_2" title="text"></label>
-                <input type="radio" id="star3_2" name="rate2" value="3" />
-                <label for="star3_2" title="text"></label>
-                <input type="radio" id="star2_2" name="rate2" value="2" />
-                <label for="star2_2" title="text"></label>
-                <input checked="" type="radio" id="star1_2" name="rate2" value="1" />
-                <label for="star1_2" title="text"></label>
-              </div>
-            </div>
-          </div>
-        </div>
+        
         <!-- testimonial #2 -->
         <div class="contenedor contenedor-testimonios__card bg-blue">
           <div
@@ -288,7 +257,36 @@
       </article>
     </section>
 
+    <!-- Section Find us (Ubication-Map)-->
+    <section id="location">
+      <div class="d-flex justify-content-center ">
+        <h2 class="fs-1 fw-bolder mt-2 mb-4  ">ENCUÉNTRANOS</h2>
 
+      </div>
+      <div id="section-find-us" class="py-5">
+        <div class="container ">
+          <div id="find-us" class="d-flex row w-100  justify-content-between ">
+            <div class="col-md-6 mb-4">
+              <!-- Iframe CC.DeModa -->
+              <iframe id="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.335730058456!2d-75.5859495251968!3d6.2193830937686405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429e1dab04e05%3A0x5a77c25c8a5faf3a!2sDe%20Moda%20Outlet!5e0!3m2!1ses-419!2sco!4v1716409584541!5m2!1ses-419!2sco"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div id="ubication-text" class="col-md-5 d-flex align-items-center">
+              <div class="find-us-info p-5 bg-light border rounded">
+                <!-- Ubication -->
+                <p class="mb-2 text-center"><strong>CL 56 # 57 -
+                    9.</strong></p>
+                <p class="mb-0">C.C DEMODA, GUAYABAL</p>
+                <p class="mb-0">MEDELLIN, ANTIOQUIA, CO</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
     <!-- Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -325,10 +323,26 @@
         </div>
       </div>
     </div>
-
-
   </main>
-  <footer></footer>
+
+  <footer>
+    <div class="footer-nav d-flex m-5 justify-content-center">
+      <a href="#" class="text-decoration-none text-reset fs-6">Tours</a>
+      <a href="#about-us" class="text-decoration-none text-reset fs-6">Sobre nosotros</a>
+      <a href="#location" class="text-decoration-none text-reset fs-6">Encuéntranos</a>
+    </div>
+    <div class="d-flex justify-content-around">
+      <div class="text-center">
+        <p class="fs-5 fw-medium">Fair tour</p>
+        <p class="fs-5 fw-medium">Derechos reservados - © 2024 | Medellín, Colombia.</p>
+      </div>
+      <div class="d-flex gap-5">
+        <a href=""><img src="./img/redes/facebook.webp" alt="Facebook"></a>
+        <a href=""><img src="./img/redes/twitter.webp" alt="Twitter"></a>
+        <a href=""><img src="./img/redes/instagram.webp" alt="Instagram"></a>
+      </div>
+    </div>
+  </footer>
 
   <!-- linking JS -->
   <script type="module" src="./src/js/main.js"></script>

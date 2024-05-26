@@ -632,10 +632,12 @@
         }
     ],
     "datos":[
-
     ],
     "admin":[
-        
+        {
+            "usuario":"riwiAdmin",
+            "contraseña":"admin123"
+        }
     ]
 }
 
