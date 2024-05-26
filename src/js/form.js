@@ -1,3 +1,5 @@
+import {alertError, showSmallAlertSuccess} from './alerts.js'
+
 document.getElementById('contact-form').addEventListener('submit', async function(event) {
     event.preventDefault(); // Previene el comportamiento por defecto del formulario
 
@@ -28,13 +30,13 @@ document.getElementById('contact-form').addEventListener('submit', async functio
         });
 
         if (response.ok) {
-            alert('Datos y correo enviados exitosamente');
+            showSmallAlertSuccess('Datos enviados exitosamente');
             document.getElementById('contact-form').reset(); // Limpiar el formulario
         } else {
             throw new Error('Error al enviar los datos');
         }
     } catch (error) {
         console.error('Error:', error);
-        alert('Hubo un problema al enviar los datos');
+        alertError('Hubo un problema al enviar los datos');
     }
 });
