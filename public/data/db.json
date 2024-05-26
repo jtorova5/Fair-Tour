@@ -3,7 +3,7 @@
         {
             "id": "1",
             "tour": "Tour por Boyacá",
-            "landing img": "./../../public/img/boyaca-landing.webp",
+            "landing img": "./../../public/img/boyaca/boyaca-landing.webp",
             "main video": "",
             "duration": "6",
             "route": [
@@ -380,7 +380,7 @@
         {
             "id": "8",
             "tour": "Tour por los llanos orientales",
-            "landing img": "./../../public/img/llanos/landing-llanos.webp",
+            "landingImg": "./../../public/img/llanos/landing-llanos.webp",
             "main video": "",
             "duration": "5",
             "route": [

@@ -1,12 +1,14 @@
 @import url(./normalize.scss);
 @import "bootstrap/scss/bootstrap";
 
-
-:root {
-    --leters--white: rgb(255, 255, 255);
-    --ligh--gray: #DBDBDB;
-    --blue--principal: #126B9D;
-    --blue-second: #C3DAEE;
+:root{
+    --leters--white:rgb(255, 255, 255);
+    --ligh--gray:#DBDBDB;
+    --blue--principal:#126B9D;
+    --blue-second:#C3DAEE;
+    --blanco:#ffffff;
+    --opacity-img:rgba(54, 114, 128, 0.6);
+    --gray--second:#3a3a3a;
 }
 
 // header
@@ -15,6 +17,27 @@ header {
     position: fixed;
     z-index: 5;
 }
+
+// traduccion
+.traduc{
+    cursor: pointer;
+}
+
+/* CSS para la barra de navegación */
+.navbar .nav-link {
+    color: #000;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .navbar .nav-icon {
+    width: 28px;
+    height: 29px;
+  }
+
 
 // style for toggle
 .toggle {
@@ -79,6 +102,9 @@ header {
     border: 2px dashed #fff;
 }
 
+
+
+
 //section main-------------------------------
 #section__main {
     position: relative;
@@ -111,6 +137,105 @@ header {
     h1 {
         text-shadow: 7px 3px 4px var(--blue--principal);
     }
+}
+
+/* section tours -----------------------------------------------*/
+.div__title{
+    width: 50%;
+    border: 2px dashed var(--blue--principal);
+}
+
+/* buttons filter */
+
+.boton__circular {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    background-position: center;
+    cursor: pointer;
+    background-color: var(--blue-second);
+   transition: transform 400ms cubic-bezier(0.68, -0.55, 0.27, 2.5),
+}
+
+.boton__circular:hover{
+  transform: scale(110%);
+  filter: drop-shadow(0px 0px 10px var(--blue-second));
+}
+
+.circular-1{
+    background-image: url('../../public/img/filtros/solo.webp');
+    background-size: cover;
+}
+
+.circular-2{
+    background-image: url('../../public/img/filtros/pareja.webp');
+    background-size: cover;
+}
+
+.circular-3{
+    background-image: url('../../public/img/filtros/familiar.webp');
+    background-size: cover;
+}
+
+.imagen-contenedor {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; /* img cubre todo el container*/
+}
+
+.div-second{
+    width: 40%;
+}
+.div-three{
+    width: 60%;
+}
+
+.masonry {
+    display: grid;
+ /* esto hace que se contenga y organice la imagen por cada columna */
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.item {
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.item:nth-child(odd) {
+    grid-row: span 2;
+}
+
+/* hover img ------------------------------------------------*/
+#div__image{
+    cursor: pointer;
+    position:relative;
+}
+
+#divimage__hover{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    transition: all 500ms ease-out;
+    opacity: 0; 
+    background-color: var(--opacity-img); 
+    padding: 20px;
+    color: var(--blanco);
+    letter-spacing: 2px;
+
+    & h4,h3{
+        filter: drop-shadow(0 0 10px var(--gray--second));
+    }
+}
+
+#divimage__hover:hover{
+    opacity: 1;
 }
 
 // seccion encuentranos -----------------------------------------------------------------------------------
@@ -185,7 +310,6 @@ body.bg-dark .blue-back {
     margin: 0 auto;
     max-width: 100%;
     /* Ajuste para pantallas pequeñas */
-
 }
 
 .titlesn {
