@@ -3,8 +3,8 @@
         {
             "id": "1",
             "tour": "Tour por Boyacá",
-            "landing img": "./../../public/img/boyaca/boyaca-landing.webp",
-            "main video": "",
+            "landingImg": "./../../public/img/boyaca/boyaca-landing.webp",
+            "mainVideo": "",
             "duration": "6",
             "route": [
                 {
@@ -74,18 +74,15 @@
                 }
             ],
             "price": "500",
-            
             "plan": [
-                "familiar",
-                "parejas",
-                "solo"
+                "parejas"
             ]
         },
         {
             "id": "2",
             "tour": "Tour por Capurganá",
-            "landing img": "./../../public/img/capurgana/capurgana-landing.webp",
-            "main video": "",
+            "landingImg": "./../../public/img/capurgana/capurgana-landing.webp",
+            "mainVideo": "",
             "duration": "5",
             "route": [
                 {
@@ -106,15 +103,14 @@
             ],
             "price": "420",
             "plan": [
-                "parejas",
                 "solo"
             ]
         },
         {
             "id": "3",
             "tour": "Tour por Cartagena",
-            "landing img": "./../../public/img/cartagena/cartagena-landing.webp",
-            "main video": "",
+            "landingImg": "./../../public/img/cartagena/cartagena-landing.webp",
+            "mainVideo": "",
             "duration": "4",
             "route": [
                 {
@@ -152,20 +148,17 @@
                     "description": "Destino paradisiaco.",
                     "img": "./../../public/img/cartagena/isla-rosario-carrousel.webp"
                 }
-                
             ],
             "price": "900",
             "plan": [
-                "familiar",
-                "parejas",
-                "solo"
+                "familiar"
             ]
         },
         {
             "id": "4",
             "tour": "Tour por desierto de la Tatacoa",
-            "landing img": "./../../public/img/tatacoa/landing-tatacoa.webp",
-            "main video": "",
+            "landingImg": "./../../public/img/tatacoa/landing-tatacoa.webp",
+            "mainVideo": "",
             "duration": "3",
             "route": [
                 {
@@ -208,19 +201,17 @@
                     "description": "Cervecería artesanal más bella de Colombia.",
                     "img": "./../../public/img/tatacoa/cerveceria-planta.webp"
                 }
-        
             ],
             "price": "850",
             "plan": [
-                "parejas",
                 "solo"
             ]
         },
         {
             "id": "5",
             "tour": "Tour por el eje cafetero",
-            "landing img": "./../../public/img/cafetero/cafetero-landing.webp",
-            "main video": "",
+            "landingImg": "./../../public/img/cafetero/cafetero-landing.webp",
+            "mainVideo": "",
             "duration": "4",
             "route": [
                 {
@@ -281,15 +272,14 @@
             ],
             "price": "930",
             "plan": [
-                "familiar",
-                "parejas"
+                "familiar"
             ]
         },
         {
             "id": "6",
             "tour": "Tour por el Huila",
-            "landing img": "./../../public/img/huila/landing-huila.webp",
-            "main video": "",
+            "landingImg": "./../../public/img/huila/landing-huila.webp",
+            "mainVideo": "",
             "duration": "5",
             "route": [
                 {
@@ -325,15 +315,14 @@
             ],
             "price": "800",
             "plan": [
-                "parejas",
                 "solo"
             ]
         },
         {
             "id": "7",
             "tour": "Tour por la Guajira",
-            "landing img": "./../../public/img/guajira/guajira-landing.webp",
-            "main video": "",
+            "landingImg": "./../../public/img/guajira/guajira-landing.webp",
+            "mainVideo": "",
             "duration": "7",
             "route": [
                 {
@@ -381,7 +370,7 @@
             "id": "8",
             "tour": "Tour por los llanos orientales",
             "landingImg": "./../../public/img/llanos/landing-llanos.webp",
-            "main video": "",
+            "mainVideo": "",
             "duration": "5",
             "route": [
                 {
@@ -422,16 +411,14 @@
             ],
             "price": "625",
             "plan": [
-                "familiar",
-                "parejas",
-                "solo"
+                "parejas"
             ]
         },
         {
             "id": "9",
             "tour": "Tour por la hacienda Nápoles y Rio Claro",
-            "landing img": "./../../public/img/napoles/hacienda-napoles-landing.webp",
-            "main video": "",
+            "landingImg": "./../../public/img/napoles/hacienda-napoles-landing.webp",
+            "mainVideo": "",
             "duration": "2",
             "route": [
                 {
@@ -447,15 +434,14 @@
             ],
             "price": "250",
             "plan": [
-                "familiar",
-                "solo"
+                "familiar"
             ]
         },
         {
             "id": "10",
             "tour": "Tour por San Andrés",
-            "landing img": "./../../public/img/sanAndres/landing-san-andres.webp",
-            "main video": "",
+            "landingImg": "./../../public/img/sanAndres/landing-san-andres.webp",
+            "mainVideo": "",
             "duration": "5",
             "route": [
                 {
@@ -476,15 +462,14 @@
             ],
             "price": "850",
             "plan": [
-                "familiar",
                 "parejas"
             ]
         },
         {
             "id": "11",
             "tour": "Tour por Santa Marta",
-            "landing img": "./../../public/img/santaMarta/santa-marta-landing-webp",
-            "main video": "",
+            "landingImg": "./../../public/img/santaMarta/santa-marta-landing-webp",
+            "mainVideo": "",
             "duration": "4",
             "route": [
                 {
@@ -510,15 +495,14 @@
             ],
             "price": "900",
             "plan": [
-                "familiar",
-                "parejas"
+                "familiar"
             ]
         },
         {
             "id": "12",
             "tour": "Tour por Santander",
-            "landing img": "./../../public/img/santander/landing-santander.webp",
-            "main video": "",
+            "landingImg": "./../../public/img/santander/landing-santander.webp",
+            "mainVideo": "",
             "duration": "5",
             "route": [
                 {
@@ -559,15 +543,14 @@
             ],
             "price": "700",
             "plan": [
-                "parejas",
                 "solo"
             ]
         },
         {
             "id": "13",
             "tour": "Tour por el sur de Colombia",
-            "landing img": "./../../public/img/surColombia/sur-colombia-landing.webp",
-            "main video": "",
+            "landingImg": "./../../public/img/surColombia/sur-colombia-landing.webp",
+            "mainVideo": "",
             "duration": "6",
             "route": [
                 {
@@ -599,8 +582,8 @@
         {
             "id": "14",
             "tour": "Tour por Tolú y Coveñas",
-            "landing img": "./../../public/img/tolu/tolu-landing.webp",
-            "main video": "",
+            "landingImg": "./../../public/img/tolu/tolu-landing.webp",
+            "mainVideo": "",
             "duration": "4",
             "route": [
                 {
@@ -626,18 +609,15 @@
             ],
             "price": "450",
             "plan": [
-                "parejas",
                 "solo"
             ]
         }
     ],
-    "datos":[
-    ],
-    "admin":[
+    "datos": [],
+    "admin": [
         {
-            "usuario":"riwiAdmin",
-            "contraseña":"admin123"
+            "usuario": "riwiAdmin",
+            "contraseña": "admin123"
         }
     ]
 }
-

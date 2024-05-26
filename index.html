@@ -26,6 +26,42 @@
 </head>
 
 <body>
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="staticBackdropLabel">Pick a language</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('es')">
+                <img src="./img/imgTransla/colombia.webp" alt="colombia" class="w-50">
+                <h6>Spanish</h6>
+              </div>
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('en')">
+                <img src="./img/imgTransla/estados-unidos.webp" alt="estadoUnido" class="w-50">
+                <h6>English</h6>
+              </div>
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('fr')">
+                <img src="./img/imgTransla/francia.webp" alt="fracia" class="w-50">
+                <h6>French</h6>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Accept</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <header>
     <!-- nav -->
     <nav class="navbar navbar-expand-lg bg-body-secondary bg-opacity-75 rounded-4 my-3 mx-3 p-2" id="navbar">
@@ -41,24 +77,21 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="nav justify-content-end gap-1 navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#tours">Tours</a>
+              <a class="nav-link active" aria-current="page" href="#tours" data-i18n="anchor1">Tours</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about-us">Sobre nosotros</a>
+              <a class="nav-link" href="#about-us" data-i18n="anchor2">Sobre nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#location">Encuentranos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./src/pages/login.html">Administradores</a>
+              <a class="nav-link" href="#location" data-i18n="anchor3">Encuéntranos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <img src="./public/img/administrador.png" alt="configuracion" class="nav-icon">
+                <img src="./img/administrador.png" alt="configuracion" class="nav-icon">
               </a>
             </li>
             <li class="nav-item d-flex align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-              <img src="./public/img/traducir.png" alt="traduccion" class="nav-icon">
+              <img src="./img/traducir.png" alt="traduccion" class="nav-icon">
             </li>
             <li>
               <div class="toggle">
@@ -72,7 +105,6 @@
     </nav>
   </header>
 
-
   <main>
     <!-- section main img -->
     <section id="section__main">
@@ -80,7 +112,7 @@
       <div class="container d-flex align-items-center justify-content-center">
         <div class="bg-white bg-opacity-50 border-white border p-3 rounded-4">
           <h3 class="text-light">FAIR TOUR</h3>
-          <h1 class="fs-1 fw-bolder text-light">COMO DEBERIA SER</h1>
+          <h1 class="fs-1 fw-bolder text-light" data-i18n="title">COMO DEBERIA SER</h1>
         </div>
       </div>
     </section>
@@ -89,7 +121,7 @@
     <section class="container my-5 text-center d-flex justify-content-center align-items-center flex-wrap" id="tours">
       <!-- filters -->
       <div class="div__title p-2 rounded-4">
-        <h2>NUESTROS TOURS</h2>
+        <h2 data-i18n="subtitle1">NUESTROS TOURS</h2>
       </div>
 
       <div class="w-100 my-4 d-flex gap-5 justify-content-center">
@@ -107,14 +139,14 @@
 
     <!-- seccion sobre nosotros -->
     <section id="about-us" class="d-flex flex-column align-items-center text-center blue-back py-5">
-      <h2 class="fw-bold text-white  titlesn">SOBRE <br> NOSOTROS</h2>
+      <h2 class="fw-bold text-white  titlesn" data-i18n="subtitle2">SOBRE <br> NOSOTROS</h2>
       <div class="gray-back">
         <!-- Primer caja: Texto - Imagen -->
         <div class="row no-gutters mb-4">
           <div class="col-12 d-flex flex-column-reverse flex-md-row align-items-center">
             <div
               class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start text-start p-4 p-md-5">
-              <p><br>
+              <p data-i18n="paragraph1"><br>
                 Somos una empresa colombiana enfocada <br> en la <strong>seguridad</strong> y en la
                 <strong>tranquilidad</strong> <br> de todos nuestros clientes.<br>
                 garantizando asi una experiencia de viaje fantastico e inolvidable <br>
@@ -134,7 +166,7 @@
             </div>
             <div
               class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start text-start p-4 p-md-5">
-              <p>Nuestra principal motivacion es basada <br> en los posibles peligros
+              <p data-i18n="paragraph2">Nuestra principal motivacion es basada <br> en los posibles peligros
                 a los que pueden estar expuesto nuestros visitantes.<br>
                 ya sea que peligre su economia o su misma salud.<br>
                 por eso nuestra prioridad <br> es guiarlos por una experiencia <br>
@@ -150,15 +182,15 @@
     <!-- testimonials section -->
     <section class="contenedor mt-5 mb-5 d-flex flex-column align-items-center m-auto">
       <!-- testimonials title -->
-      <h2 class="title text-center w-50 text-wrap">TESTIMONIOS</h2>
+      <h2 class="title text-center w-50 text-wrap" data-i18n="subtitle3">TESTIMONIOS</h2>
       <article class="contenedor-testimonios d-flex px-5 justify-content-center flex-wrap my-5">
         <!-- testimonial #1 -->
         <div class="contenedor contenedor-testimonios__card bg-green">
           <div
             class="contenedor contenedor-testimonios__card-overlay position-absolute w-100 h-100 d-flex flex-column justify-content-between bg-green-transparent">
-            <p class="contenedor-testimonios_card-overlay_title fw-bolder">
+            <p class="contenedor-testimonios_card-overlay_title fw-bolder" data-i18n="testimonial1">
               "¡Increíble experiencia con fair tour! Desde la reserva hasta
-              las actividades planificadas, todo fue impecable!."
+              las actividades planificadas, todo fue impecable."
             </p>
             <!-- user info -->
             <div
@@ -167,7 +199,7 @@
                 class="contenedor-testimonios_card-overlay_avatar-img" />
               <div class="contenedor-testimonios_card-overlay_avatar-text d-flex flex-column">
                 <p class="d-flex m-0 p-0 fw-bolder">John Smith</p>
-                <p class="d-flex m-0 p-0">Estados Unidos</p>
+                <p class="d-flex m-0 p-0" data-i18n="nationality1">Estados Unidos</p>
               </div>
               <!-- stars system -->
               <div class="rating">
@@ -190,7 +222,7 @@
         <div class="contenedor contenedor-testimonios__card bg-blue">
           <div
             class="contenedor contenedor-testimonios__card-overlay position-absolute w-100 h-100 d-flex flex-column justify-content-between bg-blue-transparent">
-            <p class="contenedor-testimonios_card-overlay_title fw-bolder">
+            <p class="contenedor-testimonios_card-overlay_title fw-bolder" data-i18n="testimonial2">
               "Una aventura segura y emocionante con esta agencia colombiana.
               ¡Cinco estrellas! ⭐️"
             </p>
@@ -201,7 +233,7 @@
                 class="contenedor-testimonios_card-overlay_avatar-img" />
               <div class="contenedor-testimonios_card-overlay_avatar-text d-flex flex-column">
                 <p class="d-flex m-0 p-0 fw-bolder">Emily Jones</p>
-                <p class="d-flex m-0 p-0">Reino Unido</p>
+                <p class="d-flex m-0 p-0" data-i18n="nationality2">Reino Unido</p>
               </div>
               <!-- stars system -->
               <div class="rating">
@@ -224,7 +256,7 @@
         <div class="contenedor contenedor-testimonios__card bg-blue">
           <div
             class="contenedor contenedor-testimonios__card-overlay position-absolute w-100 h-100 d-flex flex-column justify-content-between bg-blue-transparent">
-            <p class="contenedor-testimonios_card-overlay_title fw-bolder">
+            <p class="contenedor-testimonios_card-overlay_title fw-bolder" data-i18n="testimonial3">
               "Descubrí Colombia de manera segura y divertida gracias a esta
               agencia. ¡Altamente recomendada!"
             </p>
@@ -235,7 +267,7 @@
                 class="contenedor-testimonios_card-overlay_avatar-img" />
               <div class="contenedor-testimonios_card-overlay_avatar-text d-flex flex-column">
                 <p class="d-flex m-0 p-0 fw-bolder">Jack Wilson</p>
-                <p class="d-flex m-0 p-0">Australia</p>
+                <p class="d-flex m-0 p-0" data-i18n="nationality3">Australia</p>
               </div>
 
               <!-- stars system -->
@@ -260,7 +292,7 @@
     <!-- Section Find us (Ubication-Map)-->
     <section id="location">
       <div class="d-flex justify-content-center ">
-        <h2 class="fs-1 fw-bolder mt-2 mb-4  ">ENCUÉNTRANOS</h2>
+        <h2 class="fs-1 fw-bolder mt-2 mb-4" data-i18n="subtitle4">ENCUÉNTRANOS</h2>
 
       </div>
       <div id="section-find-us" class="py-5">
@@ -287,54 +319,18 @@
       </div>
     </section>
     
-    <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="staticBackdropLabel">Elige un idioma</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-
-            <div class="container text-center">
-              <div class="row align-items-center">
-                <div class="col border rounded-2 border-primary p-2 m-2" onclick="">
-                  <img src="./public/img/imgTransla/colombia.webp" alt="colombia" class="w-50">
-                  <h6>Spanish</h6>
-                </div>
-                <div class="col border rounded-2 border-primary p-2 m-2" onclick="">
-                  <img src="./public/img/imgTransla/estados-unidos.webp" alt="estadoUnido" class="w-50">
-                  <h6>English</h6>
-                </div>
-                <div class="col border rounded-2 border-primary p-2 m-2" onclick="">
-                  <img src="./public/img/imgTransla/francia.webp" alt="fracia" class="w-50">
-                  <h6>French</h6>
-                </div>
-              </div>
-            </div>
-
-
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            <button type="button" class="btn btn-primary">Cambiar</button>
-          </div>
-        </div>
-      </div>
-    </div>
   </main>
 
   <footer id="footer">
     <div class="footer-nav d-flex p-5 justify-content-center">
-      <a href="#" class="text-decoration-none text-reset fs-6">Tours</a>
-      <a href="#about-us" class="text-decoration-none text-reset fs-6">Sobre nosotros</a>
-      <a href="#location" class="text-decoration-none text-reset fs-6">Encuéntranos</a>
+      <a href="#" class="text-decoration-none text-reset fs-6" data-i18n="anchor4">Tours</a>
+      <a href="#about-us" class="text-decoration-none text-reset fs-6" data-i18n="anchor5">Sobre nosotros</a>
+      <a href="#location" class="text-decoration-none text-reset fs-6" data-i18n="anchor6">Encuéntranos</a>
     </div>
     <div class="d-flex justify-content-around">
       <div class="text-center">
         <p class="fs-5 fw-medium">Fair tour</p>
-        <p class="fs-5 fw-medium">Derechos reservados - © 2024 | Medellín, Colombia.</p>
+        <p class="fs-5 fw-medium" data-i18n="paragraph3">Derechos reservados - © 2024 | Medellín, Colombia.</p>
       </div>
       <div class="d-flex gap-5">
         <a href="" target="_blank"><img src="./img/redes/facebook.webp" alt="Facebook"></a>
