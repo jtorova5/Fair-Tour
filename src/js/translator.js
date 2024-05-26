@@ -1,5 +1,6 @@
-import i18next from 'i18next'
-import Backend from 'i18next-http-backend'
+
+import i18next from 'i18next';
+import Backend from 'i18next-http-backend';
 
 let language
 
@@ -13,7 +14,7 @@ i18next.use(Backend).init({
     lng: language,
     debug: true,
     backend: {
-        loadPath: '/locales/{{lng}}/{{ns}}.json'
+        loadPath: './locales/{{lng}}/{{ns}}.json'
     },
     ns: ['translation'],
     defaultNS: 'translation'
@@ -29,6 +30,7 @@ function updateContent() {
 }
 
 window.changeLanguage = function (lng) {
+    console.log("entrando");
 
     i18next.changeLanguage(lng).then(() => updateContent())
     localStorage.setItem('language', lng)

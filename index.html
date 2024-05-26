@@ -36,8 +36,8 @@
         </div>
         <div class="modal-body">
 
-          <div class="container text-center">
-            <div class="row align-items-center">
+          <div class="text-center p-2 mx-2">
+            <div class="row align-items-start">
               <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('es')">
                 <img src="./img/imgTransla/colombia.webp" alt="colombia" class="w-50">
                 <h6>Spanish</h6>
@@ -51,8 +51,53 @@
                 <h6>French</h6>
               </div>
             </div>
-          </div>
 
+            <div class="row align-items-start">
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('de')">
+                <img src="./img/imgTransla/alemania.webp" alt="Germania" class="w-50">
+                <h6>Germany</h6>
+              </div>
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('pt')">
+                <img src="./img/imgTransla/brasil.webp" alt="brasil" class="w-50">
+                <h6>Brazil</h6>
+              </div>
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('zh')">
+                <img src="./img/imgTransla/china.webp" alt="China" class="w-50">
+                <h6>China</h6>
+              </div>
+            </div>
+
+            <div class="row align-items-start">
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('ko')">
+                <img src="./img/imgTransla/corea-del-sur.webp" alt="corea del sur" class="w-50">
+                <h6>South Korea</h6>
+              </div>
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('hi')">
+                <img src="./img/imgTransla/hindi.webp" alt="hindi" class="w-50">
+                <h6>Hindi</h6>
+              </div>
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('ar')">
+                <img src="./img/imgTransla/emiratos-arabe.webp" alt="Arabe" class="w-50">
+                <h6>Arab</h6>
+              </div>
+            </div>
+
+            <div class="row align-items-start">
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('it')">
+                <img src="./img/imgTransla/italia.webp" alt="Italy" class="w-50">
+                <h6>Italy</h6>
+              </div>
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('ja')">
+                <img src="./img/imgTransla/japon.webp" alt="Japan" class="w-50">
+                <h6>Japan</h6>
+              </div>
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('ru')">
+                <img src="./img/imgTransla/rusia.webp" alt="Russia" class="w-50">
+                <h6>Russia</h6>
+              </div>
+            </div>
+
+          </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -138,7 +183,7 @@
     </section>
 
     <!-- seccion sobre nosotros -->
-    <section id="about-us" class="d-flex flex-column align-items-center text-center blue-back py-5">
+    <section id="about-us" class="d-flex flex-column align-items-center text-center blue-back py-5" id="sobreNosotros">
       <h2 class="fw-bold text-white  titlesn" data-i18n="subtitle2">SOBRE <br> NOSOTROS</h2>
       <div class="gray-back">
         <!-- Primer caja: Texto - Imagen -->
@@ -342,6 +387,8 @@
 
   <!-- linking JS -->
   <script type="module" src="./src/js/main.js"></script>
+  <!-- translator -->
+  <script type="module" src="./src/js/translator.js"></script>
 </body>
 
 </html>
