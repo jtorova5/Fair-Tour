@@ -2,6 +2,7 @@
 import '../scss/styles.scss'
 import * as bootstrap from 'bootstrap'
 
+
 /* import urls */
 import { URL } from "./api/URLS.js";
 
@@ -62,8 +63,6 @@ function filterFamily(datosGeneral) {
 }
 
 
-
-
 /* paint tours -----------------------------*/
 function paintTours(datos) {
     bodyCard.innerHTML = "";
@@ -92,6 +91,8 @@ function paintTours(datos) {
 function seeMore(objeto) {
     console.log("Oprimiste");
     console.log("Datos recibidos:", objeto);
+    
+    window.location.href = `http://localhost:5173/src/pages/tours.html`;
 
 }
 
