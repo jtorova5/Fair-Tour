@@ -5,7 +5,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: 'index.html',
-        tours: '/src/pages/tours.html',
+        tours: './src/pages/tours.html',
+        form:'./src/pages/form.html'
         // Agrega más páginas según sea necesario
       },
     },

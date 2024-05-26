@@ -20,7 +20,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 function paintInfoTour(datosRecibidos) {
     divVideo.innerHTML = ""
-    console.log("viene");
     //se llena el html con los datos conocidos del objeto que llega
     divVideo.innerHTML += `
         <div class="col-sm-6 col-md-7 rounded-4 div__video">
@@ -50,8 +49,6 @@ function paintInfoTour(datosRecibidos) {
     `;
           
 }
-
-
 
 // mode dark------------------------------------------------------------
 document.getElementById("toggle-checkbox").addEventListener("change", function () {
