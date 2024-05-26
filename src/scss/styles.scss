@@ -27,6 +27,9 @@ header {
 .col{
     cursor: pointer;
 }
+.col:hover{
+    background-color: var(--blue-second);
+}
 
 /* CSS para la barra de navegación */
 .navbar .nav-link {
@@ -145,10 +148,6 @@ header {
 }
 
 /* section tours -----------------------------------------------*/
-.div__title{
-    width: 50%;
-    border: 2px dashed var(--blue--principal);
-}
 
 /* buttons filter */
 
@@ -251,7 +250,7 @@ h2 {
     text-align: center;
     border: dashed 2px #126b92;
     border-radius: 10px;
-    width: 50%;
+    width: 100%;
 }
 
 #section-find-us {

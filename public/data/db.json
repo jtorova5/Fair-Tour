@@ -4,7 +4,7 @@
             "id": "1",
             "tour": "Tour por Boyacá",
             "landingImg": "./../../public/img/boyaca/boyaca-landing.webp",
-            "mainVideo": "",
+            "mainVideo": "./../../public/video/boyaca/boyacaMain.mp4",
             "duration": "6",
             "route": [
                 {
@@ -82,7 +82,7 @@
             "id": "2",
             "tour": "Tour por Capurganá",
             "landingImg": "./../../public/img/capurgana/capurgana-landing.webp",
-            "mainVideo": "",
+            "mainVideo": "./../../public/video/capurgana/capurganaMain.mp4",
             "duration": "5",
             "route": [
                 {
