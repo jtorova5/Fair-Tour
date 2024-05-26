@@ -324,16 +324,18 @@ footer {
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(153, 191, 214, 1) 60%, rgba(63, 135, 177, 1) 100%, rgba(18, 107, 157, 1) 100%);
 }
 
+#footer a:hover {
+    cursor: pointer;
+}
+
+footer.bg-dark {
+    background: linear-gradient(-20deg, rgb(0, 0, 0), rgba(79, 153, 244, 0.608), rgb(0, 0, 0));
+    color: #9cc1eb;
+}
+
 .footer-nav {
     gap: 18rem;
 }
-
-// footer a {
-    
-// }
-
-
-
 
 //ESTILOS PARA EL LOGIN -----------------------------------------------------------------------------------------------
 
@@ -416,7 +418,6 @@ footer {
         width: 100%;
     }
 }
-
 
 @media (max-width: 767px) {
 

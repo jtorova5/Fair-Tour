@@ -10,5 +10,7 @@ document.getElementById("toggle-checkbox").addEventListener("change", function (
     navbar.classList.toggle("bg-dark")
     // color change to the body
     document.body.classList.toggle("bg-dark")
+    let footer = document.getElementById("footer")
+    footer.classList.toggle("bg-dark")
 })
 
