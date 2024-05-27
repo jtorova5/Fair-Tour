@@ -26,86 +26,6 @@
 </head>
 
 <body>
-  <!-- Modal -->
-  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h2 class="modal-title fs-5" id="staticBackdropLabel">Pick a language</h2>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-
-          <div class="text-center p-2 mx-2">
-            <div class="row align-items-start">
-              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('es')">
-                <img src="./img/imgTransla/colombia.webp" alt="colombia" class="w-50">
-                <h6>Spanish</h6>
-              </div>
-              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('en')">
-                <img src="./img/imgTransla/estados-unidos.webp" alt="estadoUnido" class="w-50">
-                <h6>English</h6>
-              </div>
-              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('fr')">
-                <img src="./img/imgTransla/francia.webp" alt="fracia" class="w-50">
-                <h6>French</h6>
-              </div>
-            </div>
-
-            <div class="row align-items-start">
-              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('de')">
-                <img src="./img/imgTransla/alemania.webp" alt="Germania" class="w-50">
-                <h6>Aleman</h6>
-              </div>
-              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('pt')">
-                <img src="./img/imgTransla/brasil.webp" alt="brasil" class="w-50">
-                <h6>portugues</h6>
-              </div>
-              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('zh')">
-                <img src="./img/imgTransla/china.webp" alt="China" class="w-50">
-                <h6>Chinese</h6>
-              </div>
-            </div>
-
-            <div class="row align-items-start">
-              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('ko')">
-                <img src="./img/imgTransla/corea-del-sur.webp" alt="corea del sur" class="w-50">
-                <h6>Korean</h6>
-              </div>
-              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('hi')">
-                <img src="./img/imgTransla/hindi.webp" alt="hindi" class="w-50">
-                <h6>Hindi</h6>
-              </div>
-              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('ar')">
-                <img src="./img/imgTransla/emiratos-arabe.webp" alt="Arabe" class="w-50">
-                <h6>Arab</h6>
-              </div>
-            </div>
-
-            <div class="row align-items-start">
-              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('it')">
-                <img src="./img/imgTransla/italia.webp" alt="Italy" class="w-50">
-                <h6>Italy</h6>
-              </div>
-              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('ja')">
-                <img src="./img/imgTransla/japon.webp" alt="Japan" class="w-50">
-                <h6>Japan</h6>
-              </div>
-              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('ru')">
-                <img src="./img/imgTransla/rusia.webp" alt="Russia" class="w-50">
-                <h6>Russia</h6>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <header>
     <!-- nav -->
     <nav class="navbar navbar-expand-lg bg-body-secondary bg-opacity-75 rounded-4 my-3 mx-3 p-2" id="navbar">
@@ -153,7 +73,7 @@
     <!-- section main img -->
     <section id="section__main">
       <video src="./video/principal.mp4" autoplay muted loop id="background-video"></video>
-      <div class="container d-flex align-items-center justify-content-center">
+      <div class="container container__video d-flex align-items-center justify-content-center">
         <div class="bg-white bg-opacity-50 border-white border p-3 rounded-4">
           <h3 class="text-light">FAIR TOUR</h3>
           <h1 class="fs-1 fw-bolder text-light" data-i18n="title">COMO DEBERIA SER</h1>
@@ -362,6 +282,86 @@
         </div>
       </div>
     </section>
+
+     <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="staticBackdropLabel">Pick a language</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <div class="text-center p-2 mx-2">
+            <div class="row align-items-start">
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('es')">
+                <img src="./img/imgTransla/colombia.webp" alt="colombia" class="w-50">
+                <h6>Spanish</h6>
+              </div>
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('en')">
+                <img src="./img/imgTransla/estados-unidos.webp" alt="estadoUnido" class="w-50">
+                <h6>English</h6>
+              </div>
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('fr')">
+                <img src="./img/imgTransla/francia.webp" alt="fracia" class="w-50">
+                <h6>French</h6>
+              </div>
+            </div>
+
+            <div class="row align-items-start">
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('de')">
+                <img src="./img/imgTransla/alemania.webp" alt="Germania" class="w-50">
+                <h6>Aleman</h6>
+              </div>
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('pt')">
+                <img src="./img/imgTransla/brasil.webp" alt="brasil" class="w-50">
+                <h6>portugues</h6>
+              </div>
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('zh')">
+                <img src="./img/imgTransla/china.webp" alt="China" class="w-50">
+                <h6>Chinese</h6>
+              </div>
+            </div>
+
+            <div class="row align-items-start">
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('ko')">
+                <img src="./img/imgTransla/corea-del-sur.webp" alt="corea del sur" class="w-50">
+                <h6>Korean</h6>
+              </div>
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('hi')">
+                <img src="./img/imgTransla/hindi.webp" alt="hindi" class="w-50">
+                <h6>Hindi</h6>
+              </div>
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('ar')">
+                <img src="./img/imgTransla/emiratos-arabe.webp" alt="Arabe" class="w-50">
+                <h6>Arab</h6>
+              </div>
+            </div>
+
+            <div class="row align-items-start">
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('it')">
+                <img src="./img/imgTransla/italia.webp" alt="Italy" class="w-50">
+                <h6>Italy</h6>
+              </div>
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('ja')">
+                <img src="./img/imgTransla/japon.webp" alt="Japan" class="w-50">
+                <h6>Japan</h6>
+              </div>
+              <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('ru')">
+                <img src="./img/imgTransla/rusia.webp" alt="Russia" class="w-50">
+                <h6>Russia</h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
     
   </main>
 
