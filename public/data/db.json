@@ -611,13 +611,13 @@
             "plan": [
                 "solo"
             ]
-        },
-  "datos": [],
-  "admin": [
-    {
-      "usuario": "riwiAdmin",
-      "contraseña": "admin123",
-      "id": "fc44"
-    }
-  ]
+        }
+    ],
+    "datos": [],
+    "admin": [
+        {
+            "usuario": "riwiAdmin",
+            "contraseña": "admin123"
+        }
+    ]
 }
