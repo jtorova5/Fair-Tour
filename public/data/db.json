@@ -210,7 +210,7 @@
         {
             "id": "5",
             "tour": "Tour por el eje cafetero",
-            "landingImg": "./../../public/img/cafetero/cafetero-landing.webp",
+            "landingImg": "./../../public/img/cafetero/cafereto-landing.webp",
             "mainVideo": "",
             "duration": "4",
             "route": [
@@ -468,7 +468,7 @@
         {
             "id": "11",
             "tour": "Tour por Santa Marta",
-            "landingImg": "./../../public/img/santaMarta/santa-marta-landing-webp",
+            "landingImg": "./../../public/img/santaMarta/santa-marta-landing.webp",
             "mainVideo": "",
             "duration": "4",
             "route": [

@@ -47,7 +47,7 @@ botonCouple.addEventListener('click',()=>{
 
 /* search for couple  tour*/
 function filterCouple(datosGeneral) {
-    let planCouple = datosGeneral.filter((e)=> e.plan == "pareja")
+    let planCouple = datosGeneral.filter((e)=> e.plan == "parejas")
     paintTours(planCouple)
 }
 

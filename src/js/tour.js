@@ -1,7 +1,5 @@
 import '../scss/styles.scss'
 
-
-
 // mode dark------------------------------------------------------------
 document.getElementById("toggle-checkbox").addEventListener("change", function () {
     // let toggle = document.getElementById("toggle-checkbox")
