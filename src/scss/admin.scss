@@ -2,4 +2,8 @@
 
 #more,#delete{
     cursor: pointer;
+
+    & img{
+        width: 25px;
+    }
 }

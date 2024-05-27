@@ -613,16 +613,7 @@
       ]
     }
   ],
-  "datos": [
-    {
-      "id": "2a6c",
-      "nombre": "pruebaLuisa",
-      "apellido": "Nose",
-      "email": "prueba1@gmail.com",
-      "telefono": "321234322",
-      "intereses": "me gustaria ir a brasil."
-    }
-  ],
+  "datos": [],
   "admin": [
     {
       "usuario": "riwiAdmin",

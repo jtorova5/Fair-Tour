@@ -1,3 +1,5 @@
+import { succesAlert ,confirSucces,alertError} from "./alerts";
+
 import { URLDATOS } from "./api/URLS";
 
 /* data that comes from the document */
@@ -22,27 +24,48 @@ function paintData(data) {
         <td>${data[i].telefono}</td>
         <td>${data[i].intereses}</td>
         <td id="more" data-id="${data[i].id}" class="text-center">
-          <img src="./../../public/img/more.webp" alt="more" class="w-25">
+          <img src="./../../public/img/more.webp" alt="more">
         </td>
-        <td id="delete" data-id="${data[i].id}" class="text-center  delete-btn">
-        <img src="./../../public/img/delete.webp" alt="eliminar" class="w-25"></td>
+        <td id="delete" data-id="${data[i].id}" class="text-center delete-btn">
+        <img src="./../../public/img/delete.webp" alt="eliminar"></td>
       </tr>`;
-  }
+    }
   
+  // Agregar evento de click al botón de eliminar
+  const deleteButtons = document.querySelectorAll('.delete-btn');
+  deleteButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      let id = this.getAttribute('data-id'); // Obtener el Id del elemento
+      console.log("Se hizo clic en el botón de eliminar para el ID:", id);
+      searchDelete(id)
+      });
+  });
 }
 
 findDataUser(URLDATOS)
 
-// Agregar evento de click al botón de eliminar
-const deleteButtons = document.querySelectorAll('.delete-btn');
-deleteButtons.forEach(button => {
-  console.log("viene");
-  button.addEventListener('click', function() {
-    let id = this.getAttribute('data-id'); // Obtener el ID del elemento
-    console.log("Se hizo clic en el botón de eliminar para el ID:", id);
-    });
-});
+async function searchDelete(id) {
+  console.log(id);
+  try{
+    let response = await fetch (`${URLDATOS}/${id}`,{
+      method: 'DELETE',
+      headers:{
+        'Content-Type': 'application/json'
+      }
+    })
+    if(!response.ok){
+      throw new Error('Error al eliminar el registro');
+    }
 
+    //confirSucces('Registro eliminado correctamente')
+    succesAlert('Registro eliminado correctamente')
+    findDataUser(URLDATOS)
+
+  }catch(error){
+    alertError('El registro no se ha eliminado')
+  }
+  
+}
 
 
 
