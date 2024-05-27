@@ -111,3 +111,8 @@ document.getElementById("toggle-checkbox").addEventListener("change", function (
     footer.classList.toggle("bg-dark")
 })
 
+
+ // JavaScript para ocultar el preloader cuando la página esté completamente cargada
+ window.addEventListener('load', function() {
+    document.body.classList.add('loaded');
+});

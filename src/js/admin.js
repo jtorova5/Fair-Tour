@@ -1,5 +1,4 @@
 import { succesAlert ,confirSucces,alertError} from "./alerts";
-
 import { URLDATOS } from "./api/URLS";
 
 /* data that comes from the document */
@@ -111,4 +110,9 @@ document.getElementById("toggle-checkbox").addEventListener("change", function (
   let footer = document.getElementById("footer")
   footer.classList.toggle("bg-dark")
 })
+
+ // JavaScript para ocultar el preloader cuando la página esté completamente cargada
+ window.addEventListener('load', function() {
+  document.body.classList.add('loaded');
+});
 
