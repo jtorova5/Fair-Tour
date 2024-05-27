@@ -38,14 +38,17 @@
 
           <div class="text-center p-2 mx-2">
             <div class="row align-items-start">
+
               <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('es')">
                 <img src="./img/imgTransla/colombia.webp" alt="colombia" class="w-50">
                 <h6>Spanish</h6>
               </div>
+
               <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('en')">
                 <img src="./img/imgTransla/estados-unidos.webp" alt="estadoUnido" class="w-50">
                 <h6>English</h6>
               </div>
+
               <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('fr')">
                 <img src="./img/imgTransla/francia.webp" alt="fracia" class="w-50">
                 <h6>French</h6>
@@ -55,12 +58,14 @@
             <div class="row align-items-start">
               <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('de')">
                 <img src="./img/imgTransla/alemania.webp" alt="Germania" class="w-50">
-                <h6>Aleman</h6>
+                <h6>German</h6>
               </div>
+
               <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('pt')">
                 <img src="./img/imgTransla/brasil.webp" alt="brasil" class="w-50">
-                <h6>portugues</h6>
+                <h6>Portuguese</h6>
               </div>
+
               <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('zh')">
                 <img src="./img/imgTransla/china.webp" alt="China" class="w-50">
                 <h6>Chinese</h6>
@@ -72,31 +77,34 @@
                 <img src="./img/imgTransla/corea-del-sur.webp" alt="corea del sur" class="w-50">
                 <h6>Korean</h6>
               </div>
+              
               <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('hi')">
                 <img src="./img/imgTransla/hindi.webp" alt="hindi" class="w-50">
                 <h6>Hindi</h6>
               </div>
+
               <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('ar')">
                 <img src="./img/imgTransla/emiratos-arabe.webp" alt="Arabe" class="w-50">
-                <h6>Arab</h6>
+                <h6>Arabic</h6>
               </div>
             </div>
 
             <div class="row align-items-start">
               <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('it')">
                 <img src="./img/imgTransla/italia.webp" alt="Italy" class="w-50">
-                <h6>Italy</h6>
+                <h6>Italian</h6>
               </div>
+              
               <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('ja')">
                 <img src="./img/imgTransla/japon.webp" alt="Japan" class="w-50">
-                <h6>Japan</h6>
+                <h6>Japanese</h6>
               </div>
+
               <div class="col border rounded-2 border-primary p-2 m-2" onclick="changeLanguage('ru')">
                 <img src="./img/imgTransla/rusia.webp" alt="Russia" class="w-50">
-                <h6>Russia</h6>
+                <h6>Russian</h6>
               </div>
             </div>
-
           </div>
         </div>
         <div class="modal-footer">
@@ -109,11 +117,10 @@
 
   <header>
     <!-- nav -->
-    <nav class="navbar navbar-expand-lg bg-body-secondary bg-opacity-75 rounded-4 my-3 mx-3 p-2" id="navbar">
+    <nav class="navbar navbar-expand-lg  rounded-4 my-3 mx-3 p-2" id="navbar">
       <div class="container-fluid d-flex">
         <a class="navbar-brand" href="/">
-          <img src="./img/pruebaIcon.png" alt="Logo" width="30" height="24"
-            class="d-inline-block align-text-top">
+          <img src="./public/img/logo.webp" alt="Logo" width="50" height="50" class="d-inline-block align-text-center logo-nav">
           FAIR TOUR
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -122,7 +129,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="nav justify-content-end gap-1 navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#tours" data-i18n="anchor1">Tours</a>
+              <a class="nav-link" aria-current="page" href="#tours" data-i18n="anchor1">Tours</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about-us" data-i18n="anchor2">Sobre nosotros</a>
@@ -131,7 +138,7 @@
               <a class="nav-link" href="#location" data-i18n="anchor3">Encuéntranos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="./src/pages/login.html">
                 <img src="./img/administrador.png" alt="configuracion" class="nav-icon">
               </a>
             </li>
@@ -157,7 +164,7 @@
       <div class="container div__container d-flex align-items-center justify-content-center">
         <div class="bg-white bg-opacity-50 border-white border p-3 rounded-4">
           <h3 class="text-light">FAIR TOUR</h3>
-          <h1 class="fs-1 fw-bolder text-light" data-i18n="title">COMO DEBERIA SER</h1>
+          <h1 class="fs-1 fw-bolder text-light" data-i18n="title"></h1>
         </div>
       </div>
     </section>
@@ -165,8 +172,8 @@
     <!-- section two tours -->
     <section class="container my-5 text-center d-flex justify-content-center align-items-center flex-wrap" id="tours">
       <!-- filters -->
-      <div class="div__title p-2 rounded-4 div__">
-        <h2 data-i18n="subtitle1">NUESTROS TOURS</h2>
+      <div class="div__title p-2 rounded-4">
+        <h2 data-i18n="subtitle1"></h2>
       </div>
 
       <div class="w-100 my-4 d-flex gap-5 justify-content-center">
@@ -184,19 +191,14 @@
 
     <!-- seccion sobre nosotros -->
     <section id="about-us" class="d-flex flex-column align-items-center text-center blue-back py-5" id="sobreNosotros">
-      <h2 class="fw-bold text-white div__title titlesn" data-i18n="subtitle2">SOBRE <br> NOSOTROS</h2>
+      <h2 class="fw-bold text-white  titlesn" data-i18n="subtitle2"></h2>
       <div class="gray-back">
         <!-- Primer caja: Texto - Imagen -->
         <div class="row no-gutters mb-4">
           <div class="col-12 d-flex flex-column-reverse flex-md-row align-items-center">
             <div
               class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start text-start p-4 p-md-5">
-              <p data-i18n="paragraph1"><br>
-                Somos una empresa colombiana enfocada <br> en la <strong>seguridad</strong> y en la
-                <strong>tranquilidad</strong> <br> de todos nuestros clientes.<br>
-                garantizando asi una experiencia de viaje fantastico e inolvidable <br>
-                y asi que nuestro visitantes vivan <br> la verdadera experiencia de conocer colombia<br>
-              </p>
+              <p data-i18n="paragraph1"><br></p>
             </div>
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center p-0">
               <img id="imgprs" src="./img/sobreNosotros/persona2.webp" alt="">
@@ -211,13 +213,7 @@
             </div>
             <div
               class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start text-start p-4 p-md-5">
-              <p data-i18n="paragraph2">Nuestra principal motivacion es basada <br> en los posibles peligros
-                a los que pueden estar expuesto nuestros visitantes.<br>
-                ya sea que peligre su economia o su misma salud.<br>
-                por eso nuestra prioridad <br> es guiarlos por una experiencia <br>
-                donde no se tengan que preocupar por su seguridad <br>
-                y los locales no tengan que preocuparse por que los visitantes invadan <br>
-                y realizen acciones no deseadas</p>
+              <p data-i18n="paragraph2">
             </div>
           </div>
         </div>
@@ -227,16 +223,13 @@
     <!-- testimonials section -->
     <section class="contenedor mt-5 mb-5 d-flex flex-column align-items-center m-auto" id="testimonios">
       <!-- testimonials title -->
-      <h2 class="title text-center div__title w-50 text-wrap" data-i18n="subtitle3">TESTIMONIOS</h2>
+      <h2 class="title text-center w-50 text-wrap" data-i18n="subtitle3"></h2>
       <article class="contenedor-testimonios d-flex px-5 justify-content-center flex-wrap my-5">
         <!-- testimonial #1 -->
         <div class="contenedor contenedor-testimonios__card bg-green">
           <div
             class="contenedor contenedor-testimonios__card-overlay position-absolute w-100 h-100 d-flex flex-column justify-content-between bg-green-transparent">
-            <p class="contenedor-testimonios_card-overlay_title fw-bolder" data-i18n="testimonial1">
-              "¡Increíble experiencia con fair tour! Desde la reserva hasta
-              las actividades planificadas, todo fue impecable."
-            </p>
+            <p class="contenedor-testimonios_card-overlay_title fw-bolder" data-i18n="testimonial1"></p>
             <!-- user info -->
             <div
               class="contenedor-testimonios_card-overlay_avatar d-flex flex-row text-align-center position-absolute align-items-center">
@@ -244,7 +237,7 @@
                 class="contenedor-testimonios_card-overlay_avatar-img" />
               <div class="contenedor-testimonios_card-overlay_avatar-text d-flex flex-column">
                 <p class="d-flex m-0 p-0 fw-bolder">John Smith</p>
-                <p class="d-flex m-0 p-0" data-i18n="nationality1">Estados Unidos</p>
+                <p class="d-flex m-0 p-0" data-i18n="nationality1"></p>
               </div>
               <!-- stars system -->
               <div class="rating">
@@ -267,10 +260,7 @@
         <div class="contenedor contenedor-testimonios__card bg-blue">
           <div
             class="contenedor contenedor-testimonios__card-overlay position-absolute w-100 h-100 d-flex flex-column justify-content-between bg-blue-transparent">
-            <p class="contenedor-testimonios_card-overlay_title fw-bolder" data-i18n="testimonial2">
-              "Una aventura segura y emocionante con esta agencia colombiana.
-              ¡Cinco estrellas! ⭐️"
-            </p>
+            <p class="contenedor-testimonios_card-overlay_title fw-bolder" data-i18n="testimonial2"></p>
             <!-- user info -->
             <div
               class="contenedor-testimonios_card-overlay_avatar d-flex flex-row position-absolute align-items-center">
@@ -278,7 +268,7 @@
                 class="contenedor-testimonios_card-overlay_avatar-img" />
               <div class="contenedor-testimonios_card-overlay_avatar-text d-flex flex-column">
                 <p class="d-flex m-0 p-0 fw-bolder">Emily Jones</p>
-                <p class="d-flex m-0 p-0" data-i18n="nationality2">Reino Unido</p>
+                <p class="d-flex m-0 p-0" data-i18n="nationality2"></p>
               </div>
               <!-- stars system -->
               <div class="rating">
@@ -301,10 +291,7 @@
         <div class="contenedor contenedor-testimonios__card bg-blue">
           <div
             class="contenedor contenedor-testimonios__card-overlay position-absolute w-100 h-100 d-flex flex-column justify-content-between bg-blue-transparent">
-            <p class="contenedor-testimonios_card-overlay_title fw-bolder" data-i18n="testimonial3">
-              "Descubrí Colombia de manera segura y divertida gracias a esta
-              agencia. ¡Altamente recomendada!"
-            </p>
+            <p class="contenedor-testimonios_card-overlay_title fw-bolder" data-i18n="testimonial3"></p>
             <!-- user info -->
             <div
               class="contenedor-testimonios_card-overlay_avatar d-flex flex-row position-absolute align-items-center">
@@ -337,9 +324,9 @@
     <!-- Section Find us (Ubication-Map)-->
     <section id="location">
       <div class="d-flex justify-content-center ">
-        <h2 class="fs-1 fw-bolder mt-2 mb-4 div__title" data-i18n="subtitle4">ENCUÉNTRANOS</h2>
-
+        <h2 class="fs-1 fw-bolder mt-2 mb-4" data-i18n="subtitle4"></h2>
       </div>
+      
       <div id="section-find-us" class="py-5">
         <div class="container ">
           <div id="find-us" class="d-flex row w-100  justify-content-between ">
@@ -368,14 +355,14 @@
 
   <footer id="footer">
     <div class="footer-nav d-flex p-5 justify-content-center">
-      <a href="#" class="text-decoration-none text-reset fs-6" data-i18n="anchor4">Tours</a>
-      <a href="#about-us" class="text-decoration-none text-reset fs-6" data-i18n="anchor5">Sobre nosotros</a>
-      <a href="#location" class="text-decoration-none text-reset fs-6" data-i18n="anchor6">Encuéntranos</a>
+      <a href="#" class="text-decoration-none text-reset fs-6" data-i18n="anchor4"></a>
+      <a href="#about-us" class="text-decoration-none text-reset fs-6" data-i18n="anchor5"></a>
+      <a href="#location" class="text-decoration-none text-reset fs-6" data-i18n="anchor6"></a>
     </div>
     <div class="d-flex justify-content-around">
       <div class="text-center">
         <p class="fs-5 fw-medium">Fair tour</p>
-        <p class="fs-5 fw-medium" data-i18n="paragraph3">Derechos reservados - © 2024 | Medellín, Colombia.</p>
+        <p class="fs-5 fw-medium" data-i18n="paragraph3"></p>
       </div>
       <div class="d-flex gap-5">
         <a href="" target="_blank"><img src="./img/redes/facebook.webp" alt="Facebook"></a>
