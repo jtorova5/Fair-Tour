@@ -561,6 +561,40 @@ footer.bg-dark {
     z-index: -1;
 }
 
+//Clases del formulario 
+
+.form-overlay {
+    background-color: rgba(255, 255, 255, 0.375); /* Fondo blanco con opacidad */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin: auto;
+}
+.form-title {
+    padding: 1rem;
+    font-size: 48px;
+    font-weight: 650;
+    color: #126B9D;
+    text-align: center;
+}
+
+
+//estilos para el video del formulario
+
+
+
+#background-video-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%); 
+    z-index: -1;
+}
+
 #section-form {
     position: relative;
     width: 100%;
@@ -581,7 +615,6 @@ footer.bg-dark {
     font-weight: 650;
     color: #DBDBDB
 }
-
 //ESTILOS PARA EL LOGIN -----------------------------------------------------------------------------------------------
 
 .container-fluid {

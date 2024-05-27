@@ -1,5 +1,4 @@
 import { succesAlert ,confirSucces,alertError} from "./alerts";
-
 import { URLDATOS } from "./api/URLS";
 
 /* data that comes from the document */
@@ -98,4 +97,24 @@ $(document).ready(function() {
       }
     });
   });
+
+
+
+
+  // mode dark------------------------------------------------------------
+document.getElementById("toggle-checkbox").addEventListener("change", function () {
+  // let toggle = document.getElementById("toggle-checkbox")
+  let navbar = document.getElementById("navbar")
+  navbar.classList.toggle("bg-dark")
+  // color change to the body
+  document.body.classList.toggle("bg-dark")
+  document.body.classList.toggle("text-light");
+  let footer = document.getElementById("footer")
+  footer.classList.toggle("bg-dark")
+})
+
+ // JavaScript para ocultar el preloader cuando la página esté completamente cargada
+ window.addEventListener('load', function() {
+  document.body.classList.add('loaded');
+});
 

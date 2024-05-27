@@ -1,0 +1,40 @@
+/* Estilos del preloader */
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e0e0e0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    border: 16px solid #dfdfdf;
+    border-top: 16px solid #2294df;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Ocultar el contenido de la página hasta que se cargue */
+body.loaded #preloader {
+    display: none;
+}
+
+body.loaded #content {
+    display: block;
+}
+
+#content {
+    display: none;
+}
