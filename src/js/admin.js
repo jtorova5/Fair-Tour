@@ -66,6 +66,8 @@ async function searchDelete(id) {
   
 }
 
+
+
 // Inicializar DataTable
 $(document).ready(function() {
     $('#tableAdmin').DataTable({
