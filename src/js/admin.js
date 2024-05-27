@@ -67,8 +67,6 @@ async function searchDelete(id) {
   
 }
 
-
-
 // Inicializar DataTable
 $(document).ready(function() {
     $('#tableAdmin').DataTable({
@@ -98,4 +96,19 @@ $(document).ready(function() {
       }
     });
   });
+
+
+
+
+  // mode dark------------------------------------------------------------
+document.getElementById("toggle-checkbox").addEventListener("change", function () {
+  // let toggle = document.getElementById("toggle-checkbox")
+  let navbar = document.getElementById("navbar")
+  navbar.classList.toggle("bg-dark")
+  // color change to the body
+  document.body.classList.toggle("bg-dark")
+  document.body.classList.toggle("text-light");
+  let footer = document.getElementById("footer")
+  footer.classList.toggle("bg-dark")
+})
 
