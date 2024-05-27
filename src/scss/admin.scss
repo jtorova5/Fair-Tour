@@ -1,1 +1,9 @@
 @import url(./styles.scss);
+
+#more,#delete{
+    cursor: pointer;
+
+    & img{
+        width: 25px;
+    }
+}

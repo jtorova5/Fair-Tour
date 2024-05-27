@@ -9,7 +9,8 @@ form.addEventListener("submit", async (event) => {
     event.preventDefault();
     const isAuthenticated = await checkUsernameAndPassword(username.value, password.value);
     if (isAuthenticated) {
-        window.location.href = "./pages/admin.html";
+
+        window.location.href = "http://localhost:5173/src/pages/admin.html";
     } else {
         alertError("Usuario o contraseña incorrectos. No puedes ingresar.")
     }
