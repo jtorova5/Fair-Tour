@@ -1,13 +1,14 @@
 import '../scss/tour.scss'
+import * as bootstrap from 'bootstrap'
 
-let datosRecibidos 
+let datosRecibidos
 
 let divVideo = document.querySelector('#div__infoTour')
 
-window.addEventListener('DOMContentLoaded', (event) => {
+window.addEventListener('DOMContentLoaded', () => {
     // Recupera el objeto del localStorage
     const storedObject = localStorage.getItem('selectedObject')
-    
+
     if (storedObject) {
         datosRecibidos = JSON.parse(storedObject);
         console.log("Objeto recibido:", datosRecibidos)
@@ -22,6 +23,7 @@ function paintInfoTour(datosRecibidos) {
     divVideo.innerHTML = ""
     //se llena el html con los datos conocidos del objeto que llega
     divVideo.innerHTML += `
+    <section class="d-flex mb-5">
         <div class="col-sm-6 col-md-7 rounded-4 div__video">
             <video src="${datosRecibidos.mainVideo}" autoplay muted loop class="w-100 h-100 rounded-4" "></video>
         </div>
@@ -31,21 +33,54 @@ function paintInfoTour(datosRecibidos) {
                 <div class="box">
                     <span class="title">${datosRecibidos.tour}</span>
                     <div>
-                        <strong>Duración: ${datosRecibidos.duration} días</strong>
-                        <strong>Recorrido</strong>
+                        <strong>Duración:</strong> ${datosRecibidos.duration} días
+                        <strong>Recorrido:</strong>
                         <ul>
-                            ${datosRecibidos.route.map(i => `<li>${i.description}</li>`).join('')}
+                            ${datosRecibidos.route.map(i => `<li>${i.place}</li>`).join('')}
                         </ul>
-                        <strong>Precio : $ ${datosRecibidos.price}</strong>
+                        <strong>Precio:</strong> $ ${datosRecibidos.price} USD
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-5 w-100 ">
-                <div>
-                    <button class="btn btn-primary rounded-3 p-2 w-75" data-reserva="${datosRecibidos}">¡RESERVAR AHORA!</button>
-                </div>
+                    <div>
+                        <a href="./../pages/form.html">
+                            <button class="btn btn-primary rounded-3 p-2 w-75 my-5" data-reserva="${datosRecibidos}">¡RESERVAR AHORA!</button>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>`;   
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h2 class="text-start">Lo más destacado del tour</h2>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                ${datosRecibidos.route.map((item, index) => `
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="${index}"${index === 0 ? ' class="active"' : ''} aria-label="Slide ${index + 1}"></button>`).join('')}
+            </div>
+            <div class="carousel-inner">
+                ${datosRecibidos.route.map((item, index) => `
+                <div class="carousel-item ${index === 0 ? 'active' : ''}">
+                <img src="${item.img}" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>${item.place}</h5>
+                    <p>${item.description}</p>
+                </div>
+            </div>
+            `).join('')}
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>`
 }
 
 // mode dark------------------------------------------------------------
