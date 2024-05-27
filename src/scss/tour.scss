@@ -183,3 +183,40 @@ button:hover{
     box-shadow: 0px 0px 20px 1px var(--blue--principal);
     transform: translateY(-3px);
 }
+
+.carrousel{
+  overflow: hidden;
+  width: 90%;
+}
+
+
+@keyframes slide {
+  to{
+    translate: calc(-4 * 250px);
+  }
+  
+}
+
+.wrap {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 280px;
+  justify-items: stretch;
+  animation: slide 12s linear infinite;
+}
+
+.wrap img {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50%)); 
+  }
+}
