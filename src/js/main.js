@@ -39,7 +39,6 @@ function filterSolo(datosGeneral) {
     paintTours(planAlone)
 }
 
-
 /* click couple -------------------------------*/
 botonCouple.addEventListener('click',()=>{
     filterCouple(datosGeneral)
@@ -71,7 +70,7 @@ function paintTours(datos) {
         const divImage = document.createElement("div");
         divImage.classList.add("col-11", "w-100", "mt-2", "item");
         divImage.id = "div__image";
-     /*    asigno de forma dinámica el evento onclick a los elementos generados. */
+     /* asigno de forma dinámica el evento onclick a los elementos generados. */
         divImage.onclick = function() {
             seeMore(datos[i]);
         };
@@ -92,8 +91,11 @@ function seeMore(objeto) {
     console.log("Oprimiste");
     console.log("Datos recibidos:", objeto);
     
-    window.location.href = `http://localhost:5173/src/pages/tours.html`;
+    // Almacena el objeto en localStorage
+    localStorage.setItem('selectedObject', JSON.stringify(objeto));
 
+    // Navega a la nueva página
+    window.location.href = 'http://localhost:5173/src/pages/tours.html';
 }
 
 

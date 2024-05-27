@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scss/admin.scss">
+    <title>Admin</title>
+</head>
+<body>
+    <header>
+        <!-- nav -->
+        <nav class="navbar navbar-expand-lg bg-body-secondary bg-opacity-75 rounded-4 my-3 mx-3 p-2" id="navbar">
+            <div class="container-fluid d-flex">
+                <a class="navbar-brand" href="/">
+                    <img src="./../../public/img/logo-op3.png" alt="Logo" width="30" height="24"
+                    class="d-inline-block align-text-top">
+                    FAIR TOUR
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="nav justify-content-end gap-1 navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#tours" data-i18n="anchor1">datos</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <img src="./../../public/img/traducir.png" alt="traduccion" class="nav-icon">
+                    </li>
+                    <li>
+                        <div class="toggle">
+                        <input type="checkbox" id="toggle-checkbox"/>
+                        <label for="toggle-checkbox"></label>
+                        </div>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- section main admin -->
+        <section id="section__main">
+            <video src="./../../public/video/admin/adminMain.mp4" autoplay muted loop id="background-video"></video>
+            <div class="container d-flex align-items-center justify-content-center">
+                <div class="bg-white bg-opacity-25 p-3 rounded-4">
+                    <h2 class="text-light">BIENVENIDO ADMIN</h2>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
