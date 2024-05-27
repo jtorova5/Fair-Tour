@@ -45,8 +45,7 @@ function paintInfoTour(datosRecibidos) {
                 </div>
                 </div>
             </div>
-        </div>
-    `;
+        </div>`;
           
 }
 

@@ -26,6 +26,5 @@ export function alertError(message) {
         icon: "error",
         titulo: "Oops...",
         text: message,
-        footer: '<a href="#">En que podemos ayudarte?</a>'
       });
 }
