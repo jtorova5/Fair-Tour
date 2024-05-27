@@ -6,17 +6,17 @@ let divVideo = document.querySelector('#div__infoTour')
 
 window.addEventListener('DOMContentLoaded', (event) => {
     // Recupera el objeto del localStorage
-    const storedObject = localStorage.getItem('selectedObject');
+    const storedObject = localStorage.getItem('selectedObject')
     
     if (storedObject) {
         datosRecibidos = JSON.parse(storedObject);
-        console.log("Objeto recibido:", datosRecibidos);
+        console.log("Objeto recibido:", datosRecibidos)
         paintInfoTour(datosRecibidos)
-        // document.getElementById('someElementId').textContent = objeto.someProperty;
+        // document.getElementById('someElementId').textContent = objeto.someProperty
     } else {
-        console.log("No se encontró ningún objeto en el localStorage.");
+        console.log("No se encontró ningún objeto en el localStorage.")
     }
-});
+})
 
 function paintInfoTour(datosRecibidos) {
     divVideo.innerHTML = ""
@@ -45,8 +45,7 @@ function paintInfoTour(datosRecibidos) {
                 </div>
                 </div>
             </div>
-        </div>`;
-          
+        </div>`;   
 }
 
 // mode dark------------------------------------------------------------
@@ -56,6 +55,6 @@ document.getElementById("toggle-checkbox").addEventListener("change", function (
     navbar.classList.toggle("bg-dark")
     // color change to the body
     document.body.classList.toggle("bg-dark")
-    document.body.classList.toggle("text-light");
+    document.body.classList.toggle("text-light")
 
 })
