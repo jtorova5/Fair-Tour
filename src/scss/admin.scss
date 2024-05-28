@@ -1,0 +1,14 @@
+@import url(./styles.scss);
+
+.navbar-brand {
+    width: 50px;
+    height: 60px;
+  }
+  
+#more,#delete{
+    cursor: pointer;
+
+    & img{
+        width: 25px;
+    }
+}

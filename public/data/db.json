@@ -2,7 +2,7 @@
     "tours": [
         {
             "id": "1",
-            "tour": "Tour por Boyacá",
+            "tour": "Boyacá",
             "landingImg": "./../../public/img/boyaca/boyaca-landing.webp",
             "mainVideo": "./../../public/video/boyaca/boyacaMain.mp4",
             "duration": "6",
@@ -80,9 +80,9 @@
         },
         {
             "id": "2",
-            "tour": "Tour por Capurganá",
+            "tour": "Capurganá",
             "landingImg": "./../../public/img/capurgana/capurgana-landing.webp",
-            "mainVideo": "./../../public/video/capurgana/capurganaMain.mp4",
+            "mainVideo": "./../../public/video/capurgana/capurgana.mp4",
             "duration": "5",
             "route": [
                 {
@@ -108,9 +108,9 @@
         },
         {
             "id": "3",
-            "tour": "Tour por Cartagena",
+            "tour": "Cartagena",
             "landingImg": "./../../public/img/cartagena/cartagena-landing.webp",
-            "mainVideo": "",
+            "mainVideo": "./../../public/video/cartagena/cartagena.mp4",
             "duration": "4",
             "route": [
                 {
@@ -156,9 +156,9 @@
         },
         {
             "id": "4",
-            "tour": "Tour por desierto de la Tatacoa",
+            "tour": "Desierto de la Tatacoa",
             "landingImg": "./../../public/img/tatacoa/landing-tatacoa.webp",
-            "mainVideo": "",
+            "mainVideo": "./../../public/video/tatacoa/tatacoa.mp4",
             "duration": "3",
             "route": [
                 {
@@ -209,9 +209,9 @@
         },
         {
             "id": "5",
-            "tour": "Tour por el eje cafetero",
-            "landingImg": "./../../public/img/cafetero/cafetero-landing.webp",
-            "mainVideo": "",
+            "tour": "Eje cafetero",
+            "landingImg": "./../../public/img/cafetero/cafereto-landing.webp",
+            "mainVideo": "./../../public/video/cafetero/cafetero.mp4",
             "duration": "4",
             "route": [
                 {
@@ -227,7 +227,7 @@
                 {
                     "place": "Valle del Cocora",
                     "description": "Cuna del árbol nacional.",
-                    "img": "./../../public/img/cafetero/calle-cocora-carrousel.webp"
+                    "img": "./../../public/img/cafetero/valle-cocora-carrousel.webp"
                 },
                 {
                     "place": "Mirador encanto",
@@ -277,9 +277,9 @@
         },
         {
             "id": "6",
-            "tour": "Tour por el Huila",
+            "tour": "Huila",
             "landingImg": "./../../public/img/huila/landing-huila.webp",
-            "mainVideo": "",
+            "mainVideo": "./../../public/video/huila/huila.mp4",
             "duration": "5",
             "route": [
                 {
@@ -320,9 +320,9 @@
         },
         {
             "id": "7",
-            "tour": "Tour por la Guajira",
+            "tour": "Guajira",
             "landingImg": "./../../public/img/guajira/guajira-landing.webp",
-            "mainVideo": "",
+            "mainVideo": "./../../public/video/guajira/guajira.mp4",
             "duration": "7",
             "route": [
                 {
@@ -368,9 +368,9 @@
         },
         {
             "id": "8",
-            "tour": "Tour por los llanos orientales",
+            "tour": "Llanos orientales",
             "landingImg": "./../../public/img/llanos/landing-llanos.webp",
-            "mainVideo": "",
+            "mainVideo": "./../../public/video/llanos/llanos.mp4",
             "duration": "5",
             "route": [
                 {
@@ -416,9 +416,9 @@
         },
         {
             "id": "9",
-            "tour": "Tour por la hacienda Nápoles y Rio Claro",
+            "tour": "Hacienda Nápoles",
             "landingImg": "./../../public/img/napoles/hacienda-napoles-landing.webp",
-            "mainVideo": "",
+            "mainVideo": "./../../public/video/napoles/napoles.mp4",
             "duration": "2",
             "route": [
                 {
@@ -439,9 +439,9 @@
         },
         {
             "id": "10",
-            "tour": "Tour por San Andrés",
+            "tour": "San Andrés",
             "landingImg": "./../../public/img/sanAndres/landing-san-andres.webp",
-            "mainVideo": "",
+            "mainVideo": "./../../public/video/sanAndres/sanAndres.mp4",
             "duration": "5",
             "route": [
                 {
@@ -467,9 +467,9 @@
         },
         {
             "id": "11",
-            "tour": "Tour por Santa Marta",
-            "landingImg": "./../../public/img/santaMarta/santa-marta-landing-webp",
-            "mainVideo": "",
+            "tour": "Santa Marta",
+            "landingImg": "./../../public/img/santaMarta/santa-marta-landing.webp",
+            "mainVideo": "./../../public/video/santaMarta/santaMarta.mp4",
             "duration": "4",
             "route": [
                 {
@@ -480,12 +480,12 @@
                 {
                     "place": "Quebrada Valencia",
                     "description": "Un salto al descanso.",
-                    "img": "./../../public/img/santaMarta/quebrada-valencia-carrousel.webp"
+                    "img": "./../../public/img/santaMarta/quebrada-valencia.webp"
                 },
                 {
                     "place": "Playa Blanca",
                     "description": "Relájate con agua cristalina y arena blanca.",
-                    "img": ""
+                    "img": "./../../public/img/santaMarta/playa-blanca-carrousel.webp"
                 },
                 {
                     "place": "El Rodadero",
@@ -500,9 +500,9 @@
         },
         {
             "id": "12",
-            "tour": "Tour por Santander",
+            "tour": "Santander",
             "landingImg": "./../../public/img/santander/landing-santander.webp",
-            "mainVideo": "",
+            "mainVideo": "./../../public/video/santander/santander.mp4",
             "duration": "5",
             "route": [
                 {
@@ -548,9 +548,9 @@
         },
         {
             "id": "13",
-            "tour": "Tour por el sur de Colombia",
+            "tour": "Sur de Colombia",
             "landingImg": "./../../public/img/surColombia/sur-colombia-landing.webp",
-            "mainVideo": "",
+            "mainVideo": "./../../public/video/surColombia/surColombia.mp4",
             "duration": "6",
             "route": [
                 {
@@ -581,9 +581,9 @@
         },
         {
             "id": "14",
-            "tour": "Tour por Tolú y Coveñas",
+            "tour": "Tolú y Coveñas",
             "landingImg": "./../../public/img/tolu/tolu-landing.webp",
-            "mainVideo": "",
+            "mainVideo": "./../../public/video/coveñas/coveñas.mp4",
             "duration": "4",
             "route": [
                 {

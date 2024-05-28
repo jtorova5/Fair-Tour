@@ -30,8 +30,6 @@ function updateContent() {
 }
 
 window.changeLanguage = function (lng) {
-    console.log("entrando");
-
     i18next.changeLanguage(lng).then(() => updateContent())
     localStorage.setItem('language', lng)
 }
