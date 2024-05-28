@@ -44,7 +44,7 @@ function paintInfoTour(datosRecibidos) {
         <div class="col-sm-4 offset-sm-2 col-md-5 offset-md-0">
             <div class="container">
                 <div class="box">
-                    <span class="title">${datosRecibidos.tour}</span>
+                    <span class="title text-center">${datosRecibidos.tour}</span>
                     <div>
                         <strong>Duración:</strong> ${datosRecibidos.duration} días
                         <strong>Recorrido:</strong>

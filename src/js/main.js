@@ -12,8 +12,8 @@ let datosGeneral
 /* data that comes from the document */
 let bodyCard = document.querySelector('#contenedor__img')
 let botonAlone = document.querySelector('#btn-solo')
-let botonCouple= document.querySelector('#btn-pareja')
-let botonFamily= document.querySelector('#btn-familiar')
+let botonCouple = document.querySelector('#btn-pareja')
+let botonFamily = document.querySelector('#btn-familiar')
 
 
 /* funtion find tours --------------------------*/
@@ -28,36 +28,36 @@ async function findTours() {
 findTours()
 
 /* click alone ----------------------------*/
-botonAlone.addEventListener('click',()=>{
+botonAlone.addEventListener('click', () => {
     filterSolo(datosGeneral)
 })
 
 /* search for alone tour */
 function filterSolo(datosGeneral) {
-    let planAlone = datosGeneral.filter((e)=> e.plan == "solo")
+    let planAlone = datosGeneral.filter((e) => e.plan == "solo")
     console.log(planAlone);
     paintTours(planAlone)
 }
 
 /* click couple -------------------------------*/
-botonCouple.addEventListener('click',()=>{
+botonCouple.addEventListener('click', () => {
     filterCouple(datosGeneral)
 })
 
 /* search for couple  tour*/
 function filterCouple(datosGeneral) {
-    let planCouple = datosGeneral.filter((e)=> e.plan == "parejas")
+    let planCouple = datosGeneral.filter((e) => e.plan == "parejas")
     paintTours(planCouple)
 }
 
 /* click family ---------------------------------*/
-botonFamily.addEventListener('click',()=>{
+botonFamily.addEventListener('click', () => {
     filterFamily(datosGeneral)
 })
 
 /* search for family tour*/
 function filterFamily(datosGeneral) {
-    let planFamily = datosGeneral.filter((e)=> e.plan == "familiar")
+    let planFamily = datosGeneral.filter((e) => e.plan == "familiar")
     paintTours(planFamily)
 }
 
@@ -65,23 +65,23 @@ function filterFamily(datosGeneral) {
 /* paint tours -----------------------------*/
 function paintTours(datos) {
     bodyCard.innerHTML = "";
-    
+
     for (let i = 0; i < datos.length; i++) {
         const divImage = document.createElement("div");
         divImage.classList.add("col-11", "w-100", "mt-2", "item");
         divImage.id = "div__image";
-     /* asigno de forma dinámica el evento onclick a los elementos generados. */
-        divImage.onclick = function() {
+        /* asigno de forma dinámica el evento onclick a los elementos generados. */
+        divImage.onclick = function () {
             seeMore(datos[i]);
         };
-        
+
         divImage.innerHTML = `
             <img src="${datos[i].landingImg}" alt="${datos[i].tour}" class="imagen-contenedor rounded-4">
             <div id="divimage__hover" data-id="${datos[i].id}" class="rounded-4">
             <h4>${datos[i].tour}<br></h4>
-            <h3>VER MÁS</h3>
+            <h3 data-i18n="hover"></h3>
             </div>`;
-            
+
         bodyCard.appendChild(divImage);
     }
 }
@@ -90,7 +90,7 @@ function paintTours(datos) {
 function seeMore(objeto) {
     console.log("Oprimiste");
     console.log("Datos recibidos:", objeto);
-    
+
     // Almacena el objeto en localStorage
     localStorage.setItem('selectedObject', JSON.stringify(objeto));
 
@@ -98,6 +98,20 @@ function seeMore(objeto) {
     window.location.href = 'http://localhost:5173/src/pages/tours.html';
 }
 
+// Función para pintar las estrellas según el número indicado
+function pintarEstrellas(numeroTestimonio, numEstrellas) {
+    var inputs = document.querySelectorAll('input[name="rate' + numeroTestimonio + '"]');
+    inputs.forEach(function (input, index) {
+        if (index < numEstrellas) {
+            input.checked = true
+        }
+    })
+}
+
+// Pintar estrellas para cada testimonio
+pintarEstrellas(1, 2)
+pintarEstrellas(2, 1)
+pintarEstrellas(3, 2)
 
 
 // mode dark------------------------------------------------------------
@@ -112,7 +126,7 @@ document.getElementById("toggle-checkbox").addEventListener("change", function (
 })
 
 
- // JavaScript para ocultar el preloader cuando la página esté completamente cargada
- window.addEventListener('load', function() {
+// JavaScript para ocultar el preloader cuando la página esté completamente cargada
+window.addEventListener('load', function () {
     document.body.classList.add('loaded');
 });
