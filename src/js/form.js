@@ -37,10 +37,10 @@ contac.addEventListener('submit', async function(event) {
         } else {
             throw new Error('Error al enviar los datos');
         }
+
+ 
     } catch (error) {
         console.error('Error:', error);
         alertError('Hubo un problema al enviar los datos');
     }
 });
-
-
