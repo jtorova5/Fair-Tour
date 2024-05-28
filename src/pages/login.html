@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./../scss/styles.scss">
+    <link rel="stylesheet" href="./../scss/normalize.scss">
     <link rel="stylesheet" href="./../scss/preload.scss">
+    <link rel="stylesheet" href="./../scss/styles.scss">
     <title>Login admin</title>
 </head>
 
@@ -13,16 +14,16 @@
     <main>
         <div class="container-fluid">
             <div class="back-button">
-                <a id="atras-login" href="/index.html"><img src="/public/img/atras.png" alt="Atrás"><strong>Atrás</strong></a> 
+                <a id="atras-login" href="/"><img src="./../../public/img/atras.png" alt="Atrás"><strong>Atrás</strong></a> 
             </div>
-            <div class=" d-flex row align-items-center justify-content-center min-vh-100">
-                <div class="col-md-6 d-none d-md-block image-container">
-                    <img src="/public/img/Imagen paraguas.jpg" alt="Paraguas">
+            <div class=" d-flex row align-items-center justify-content-center ">
+                <div class="col-md-6 d-none d-md-block image-container vh-100">
+                    <img class="w-100 vh-100" src="./../../public/img/Imagen paraguas.jpg" alt="Paraguas">
                 </div>
                 <div class="col-md-6 form-container mb-5">
                     <div class="login-content">
                         <div class="text-center">
-                            <img src="/public/img/logo-op3.png" alt="Logo" class="logo">
+                            <img src="./../../public/img/logo.webp" alt="Logo" class="logo">
                             <h1 id="title-login">Welcome admin</h1>
                         </div>
                         <form>
@@ -50,5 +51,5 @@
     
     </main>
     <footer></footer>
-    <script type="module" src="/src/js/login.js"></script>
+    <script type="module" src="./../js/login.js"></script>
 </body>

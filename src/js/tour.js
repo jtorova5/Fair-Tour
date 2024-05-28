@@ -21,7 +21,6 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 })
 
-
 function paintCarrousel(datosRecibidos) {
     divCarrousel.innerHTML = "";  // clear
 
@@ -29,8 +28,6 @@ function paintCarrousel(datosRecibidos) {
     const images = datosRecibidos.route.map(item => `<img src="${item.img}" alt="">`).join('');
     divCarrousel.innerHTML = images + images;
 }
-
-
 
 function paintInfoTour(datosRecibidos) {
     divVideo.innerHTML = ""

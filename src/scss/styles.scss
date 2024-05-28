@@ -567,6 +567,10 @@ footer.bg-dark {
 
 //ESTILOS PARA EL LOGIN -----------------------------------------------------------------------------------------------
 
+.login-section {
+    height: 100vh;
+}
+
 .container-fluid {
     position: relative;
 }
@@ -578,7 +582,6 @@ footer.bg-dark {
 }
 
 .image-container {
-    background-size: cover;
     object-fit: cover;
 }
 
