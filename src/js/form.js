@@ -1,6 +1,8 @@
 import {alertError, showSmallAlertSuccess} from './alerts.js'
 
-document.getElementById('contact-form').addEventListener('submit', async function(event) {
+let contac = document.getElementById('contact-form')
+
+contac.addEventListener('submit', async function(event) {
     event.preventDefault(); // Previene el comportamiento por defecto del formulario
 
     // Captura los datos del formulario

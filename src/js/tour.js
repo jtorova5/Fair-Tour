@@ -4,6 +4,7 @@ import * as bootstrap from 'bootstrap'
 let datosRecibidos
 
 let divVideo = document.querySelector('#div__infoTour')
+let divCarrousel = document.querySelector('#div__carrousel')
 
 window.addEventListener('DOMContentLoaded', () => {
     // Recupera el objeto del localStorage
@@ -13,11 +14,20 @@ window.addEventListener('DOMContentLoaded', () => {
         datosRecibidos = JSON.parse(storedObject);
         console.log("Objeto recibido:", datosRecibidos)
         paintInfoTour(datosRecibidos)
+        paintCarrousel(datosRecibidos)
         // document.getElementById('someElementId').textContent = objeto.someProperty
     } else {
         console.log("No se encontró ningún objeto en el localStorage.")
     }
 })
+
+function paintCarrousel(datosRecibidos) {
+    divCarrousel.innerHTML = "";  // clear
+
+    // dup
+    const images = datosRecibidos.route.map(item => `<img src="${item.img}" alt="">`).join('');
+    divCarrousel.innerHTML = images + images;
+}
 
 function paintInfoTour(datosRecibidos) {
     divVideo.innerHTML = ""
@@ -31,7 +41,7 @@ function paintInfoTour(datosRecibidos) {
         <div class="col-sm-4 offset-sm-2 col-md-5 offset-md-0">
             <div class="container">
                 <div class="box">
-                    <span class="title">${datosRecibidos.tour}</span>
+                    <span class="title text-center">${datosRecibidos.tour}</span>
                     <div>
                         <strong>Duración:</strong> ${datosRecibidos.duration} días
                         <strong>Recorrido:</strong>
@@ -50,37 +60,7 @@ function paintInfoTour(datosRecibidos) {
                 </div>
             </div>
         </div>
-    </section>
-
-    <section>
-        <div>
-            <h2 class="text-start">Lo más destacado del tour</h2>
-        </div>
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                ${datosRecibidos.route.map((item, index) => `
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="${index}"${index === 0 ? ' class="active"' : ''} aria-label="Slide ${index + 1}"></button>`).join('')}
-            </div>
-            <div class="carousel-inner">
-                ${datosRecibidos.route.map((item, index) => `
-                <div class="carousel-item ${index === 0 ? 'active' : ''}">
-                <img src="${item.img}" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>${item.place}</h5>
-                    <p>${item.description}</p>
-                </div>
-            </div>
-            `).join('')}
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>`
+    </section>`
 }
 
 // mode dark------------------------------------------------------------
@@ -93,3 +73,8 @@ document.getElementById("toggle-checkbox").addEventListener("change", function (
     document.body.classList.toggle("text-light")
 
 })
+
+ // JavaScript para ocultar el preloader cuando la página esté completamente cargada
+window.addEventListener('load', function() {
+    document.body.classList.add('loaded');
+});

@@ -36,3 +36,8 @@ async function checkUsername(username) {
         return false
     }
 }
+
+ // JavaScript para ocultar el preloader cuando la página esté completamente cargada
+ window.addEventListener('load', function() {
+    document.body.classList.add('loaded');
+});

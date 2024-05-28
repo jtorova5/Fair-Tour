@@ -21,6 +21,11 @@ header {
     z-index: 5;
 }
 
+h2 {
+  color: #126B9D;
+  font-weight: bolder;
+}
+
 // traduccion
 .traduc{
     cursor: pointer;
@@ -45,6 +50,10 @@ header {
     height: 29px;
   }
 
+  .navbar-brand {
+    width: 50px;
+    height: 60px;
+  }
 
 // style for toggle
 .toggle {
@@ -139,7 +148,6 @@ header {
     text-align: start;
   }
 
-  
   .container .box .title {
     font-size: 3rem;
     font-weight: 600;
@@ -182,4 +190,53 @@ button{
 button:hover{
     box-shadow: 0px 0px 20px 1px var(--blue--principal);
     transform: translateY(-3px);
+}
+
+.carrousel-section {
+  background-color: #C3DAEE;
+}
+
+.carrousel{
+  overflow: hidden;
+  width: 90%;
+}
+
+#footer {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(153, 191, 214, 1) 60%, rgba(63, 135, 177, 1) 100%, rgba(18, 107, 157, 1) 100%);
+}
+
+footer.bg-dark {
+  background: linear-gradient(-20deg, rgb(0, 0, 0), rgba(79, 153, 244, 0.608), rgb(0, 0, 0));
+  color: #9cc1eb;
+}
+
+@keyframes slide {
+  to{
+    translate: calc(-4 * 250px);
+  }
+  
+}
+
+.wrap {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 280px;
+  justify-items: stretch;
+  animation: slide 12s linear infinite;
+}
+
+.wrap img {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50%)); 
+  }
 }
