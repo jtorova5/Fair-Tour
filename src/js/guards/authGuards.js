@@ -15,7 +15,7 @@
     ()=>{
     const admin = localStorage.getItem("admin");
     if (!admin) {
-      window.location.href = "./index.html";
+      window.location.href = "/";
     } else {
       // Borro el ítem del localStorage para que no puedan volver a ingresar directamente
       localStorage.removeItem("admin");

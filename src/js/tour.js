@@ -70,7 +70,8 @@ document.getElementById("toggle-checkbox").addEventListener("change", function (
     navbar.classList.toggle("bg-dark")
     document.body.classList.toggle("bg-dark")
     document.body.classList.toggle("text-light")
-
+    let footer = document.getElementById("footer")
+    footer.classList.toggle("bg-dark")
 })
 
  // hide preloader
