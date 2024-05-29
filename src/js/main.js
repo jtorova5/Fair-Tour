@@ -61,7 +61,6 @@ function filterFamily(datosGeneral) {
     paintTours(planFamily)
 }
 
-
 /* paint tours -----------------------------*/
 function paintTours(datos) {
     bodyCard.innerHTML = "";
@@ -98,7 +97,7 @@ function seeMore(objeto) {
     window.location.href = 'http://localhost:5173/src/pages/tours.html';
 }
 
-// Función para pintar las estrellas según el número indicado
+// painting stars
 function pintarEstrellas(numeroTestimonio, numEstrellas) {
     var inputs = document.querySelectorAll('input[name="rate' + numeroTestimonio + '"]');
     inputs.forEach(function (input, index) {
@@ -108,13 +107,11 @@ function pintarEstrellas(numeroTestimonio, numEstrellas) {
     })
 }
 
-// Pintar estrellas para cada testimonio
 pintarEstrellas(1, 2)
 pintarEstrellas(2, 1)
 pintarEstrellas(3, 2)
 
-
-// mode dark------------------------------------------------------------
+// dark mode------------------------------------------------------------
 document.getElementById("toggle-checkbox").addEventListener("change", function () {
     // let toggle = document.getElementById("toggle-checkbox")
     let navbar = document.getElementById("navbar")

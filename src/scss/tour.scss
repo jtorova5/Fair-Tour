@@ -128,6 +128,11 @@ h2 {
     height: 650px;
 }
 
+.video{
+  object-fit: cover;
+  filter: drop-shadow(2px 4px 6px var(--gray--second));
+}
+
 // CARD TOUR
 .container {
     position: relative;

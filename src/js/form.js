@@ -1,8 +1,8 @@
-import {alertError, showSmallAlertSuccess} from './alerts.js'
+import { alertError, showSmallAlertSuccess } from './alerts.js'
 
 let contac = document.getElementById('contact-form')
 
-contac.addEventListener('submit', async function(event) {
+contac.addEventListener('submit', async function (event) {
     event.preventDefault(); // Previene el comportamiento por defecto del formulario
 
     // Captura los datos del formulario
@@ -32,15 +32,14 @@ contac.addEventListener('submit', async function(event) {
         });
 
         if (response.ok) {
-            showSmallAlertSuccess('Datos enviados exitosamente');
+            showSmallAlertSuccess('Sent');
             document.getElementById('contact-form').reset(); // Limpiar el formulario
         } else {
-            throw new Error('Error al enviar los datos');
+            throw new Error('Error');
         }
 
- 
     } catch (error) {
         console.error('Error:', error);
-        alertError('Hubo un problema al enviar los datos');
+        alertError("It's been a problem sending the data");
     }
 });
