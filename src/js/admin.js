@@ -5,11 +5,17 @@ import { URLDATOS } from "./api/URLS";
 let tbody = document.querySelector('#tbodyData')
 
 async function findDataUser(url) {
+<<<<<<< Updated upstream
     let response = await fetch(url)
     let data = await response.json()
     paintData(data)
     console.log(data);
     
+=======
+  let response = await fetch(url)
+  let data = await response.json()
+  paintData(data)
+>>>>>>> Stashed changes
 }
 
 function paintData(data) {
