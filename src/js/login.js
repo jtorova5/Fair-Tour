@@ -8,8 +8,9 @@ const password = document.querySelector("#password")
 form.addEventListener("submit", async (event) => {
     event.preventDefault();
     const isAuthenticated = await checkUsernameAndPassword(username.value, password.value);
+    console.log(isAuthenticated);
     if (isAuthenticated) {
-
+        localStorage.setItem("admin", JSON.stringify(password.value));
         window.location.href = "http://localhost:5173/src/pages/admin.html";
     } else {
         alertError("Usuario o contraseña incorrectos. No puedes ingresar.")
@@ -38,6 +39,6 @@ async function checkUsername(username) {
 }
 
  // JavaScript para ocultar el preloader cuando la página esté completamente cargada
- window.addEventListener('load', function() {
+    window.addEventListener('load', function() {
     document.body.classList.add('loaded');
 });
