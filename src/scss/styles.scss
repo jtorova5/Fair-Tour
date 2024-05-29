@@ -515,10 +515,7 @@ footer.bg-dark {
     text-align: center;
 }
 
-
 //estilos para el video del formulario
-
-
 
 #background-video-form {
     position: absolute;
@@ -545,10 +542,10 @@ footer.bg-dark {
 }
 
 #section-form {
-    position: relative;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    overflow: hidden;
 }
 
 #container-form {
@@ -556,7 +553,6 @@ footer.bg-dark {
     z-index: 2;
     display: flex;
     height: 100%;
-
 }
 
 #titulo-contacto {
@@ -583,6 +579,10 @@ footer.bg-dark {
 
 .image-container {
     object-fit: cover;
+}
+
+.form-overlay{
+    padding: 0px 20px 10px
 }
 
 .form-container {
