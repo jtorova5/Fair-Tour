@@ -629,6 +629,14 @@
       "email": "lui@gmail.com",
       "telefono": "3007809076",
       "intereses": "Santa Marta"
+    },
+    {
+      "id": "0d55",
+      "nombre": "pruebaLuisa1",
+      "apellido": "pruebita",
+      "email": "salito@gmail.com",
+      "telefono": "23123",
+      "intereses": "paris "
     }
   ],
   "admin": [
