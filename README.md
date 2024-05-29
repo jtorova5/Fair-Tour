@@ -43,7 +43,7 @@ del tour el cual será cobrado al cliente final.
 * https://foxtrotgates.atlassian.net/jira/software/projects/KAN/boards/1?atlOrigin=eyJpIjoiMWYyZTViN2UwMjliNDcwYjhhNmYzMzE2ODA1YjUxYzYiLCJwIjoiaiJ9
 
 ## Integrantes del equipo:
-* @jtorova5
-* @luisaferRP
-* @KevinAlvarezD
-* @juanpga872
+* @jtorova5 --> Jhonatan Toro Vàsquez
+* @luisaferRP  --> Luisa Fernanda Ramírez Porras
+* @KevinAlvarezD --> Kevin Álvarez Díaz
+* @juanpga872 --> Juan Pablo Garcés Acevedo
