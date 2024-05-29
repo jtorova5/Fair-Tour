@@ -7,7 +7,6 @@ let divVideo = document.querySelector('#div__infoTour')
 let divCarrousel = document.querySelector('#div__carrousel')
 
 window.addEventListener('DOMContentLoaded', () => {
-    // Recupera el objeto del localStorage
     const storedObject = localStorage.getItem('selectedObject')
 
     if (storedObject) {
@@ -15,7 +14,6 @@ window.addEventListener('DOMContentLoaded', () => {
         console.log("Objeto recibido:", datosRecibidos)
         paintInfoTour(datosRecibidos)
         paintCarrousel(datosRecibidos)
-        // document.getElementById('someElementId').textContent = objeto.someProperty
     } else {
         console.log("No se encontró ningún objeto en el localStorage.")
     }
@@ -30,51 +28,52 @@ function paintCarrousel(datosRecibidos) {
 }
 
 function paintInfoTour(datosRecibidos) {
-    divVideo.innerHTML = ""
-    //se llena el html con los datos conocidos del objeto que llega
+    divVideo.innerHTML = "";
     divVideo.innerHTML += `
-    <section class="d-flex mb-5">
-        <div class="col-sm-6 col-md-7 rounded-4 div__video">
-            <video src="${datosRecibidos.mainVideo}" autoplay muted loop class="w-100 h-100 rounded-4" "></video>
-        </div>
-
-        <div class="col-sm-4 offset-sm-2 col-md-5 offset-md-0">
-            <div class="container">
-                <div class="box">
-                    <span class="title text-center">${datosRecibidos.tour}</span>
-                    <div>
-                        <strong>Duración:</strong> ${datosRecibidos.duration} días
-                        <strong>Recorrido:</strong>
-                        <ul>
-                            ${datosRecibidos.route.map(i => `<li>${i.place}</li>`).join('')}
-                        </ul>
-                        <strong>Precio:</strong> $ ${datosRecibidos.price} USD
-                    </div>
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-12 col-md-7 mb-4">
+                <div class="embed-responsive embed-responsive-16by9 rounded-4 h-100">
+                    <video src="${datosRecibidos.mainVideo}" autoplay muted loop class="embed-responsive-item w-100 h-100 rounded-4 video"></video>
                 </div>
-                <div class="col-sm-4 col-md-5 w-100 ">
-                    <div>
+            </div>
+            <div class="col-12 col-md-5">
+                <div class="container">
+                    <div class="box">
+                        <h1 class="title text-center">${datosRecibidos.tour}</h1>
+                        <div>
+                            <p data-i18n="paragraph4"></p>
+                            <p>${datosRecibidos.duration} <span data-i18n="paragraph5"></span></p>
+                            <p data-i18n=""><strong>Recorrido:</strong></p>
+                            <ul>
+                                ${datosRecibidos.route.map(i => `<li>${i.place}</li>`).join('')}
+                            </ul>
+                            <span data-i18n="paragraph6"></span> 
+                            <p>$ ${datosRecibidos.price} <span>USD<span></p>
+                        </div>
+                    </div>
+                    <div class="text-center">
                         <a href="./../pages/form.html">
-                            <button class="btn btn-primary rounded-3 p-2 w-75 my-5" data-reserva="${datosRecibidos}">¡RESERVAR AHORA!</button>
+                            <button class="btn btn-primary rounded-3 p-2 w-75 my-5" data-reserva='${JSON.stringify(datosRecibidos)}' data-i18n="btn1">Reservar</button>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>`
+    </section>`;
 }
+
 
 // mode dark------------------------------------------------------------
 document.getElementById("toggle-checkbox").addEventListener("change", function () {
-    // let toggle = document.getElementById("toggle-checkbox")
     let navbar = document.getElementById("navbar")
     navbar.classList.toggle("bg-dark")
-    // color change to the body
     document.body.classList.toggle("bg-dark")
     document.body.classList.toggle("text-light")
 
 })
 
- // JavaScript para ocultar el preloader cuando la página esté completamente cargada
+ // hide preloader
 window.addEventListener('load', function() {
     document.body.classList.add('loaded');
 });

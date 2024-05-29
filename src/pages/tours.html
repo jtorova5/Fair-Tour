@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--   icons bootstrap-icons -->
+    <!--   bootstrap-icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- style css -->
     <link rel="stylesheet" href="./../scss/normalize.scss">
     <link rel="stylesheet" href="./../scss/preload.scss">
+    <!-- favicon -->
     <link rel="shortcut icon" href="./../../public/img/logo.webp" type="image/x-icon">
-    <title>Tour</title>
+    <title data-i18n="tourTitle">Tour</title>
 </head>
 
 <body>
-    <!-- Modal -->
+    <!-- modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -105,11 +106,14 @@
         </div>
     </div>
 
+    <!-- header -->
     <header>
         <!-- nav -->
         <nav class="navbar navbar-expand-lg bg-body-secondary bg-opacity-75 rounded-4 my-3 mx-3 p-2" id="navbar">
             <div class="container-fluid d-flex">
                 <a class="navbar-brand" href="/">
+
+                    <!-- logo -->
                     <img src="./../../public/img/logo.webp" alt="Logo"
                         class="d-inline-block align-text-center logo-nav">
                     FAIR TOUR
@@ -120,10 +124,14 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="nav justify-content-end gap-1 navbar-nav ms-auto">
+
+                        <!-- translate option -->
                         <li class="nav-item d-flex align-items-center justify-content-center" data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop">
                             <img src="../../public/img/traducir.png" alt="traduccion" class="nav-icon">
                         </li>
+
+                        <!-- dark/light mode option -->
                         <li>
                             <div class="toggle">
                                 <input type="checkbox" id="toggle-checkbox" />
@@ -136,12 +144,12 @@
         </nav>
 
     </header>
+
+    <!-- main -->
     <main>
         <div class="my-5 mx-5">
-            <a href="./../../index.html">
-                <img src="./../../public/img/atras.png" alt="volver" class="volver" data-i18n="anchor7">
-                Volver
-            </a>
+            <img src="./../../public/img/atras.png" alt="volver" class="volver">
+            <a href="./../../index.html" data-i18n="anchor7"></a>
         </div>
 
         <section class="my-4 tour">
@@ -150,12 +158,12 @@
                     <!-- imagen o video traido desde el js -->
                 </div>
             </div>
-
         </section>
 
+        <!-- carousel section -->
         <section class="carrousel-section d-flex justify-content-center align-items-center flex-wrap my-5 p-5">
             <div class="w-100">
-                <h2 class="text-start pb-5">Lo más destacado del tour</h2>
+                <h2 class="text-start pb-5" data-i18n="subtitle5"></h2>
             </div>
             <div class="carrousel">
                 <div class="wrap" id="div__carrousel">
@@ -165,10 +173,10 @@
 
         <section class="d-flex flex-column m-5">
             <div>
-                <h2>Incluye</h2>
+                <h2 data-i18n="subtitle5"></h2>
             </div>
             <article class="d-flex justify-content-center gap-5 py-5">
-                <!-- transporte -->
+                <!-- transport -->
                 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink">
                     <rect width="64" height="64" fill="url(#pattern0_2048_19)" />
@@ -181,7 +189,7 @@
                     </defs>
                 </svg>
 
-                <!-- estadia -->
+                <!-- stay -->
                 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink">
                     <rect width="64" height="64" fill="url(#pattern0_2048_21)" />
@@ -194,7 +202,7 @@
                     </defs>
                 </svg>
 
-                <!-- guía turístico -->
+                <!-- tourist guide -->
                 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink">
                     <rect width="64" height="64" fill="url(#pattern0_2048_17)" />
@@ -207,7 +215,7 @@
                     </defs>
                 </svg>
 
-                <!-- alimentación -->
+                <!-- feeding -->
                 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink">
                     <rect width="64" height="64" fill="url(#pattern0_2045_55)" />
@@ -233,7 +241,7 @@
                     </defs>
                 </svg>
 
-                <!-- poliza de salud -->
+                <!-- health policy -->
                 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink">
                     <rect width="64" height="64" fill="url(#pattern0_2048_23)" />
@@ -246,7 +254,7 @@
                     </defs>
                 </svg>
 
-                <!-- fotógrafo -->
+                <!-- photographer -->
                 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink">
                     <rect width="64" height="64" fill="url(#pattern0_2045_51)" />
@@ -259,7 +267,7 @@
                     </defs>
                 </svg>
 
-                <!-- seguridad privada -->
+                <!-- private security -->
                 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink">
                     <rect width="64" height="64" fill="url(#pattern0_2054_8)" />
@@ -274,19 +282,24 @@
             </article>
         </section>
 
-        <!-- Preloader -->
+        <!-- preloader -->
         <div id="preloader">
             <div class="spinner"></div>
         </div>
 
     </main>
 
+    <!-- footer -->
     <footer id="footer">
         <div class="d-flex justify-content-around">
+
+            <!-- copyright -->
             <div class="text-center">
                 <p class="fs-5 fw-medium">Fair tour</p>
-                <p class="fs-5 fw-medium">Derechos reservados - © 2024 | Medellín, Colombia.</p>
+                <p class="fs-5 fw-medium" data-i18n="paragraph3"></p>
             </div>
+
+            <!-- social media -->
             <div class="d-flex gap-5">
                 <a href="" target="_blank"><img src="./../../public/img/redes/facebook.webp" alt="Facebook"></a>
                 <a href="" target="_blank"><img src="./../../public/img/redes/twitter.webp" alt="Twitter"></a>
@@ -294,10 +307,11 @@
             </div>
         </div>
     </footer>
-    <!-- Incluye el script de tours.js al final del body -->
+    <!-- linking JS -->
     <script type="module" src="../js/tour.js"></script>
     <!-- translator -->
-    <script type="module" src="./../js/translator.js"></script>
+    <script type="module" src="./../js/pagesTranslator.js"></script>
+
 </body>
 
 </html>

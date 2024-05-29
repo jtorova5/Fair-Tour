@@ -4,66 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- style -->
-    <link rel="stylesheet" href="./../scss/normalize.scss">
+    <!-- preload -->
     <link rel="stylesheet" href="./../scss/preload.scss">
+    <!-- normalize -->
+    <link rel="stylesheet" href="./../scss/normalize.scss">
+    <!-- css -->
     <link rel="stylesheet" href="./../scss/styles.scss">
+    <!-- favicon -->
     <link rel="shortcut icon" href="./../../public/img/logo.webp" type="image/x-icon">
-    <title>Registro</title>
-
-
+    <title data-i18n="registerTitle">Registro</title>
 </head>
 
 <body>
-    <header></header>
-    <main>
-        <section id="section-form">
-            <video src="./../../public/video/form/video-formulario.mp4" muted autoplay loop
-                id="background-video-form"></video>
+    <section id="section-form">
 
-            <form class="container-form" action="https://formsubmit.co/24f058f2dc358bc03d02d91ab2c3d132" method="POST">
-                <div class="form-overlay mt-5 justify-content-center">
-                    <h1 class="form-title">Ingresa tus datos</h1>
-                    <p id="titulo-contacto" class="text-center text-light">¡Nos pondremos en contacto contigo!</p>
-                    <form id="contact-form">
-                        <div class="d-flex gap-4">
-                            <div class="form-group mt-3 w-50">
-                                <label for="nombre">Nombre</label>
-                                <input type="text" class="form-control" id="nombre" placeholder="Jane" name="nombre"
-                                    required>
-                            </div>
-                            <div class="form-group mt-3 w-50">
-                                <label for="apellido">Apellido</label>
-                                <input type="text" class="form-control" id="apellido" placeholder="Smitherton"
-                                    name="apellido" required>
-                            </div>
+        <!-- background video -->
+        <video src="./../../public/video/form/video-formulario.mp4" muted autoplay loop id="background-video-form"></video>
+        
+        <!-- form -->
+        <div class="container-form m-auto">
+            <div class="form-overlay mt-2 justify-content-center">
+                <h1 class="form-title" data-i18n="title2"></h1>
+                <p id="titulo-contacto" class="text-center text-light" data-i18n="paragraph7"></p>
+                <form id="contact-form">
+                    <div class="d-flex gap-4">
+                        <div class="form-group mt-3 w-50">
+                            <label for="nombre" data-i18n="subtitle7"></label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Jane" name="nombre" required>
                         </div>
-                        <div class="form-group mt-3">
-                            <label for="email">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="email@gmail.com"
-                                name="email" required>
+                        <div class="form-group mt-3 w-50">
+                            <label for="apellido" data-i18n="subtitle8"></label>
+                            <input type="text" class="form-control" id="apellido" placeholder="Smitherton" name="apellido" required>
                         </div>
-                        <div class="form-group mt-3">
-                            <label for="telefono">Teléfono</label>
-                            <input type="text" class="form-control" id="telefono" placeholder="3007805414"
-                                name="telefono" required>
-                        </div>
-                        <div class="form-group mt-3">
-                            <label for="intereses">Cuéntanos tus intereses</label>
-                            <textarea class="form-control" id="intereses" rows="3"
-                                placeholder="¿Qué otro lugar te gustaría visitar?" name="intereses" required></textarea>
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="email" data-i18n="subtitle9"></label>
+                        <input type="email" class="form-control" id="email" placeholder="email@gmail.com" name="email" required>
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="telefono" data-i18n="subtitle10"></label>
+                        <input type="text" class="form-control" id="telefono" placeholder="(+1) 3007805414" name="telefono" required>
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="intereses" data-i18n="subtitle11"></label>
+                        <textarea class="form-control" id="intereses" rows="3" name="intereses" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block w-100 mt-3" data-i18n="subtitle12"></button>
+                </form>
+            </div>
+        </div>
+    </section>
 
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block w-100 mt-3">Enviar</button>
-                    </form>
-                </div>
-            </form>
-        </section>
-
-    </main>
-    <footer></footer>
+    <!-- linking JS -->
     <script type="module" src="./../js/form.js"></script>
-
+    <!-- translator -->
+    <script type="module" src="./../js/pagesTranslator.js"></script>
 </body>
 
 </html>
